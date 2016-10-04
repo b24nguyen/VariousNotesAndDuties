@@ -1,0 +1,367 @@
+
+
+# PSYCH 207 - Cognitive Processes
+
+## Module 01: History, Methods & Paradigms
+
+### 1A: Introduction
+
+### 1B: Antecedents of Cognitive Psychology
+
+- Relatively recent, taking off in 1960s
+- Discussions of human mind date back to Aristotle and Plato
+- 17th & 18th century: philosophers began to seriously debate the nature of human mind and knowledge 2 central traditions emerged:
+
+**Empiricism**
+
+- Supporters: David Locke, John Hume, Stuart Mill
+- knowledge comes from an individual's own experience (all knowledge must be acquired from observation and analysis)
+- Humans are born with a blank slate, all cognitive abilities and knowledge are though to be acquired through interactions with their environment
+
+**Nativism**
+
+- Supporters: Rene Descartes, Immanuel Kent
+- Biological & genetic factors determine cognitive abilities
+- Individual differences attributed to innate abilities people are born with, that is, cognitive process are hardwired in the brain and hard to modify with experience
+
+**WIlhelm Wundt: Founding Date of cog psy (1879) **
+
+- Wilhelm Wundt founded the first institute for research in experimental psych
+- Wundt's primary goal was discover elemental components of the human mind (building blocks to conscious experience)
+- referred to as **Structuralistm**
+- Convinced the proper setting for experiments was in a lab
+
+**James Baldwin: First Experimental Psych in NA, UoT (1889)**
+
+- Primary experimental method was **introspection**
+- Provide various stimuli to observers, asking them to describe their their conscious experience
+
+**William James: USA, Functionalism**
+
+- Carried out research in opposite viewpoint
+- Should explain How & Why instead of uncover elemental units
+- Functionalists argued that one must get out of the lab to study organisms in real life situations
+
+**John Watson: Behaviorism (1913)**
+
+- Prediction and control of behavior
+- Did not agree with introspection, should only focus on observable, overt behaviour
+- Study of learning now important
+- Behaviorism now viewed in a negative light
+- Led to development of rigorous research methods without relying on introspection
+
+**School of Gestalt Psychology: (Early 1900)**
+
+- Psychology phenomena could not be reduced to simple elements, had to be analyzed and studied in their entirety
+- Argues that an observer did not construct a perceptual exp or conscious cog exp based on simple elementary sensory aspects
+- Rather, individuals were able to experience or perceive experience or an object as a whole
+
+**Sir Francis Galton**
+
+- individual differences and human cognitive abilities
+- Wondered if intellectual abilities was subject to natural selection -> inherited.
+- Invented number of cognitive ability tests
+- Study of mental imagery as a cognitive ability
+
+### 1C: The Cognitive Revolution (Mid 20th Century)
+
+**Precursors to this revolution**
+
+- **human factors engineering** presented new problems that needed solutions
+	- WWII w complicated equipment and highly trained operators created the concept of the **person-machine system**
+	- The idea that the machinery must be designed to interact with the operator's physical and cognitive capacities & limitations
+	- Beginning to recognize the limits of the human mind
+- **developments in the field of linguistics**
+	- Led by Noam Chomsky, began to see important of studying how people acquire, understand and produce language.
+	- Early work showed that behaviorism didn't explain language
+	- Skinner argued children learned language through imitation, but Chomsky argued that humans have an innate capacity to acquire language
+- **developments in neuroscience and localization of function in the brain**
+	- Work by Donald Hebb, suggested that functions were constructed by cell assemblies, connections among sets of cells in the brain
+	- David Hubel and Tortsten Weisel demonstrated specific cells specialized to respond to certain stimuli, additionally, they demonstrated that early experience shaped brain development (kittens that only had horizontal lines failed to develop the ability to see vertical lines
+- **The Computer Metaphor of the Mind**
+	- development of computer and AI systems led to the comparison of people's cognitive activities to a computer
+
+### 1D: Paradigms of Cognitive Psychology
+
+4 major paradigms
+
+**Information Processing Approach**
+
+- human mind/computer analogy: cognition is thought of as information, system is our mind
+- Information processing happens through low level detectors and registers (visual + auditory), through temporary memory stores and then into long-term/semi-permanent memory
+- At every step, the information can be partially processed
+- **Several Key Assumptions:**
+    - 1) People cognitive abilities thought of as "systems". Cognition is built upon many interacting subskills and abilities.
+    - 2) People can perform impressive cognitive feats by applying only a few mental operations to symbols (etters, numbers, sentences, visual images) **general purpose symbol manipulators**.
+
+**Connectionism**
+
+- Cognitive machinery that underlies all cognition is composed of highly interactive network of connections among simple processing units.
+- These simple processing units are sometimes compared to neurons in the brain: referred to as **neural networks**
+- None localist,there is no central place where all things are stored, thought to be distributed throughout the simple processing units. (Similar to a weighted graph)
+- The weight of these connections are based on prior experience and prior learning
+- When a unit reaches activation, it notifies its neighbours (similar stored thoughts) and once the activation is strong enough it comes to mind
+- Connectionist model is extremely flexible
+
+**Key differences and similarities**
+
+- Information processing: pipeline, step by step model.
+- Connectionism: processes occur in parallel
+- Both assume that cognition will be best understood by uncovering the basic mechanics.
+- Both assume mechanisms underlying cog procs are stable across situations and only revealed under rigorously controlled experimental conditions: research must be done in a lab.
+
+**Evolutionary**
+
+- Mind has had to respond and change in response to evolutionary pressure
+- Cosmides & Tooby (UCal) believe that some of the most sig issues our ancestors faced were social issues: enforcement of social contracts & detection of cheaters
+- Must be good at reasoning and decision making
+
+**Ecological**
+
+- cognition does not occur in a context free vacuum (all cognitive activities are shaped by culture, the context and the situation in which they occur.
+- **context in which it happens shapes the cog proc**
+- to understand cog, you must examine it in its natural context
+
+----
+
+### 1e: Summary of History, Methods and Paradigms
+
+- Structalism: simplest essentials units
+- Functionism: purpose, function of the mind
+- Behaviourism: study of behaviour
+- Gestalt: can only be analyzed and sutudied in their entirety
+
+**Cogonitive Revolution factors**
+
+1. human factors engineering
+2. dissatisfaction of behaviourist accounts of language
+3. neurophyschological work looking at localization of function
+4. computer metaphor of the mind
+
+**Major approaches/paradigms to study cogitive phenomena**
+
+- Information processing
+- Connectionist
+- Evolutionary
+- Ecological
+
+---
+
+## Module 02:
+
+### 2a: Introduction
+
+### 2b: Structure of the Brain
+
+**Main structures of the phylogenetic division:**
+
+- Hindbrain
+- midbrain
+- forebrain
+
+Only focused on the forebrain (where cognition happens).
+The only parts support low level, non-cognitive functions, such as basic life support and the relay of information from the spinal cord to the rest of the brain.
+
+**Forebrain**
+
+** view the figures? **
+Broken down into sub-sections
+
+**Subcortical structures**
+
+   - Thalamus (centre): main function: switching or relay station for sensory information around the brain
+   - Hypothalamus (beside thalamus): regulate basic bio functions: hunger, thirst, temp, libido, basic emotions - Hippocampus: (right under temp lobes): learning & memory
+   - Amygdala: emotion and aggression, modulates the str of memories in terms of emotional content
+ 
+**Cortical Structures**
+
+ - Cerebral cortex (outer most layer): several layers od densley packed neurons with white matter underneath. contains the sub-components
+ - No direct connections between 2 lobes, however information can be communicated through corpus callosum and the anterior commisure
+      - **Frontal lobe:**(front) Need to divide this into 3 seperate regions
+	        - **Precentral Gyrus:**(next to parietal lobes), motor cortex for fine motor movement
+	        - **Premotor Cortex:** (anterior to motor cortex), involved in planning such movements
+	        - **Prefrontal Cortex:** (everything anterior to the premotor cortex), 'executive functioning': planning, making decisions, implementing strats, inhibiting inappropriate behaviours, using working memory to process information.
+        - **Parietal lobe:** (top) spatial processing and attention, contains somatic sensory cortex involved in sensing information (pain, pressure, touch, temp)
+        - **Occipital lobe:** (back) visual processing such as orientation, shape and colour, recognizing what objects are
+        - **Temporal lobe:**(side) auditory processing , also support info encoding and retrieval from long-term memory (since directly above amyg + hippocampus)
+
+--- 
+
+## 2c: Localization of Function
+
+**Franz Gall**
+
+- believed in something called faculty psychology (human abilities were associated with specific regions of the brain)
+- believed these abilities were autonomous and independent
+- **Johan Spurzheim** (gall's student) went further; he thought the str was correlated to the size of the brain region that supported them. **phrenology**
+- Ex: someone highly punctual would have a slightly larger region of the brain just above the nose, dumb idea
+- Problem was the assumption that they were completely autonomous & indep. functions operate highly interactively
+
+**Double Dissociations**
+
+- patient1 dmg to area X
+- patient1 impaired cognition A, but not B
+- patient2 dmg to area Y, 
+- Y != X
+- patient2 impaired cognition B but not A
+- **brain dmg & behaviour are completely dissociated, show opposite mirror image patterns**
+- Ex: Broca & Wernick's Aphasia,
+	- Broca: left frontal lobe: deficit in speech production
+	- Wernick: damage auditory association cortex, deficit in language comprehension
+- This was applied to motor control, losing the very top/dorsal part of the primary motor cortex would affect control of feet, lower damage lost control of their mouth.
+
+**Wilder Penfield**
+
+- Canadian researcher/neurosurgeon, founder of Montreal Neurological Institute
+- Developed the **Montreal Procedure** for localizing the source of epileptic seizures in patients.
+- Probed brain tissue of patients under local anesthetic to look for scar tissue that caused epilepsy
+- Created maps of sensory and motor cortices of the brain in more detail, these maps are still used today 
+
+---
+
+## 2d: Brain Imaging Techniques
+
+**Static Imaging: structure**
+
+- Computerized Axial Tomography (CAT) scan
+	- highly focused converging beams of x-rays pass through the head from many different angles
+	- different issue have different densities and deflect X-rays differently allowing visualization
+- Magnetic Resonance Imaging (MRI) scan
+	- Creates a powerful magnetic field
+	- electromagnetic signalsallow the visualization of the brain
+	- typically preferred over CAT scans
+		- 1) no exposure to radiation
+		- 2) provide a more detailed image
+		- 3) Several other powerful functions, can measure dynamic/function aspects of the brain with MRI, can't with CAT
+
+**Dynamic Imaging: function**
+
+Nuerons firing produce electrical activity, using metal electrodes on the scalp, we can measure this activity's time, source or location of activty to infer how the brain is responding to certain stimuli
+The technique that is most commonly used to measure this electrical activity as a function of cognitive tasks is called Event-Related Potentials (ERP). Dynamic imaging is based on the byproduct of this electrical activity: metabolism/blood flow in the brain.
+
+- Positron Emission Tomography (PET)
+- functional Magnetic Resonance Imaging (fMRI) **most popular**
+	- measures the inflow and outflow of oxygenated blood in the brain, referred to as Blood Oxygenation Level Dependent function (BOLD) 
+	- oxygenated & de-oxygenated blood have different magnetic properties, measure these properties
+	- As neurons fire, blood flow increases as a function of neural activity
+		- Initially, region to perform cognitive task take a dip in BOLD function, then slow influx of blood to that region peaks 10-15 seconds after.
+		- Use BOLD function to find out which regions are related to or correlated with performance on that task 
+		- **Caveat:** every task we do is a combination of many underlying mechanisms: so how do we isolate the regions responsible?
+- Donders: **Subtractive Logic**: In order to measure the time for a process to occur, you need to compare two reaction times or two tasks. one which is the same components as the other, plus the process of interest
+	- Ex: want to measure time it takes to decide a colour, simple decision task. Participants see green or red light and their task is to hit the button when it is green but not red. If it takes X seconds, we still can't say it takes X to make a decision about colour. (There is decision time + motor/manual process). Simple task will now be: just simply hit a button when they see any colour of light. Best estimate would be Time of X - Time of Simple Task.
+
+
+---
+
+## 2e: Summary of the Brain: Structure and Function
+
+- Phylogenetic Division: hindbrain, midbrain, forebrain
+	- forebrain: cerebral cortex + four different lobes of the cerebral cortex
+	- Frontal: planning, movement, executive function
+	- Parietal: reception and integration of sensory information and spatial processing
+	- Occipital: processing visual information
+	- Temporal: auditory and taste/smell
+- Determining localization of the brain = double associations
+- Brain Imaging: CAT, MRI, PET, fMRI, ERP 
+- Donders: subtractive technique provides a means of isolating cognitive processes and brain regions whose activity varies in an experimental task compared to a control task
+
+---
+
+## 3a: Introduction to Perception
+
+## 3b: Bottom-up Processes
+
+Driven by the data, perceived and then concluded
+
+**Template Matching**
+
+- Grocery Store Example: bar code encoded, brings into the system, searches memory for the exact match, now know the name and price and can identify the item
+- Human template matching: object registered as stimulus, would be compared to templates in memory until a match is found and the object be named
+- Problems:
+	-  if identification requires an exact match, the # of templates stored is huge
+	- model does not explain how we can recognize a new object that we've never seen before
+	- model does not explain surface variation in stimuli (sentences written differently all have same percept), recognize things that are upside down
+
+**Feature Analysis**
+
+- recognize objects by recognizing their component parts, features and the manner in which they are combined
+- **Selfridge's Pandemonium model**
+	- dumb demons: feature analyzers
+	- they scream when they encounter the stimulus they're trained to see, louder the more confident it is
+	- Image demon first encodes, brings stimulus into the model, examined by many feature demons
+	- Finally, decision demon that listens chooses the cognitive demon screaming the loudest.
+- System is much more flexible than template matching, allows for common features between objects
+- **Hubel & Wiesel**: found evidence in cats and monkeys where cells fire selectively to certain features (like the demons)
+- humans make mistakes identifying things when they have very many features in common, mix up b and d
+- Problems:
+	- What if we've never seen a feature before?
+	- What is a feature and what isn't?
+
+**Prototype Matching**
+
+- attempts to correct problems from template-matching and feature analysis. 
+- Requires holistic input to be matched to stored representation
+- It is a "best fit" model instead of exact (template matching)
+- This accounts for flexibility in human perception
+
+---
+
+## 3c: Top-down Processes
+
+Conceptually-driven processes rather than coming solely from the environment, come from the observers. They consist of our world knowledge, our theories, prior experiences and expectations.
+
+Examples: 
+
+- a circle at breakfast would be perceived as a timbit but a golfball on a golf course
+- perceiving sentences, they are interpreted based on known laws of a language
+- making mistakes on a paper, familiarity with your own work makes you perceive what you expect to be there not what is there
+
+**We need both bottom-up and top-down processing**
+
+- If we perceived only top-down, would never be able to perceive new stimulus.
+- use a solely-data driven process the first time, after the first time, future encounters will be influenced by prior experience
+
+---
+
+## 3d: Disruptions of Perception
+
+**Case Study**
+
+- An individual suffering from a stroke or other brain injury may be tested with note made of both preserved and damaged abilities, we draw connections between the perception and the brain area that contributes
+
+**Visual Agnosia**
+
+- The ability to identify an object by sight
+- Individuals can "see" the object, they just can't identify the object
+- **Apperceptive Agnosia:**
+	- Can see and interpret contours and outlines
+	- Difficult time maintaining basic representations in memory to match objects or distinguish amonst them
+	- Ex: difficulty recognizing pictures where too many contours are missing or a strange perspective
+- **Associative agnosia**
+	- can match objects and copy drawings but slowly
+	- can't name objects they've seen or copied
+	- Cannot access meaning, or semantics from visual description alone
+	- Ex: cup of coffee, would not be able to name it but would be able to drink from it if thirsty
+- **Prosopagnosia**
+	- only specific to faces, can't recognize faces
+	- lack aware face recognition, cannot overtly name someone from looking at a photograph of the face
+	- Galvanic skin response recorder will show different responses to loved ones verses stranges, perspiration, respiration change.
+	- Shows response in galvanic skin test, can recognize faces, just not consciously
+- **Capgras Syndrome:**
+	- preserved explicit or overt face recognition, but impaired implicit or covert face recognition
+	- can look at a picture and tell you who the picture looks like
+	- does not provoke GSR patterns that distinguish unknown faces
+	- claim people are imposters, looks like mom, talks like mom, but not mom!
+	- denial because reasoning behind lack of GSR.
+
+Explicit Recognition: can't name someone from looking from them
+Implicit Regonition: GSR response
+
+----
+
+## 3d: Summary of Perception
+
+Although perception is guided by the stimulus, it is affected by what the observer contributes as well.
+
+
+

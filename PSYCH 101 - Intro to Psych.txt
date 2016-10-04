@@ -1,0 +1,899 @@
+# Psychology 101
+## Contact Info:
+jdcampb2@gmail.com
+
+## Tests (3)
+1. (29%) 1-4
+2. (29%) 5-8
+3. (38%) 9-11,13,14,16,17
+4. (4%) Research -> Partake in studies
+
+## Chapter 1: Psychology: The science of behaviour
+**Psych**: study of behaviour and the mind
+**Behaviour**: actions and responses we observe
+**Mind**: internal states & processes: thoughts and feelings
+
+It's a science: Involves gathering evidence to answer questions.
+
+### Psych Goals
+1. **Describe** how people and other animals behave
+2. **Explain** and **Understand** the causes of these bahviours
+3. **Predict** how people & animals behave under certain conditions
+4. **Influence** or **Control** behaviour through knowledge and control of its causes to enhance human welfare
+
+### Perspectives
+#### Wilhelm Wundt (1832-1920)
+Established first experimental psych lab, with Edward Titchener, developed Struturalism approach.
+
+**Structuralism**: mind should be studied by breaking it down to basic components. "describe inner experiences"
+**Functionalism**: whats the purpose/function.
+**Psychodynamic**: searches for causes of behaviour within the inner workings of our personality. Emphasizes the role of unconscious processes.
+**Psychoanalysis**: the analysis of internal and primarily unconscious psych forces
+**Behaviourism**: Focuses on the role of the external environment in governing our actions.
+**John Locke** - we are born a blank slate, our environment determines our personality/nature.
+**Key behaviourists**: Ivan Pavlov, Edward Thorndike, John B. Watson, B.F. Skinner
+
+#### Watson - Little Albert Experiment
+- Fear can be taught through conditioning (pairing things w the 1 thing he dislikes, the loud sound)
+
+**Humanistic**: Emphasizes free will, personal groth, and attempt to find meaning in one's existence. Reject psychodynamic, focuses on self-actualization. Abraham Maslow/ Carl Rogers.
+**Cognitive**: nature of the mind + how metnal processes influence behaviour. Humans are information processors whose actions are governed by thought. Herman Ebbinghaus (memory).
+
+#### 1920 Germans formed Gestalt Pyschology
+- Perceptions are organized so that the "whole is greater than the sum of its part"
+- Figure-ground
+- Closure
+- Proximity
+- Similarity
+
+#### Modern Cognitive
+- Ex: Elizabeth Loftus
+- Memory & Factors can distort it. **Misinformation Effect**
+- Impact on eyewitness memory & testimony
+
+## May 9th, 2016
+
+**Socialcultural Perspective**: examines how the environment and cuture influence our behaviour/thoughts/feelings.
+
+Cultural Component: Values/Beliefs/Traditions shared by a large group of people passed from one gen to the next. (ex: Individualism vs collectivism).
+
+#### Asch Conformity Experiment
+- Compare line to set of lines
+- Showing that individual answers differ from when in groups
+- Eventually we conform to what the group says
+
+#### Biological Perspective
+- Examines how brain processes and other bodily functions regulate behaviour/sensory experiences/emotions/thoughts
+
+##### H.M - Memory Loss
+- To alleviate seizures, had surgery on his brain
+- Worked but caused him to have amnesia (wasn't able to create new memories)
+
+##### Capgras Syndrome / Illusion
+- Think people/things are imposters
+- Sigmund: When he was an infant, had sexual attraction with X, after accident, sexual attraction flushes the mind, conflict with "X is my Y, can't have sexual attraction, must not be X". DOES NOT WORK WITH OBJECTS/PETS
+- Need emotional-visual response from the Temporal Lobe + amnygdola
+- Is A-Okay with auditory stimulus
+
+## Chapter 2 - Studying Behaviour Scientifically
+### Darley & Latane Example
+Kitty Genovese Murder (1964): Murder was witnessed by 38 bystanders, nobody called the policy. **Bystander Effect**
+
+### Correlation Method
+- Study relationships between variables
+- Correlation coefficient (-1 <= r >= 1)
+- Value of 0: no relationship
+- Pos means both in the same direction, neg means inverse
+
+#### Experimental & Control Groups
+Experimental: Group that receives treatment / active level of indep var
+Control: not exposed to anything
+
+### Methods of Research
+- Correlation Research
+- Experimental
+- Case Studies
+- Naturalistic Observation
+- Survey Research
+
+### Case Studies
+In-depth analysis of an individ, group or event
+Data gathered through: obs, interviews, psych tests, task perf, psych recordings, archival records
+
+**Advantages**: 
+- Study of rare phenomenon
+- Challenge validity of theory / held belief
+- Source of new ideas / hypotheses
+
+**Limitations**: 
+- Poor method for Cause-Effect
+- May not generalize to other people
+- Observers may not be objective in gathering/interpreting data
+
+## Chapter 3 - Biological Foundations of Behaviour
+### Phineas Gage (1848)
+Took a railrode spike to the head, Memory and movement intact, could learn new things but personality changed dramatically
+
+### Hemispheric lateralization
+Location of one function in one hemisphere or the other
+
+### Describing Data: Descriptive Statistics
+Frequency Dist: Buckets of how many received a score/belong to a category
+Mean/Mode/Median 
+
+Measure of variability: Range/Variance/Std Dev
+
+## May 16, 2016
+
+### Neural Bases of Behaviour
+- Brain is grapefuit sized, 3 lbs, made of neurons
+- At birth, brain made up of ~100 billion neurons
+- **Neurons** are building blocks of nervous system
+
+#### Neurons
+Cell Body: Biochem structs to keep neuron alive, contains nucleus
+Dendrites: Branches off to collect messages from other neurons
+Axon: Covered by myelin sheath conducts elect impulses to other eurons/muscles/glands
+
+Cellbody -> Axon -> Axon Terminal
+
+### Brain
+#### Cerebral Cortex:
+The outermost layer of the brain, broken up into lobes
+Frontal - Complex Cognition, motor contex 
+Temporal - Auditory, language
+Occipital - VIsual
+Parietal - Sensory
+
+#### Language Areas of the brain
+**Aphasia**: Partial or total loss of ability to communicate
+**Broca's Aphasia**: Able to understand, severely impacts ability to respond/produce speech.
+**Wernicke's Aphasia**:  Unable to understand, able to produce speech and form sentences.
+
+#### Neural Plasticity 
+- Ability of neurons to change structure and function 
+- Brain alterations begin in the womb and continues throughout life
+- Impacted by **Genetics** + **Environment**
+- If brain tissue is destroyed, other neurons must take over functions of the lost or dead neurons in order for recovery to occur
+
+#### Plasticity of Recovery
+- 1-2 year olds have ~50% more synapses than a mature adult
+- More synapses = quicker, more complete recovery
+- Unused/weaker synapses deteriorate with age, brain loses some of its plasticity
+
+#### Synesthesia
+A condition which one type of stimulation evokes the sensation of another
+Ex: Associate colours to numbers
+
+**How do we test for Synesthesia?**
+MRI - Monitoring activated regions of the brain
+
+** How does it occur? **
+- Possible there are cross connections of the senses at the neural level
+- Possible we are all born with it, but as the brain develops it fades and changes, (separates and becomes specialized as we age)
+
+
+### Motivation and Reward
+Olds and Miller (1953) - Mistakenly placed an electrode into a rat's hypothalamus. Started repeating the previous activity in hopes of receiving the stimulation again. 
+
+Further testing showed some rats rats would press the lever thousands of times/hour to receive electrical stimulation
+
+Olds & Miller found the **Pleasure center** of the brain. Nucleus Accumbens.
+
+### Human Aggression, Criminal Behaviour && The Frontal Cortex
+**Psychopathy** - Includes emotional dysfunction and antisocial behaviour and is an extreme form of antisocial personality disorder
+- Show impaired emotional and social behaviour
+- Poor emotional responsiveness to others && lack of concern 
+
+#### Man who mistook his wife for a hat
+- Case study of patient referred to as "Dr. P"
+- Dr. P started to lose the ability to identify common shapes (faces)
+
+#### Face Recognition
+- Some people believe face recognition is based on dedicated brain mechanisms, face known as "special"
+- Face-inversion effect: inversion harms the ability to recognize faces much more than it does other objects
+
+#### Prosopagnsia
+- Unable to recognize faces
+
+## Chapter 4 - Genes & Evolution
+**Jim Twins: Jim Lewis, Jim Springer**
+Separated at birth, reunited later in life (39 y/o). Identical Twins.
+Extremely similar. Do genetics play a strong role in our development?
+
+### Chromosomes & Genes
+**Dominant & Recessive genes**: Both genes need to be recessive to inherit recessive trait 
+
+---
+
+## Chapter 5 Sensation and Perception
+
+**Sensation:**
+
+- Stimulus detection process 
+- Organs translate stimuli into nerve impulses
+
+**Perception**
+
+- Organizing & giving meaning to input
+
+**The Stroop effect**
+the Stroop effect is a demonstration of interference in the reaction time of a task.
+Ex: Reading coloured words that are not associated with that colour
+
+**Absolute Threshold**
+Intensity at which a stimulus can be detected 50% of time
+
+### Subliminal Perception
+Stimulus that is so weak or brief that although it is received by the senses, it can't be perceived consciously
+
+**Subliminal Messaging - Vicary**
+Had subliminal messages put in movies to tell people to buy more popcorn / drink coke
+Led to increased sales, but was a hoax
+
+Subliminal messages don't change consumer behaviour, can affect attitude though
+
+###Krosnick (1992)
+
+- Showed participants 9 slides, pictures of people
+- Half of participants received negative subliminal messages just prior, other half had positive messages 
+- Results:
+	- Participants expressed negative attitudes towards negatively "primed" individuals compared to positive
+
+###Visual Attention - Attention Capture
+
+- Inattentional blindness
+	- Failure to notice obvious change in visual scene (moonwalking bear)
+	- Sometimes termed *change blindness*
+	- Simons and Chabris (1999)
+		- Subjects watched and attended to a video, over 1/2 failed to notice bizarre event
+
+### Attention
+
+**Environmental & Personal Factors**
+
+- Attention influenced by interests and motives (if you are hungry, you respond to food cues)
+- Attention's role: to focus on certain stimuli & Filter out other information
+- Speech Shadowing: Repeat speech after you hear it 
+	- Experiment had 2 messages played at the same time
+	- Have a hard time remembering the message
+	- Demonstrate we can't attend multiple things but able to shift attention back and forth
+
+**Divided Attention**
+
+- Auto processing lets us perform more than one activity at a time
+- We're not great at it
+
+**Reaction to projectiles - Jeffrey Lin (2009)**
+
+- Tested reaction time in response to images that sped from the background
+- Significantly faster reaction times for images that were coming towards their head compared to images that would miss their head
+
+**Attention for well-being**
+
+- Pay more attention to threatening stimuli
+- **Hansen & Hansen (1988)** found people respond quickly to angry faces compared to smily faces
+
+### Recall: Gestalt Principles 
+
+**Figure - Ground**
+
+- tend to organize stimuli into foreground & background
+- pay attention to the foreground instead of background
+
+###Perceptual Sets
+
+- The readiness to perceive stimuli in a particular way
+- Primed to expect something, and therefore perceiving it
+- **Kelley (1950)** warm vs cold descriptor. Interact more with people that are warm.
+
+**Bugelski & Alampay (1961)**
+
+- Primed particp. with human faces or animal pictures
+- Showed them ambiguous images (can be this or that)
+- People who were primed with people saw a person, same with animal
+
+---
+
+## Chapter 6 - Consciousness
+
+**McGurk Effect**
+
+- What we see clashes with what we're hearing (FAH vs BAH)
+- Sight overrides the hearing
+
+**Consciousness**
+Moment-to-moment awareness of oursleves and the environment
+
+### Levels of Consciousness: Psychodynamic Perspective
+
+**Freud: 3 levels of awareness**
+
+1. The conscious mind: contains our thoughts / perceptions / mental events we are aware of
+2. Preconscious: mental events that are out of our current awareness but easily retrieved
+3. Unconscious: Events that can't be brought into conscious awareness under oridinary circumstances
+
+### Levels of Consciousness: Cognitive Perspective
+
+Conscious & unconscious working together (not in constant conflict like psychodynamic approach)
+
+**Controlled vs Auto processing**
+Controlled: requires voluntary use of attention and conscious effort
+Automatic: Little/no conscious effort
+
+### Stages of Sleep
+
+**Stage 1**
+
+- light sleep, experience body jerks
+
+**Stage 2**
+
+- sleep deepens, muscles relax, harder to awaken
+- sleep spindles
+
+**Stage 3 - slow-wave sleep **
+
+- Deep sleep begins
+- Starts to generate slow Delta waves
+
+**Stage 4 - also slow wave sleep**
+- Very deep sleep
+- Rhythmic breathing
+- Delta waves dominate pattern
+
+
+**REM sleep**
+
+- Random Eye Movement
+- High arousal (heart rate, breathing, brain wave activity) 
+- REM Sleep paralysis, difficult for voluntary muscles to contract
+- Frequent dreaming
+
+### Sleep deprivation
+
+**Pilcher & Bradley (1996)**
+- Short-term deprived (45 hours without sleep) 
+- Long term deprived (more than 45 hours without sleep)
+- Partial deprivation (sleep no more than 5 hours for multiple nights)
+- Responses on Mood / Mental Task / Physical Tasks
+
+### Sleep disorders
+
+**Insomnia**
+Chronic difficulty falling asleep + staying asleep + restless sleep
+Most common, 10-40% population
+
+**Fatal Familial Insomnia**
+Brain just forgets to sleep, doesn't sleep
+
+**Narcolepsy**
+Extreme daytime sneepiness
+May experience Cataplexy: sudden loss of muscle tone triggered by laughter excitement and other strong emotions
+
+**Sleepwalking**
+Occurs during stage 3 or 4 (deep slow wave) sleep
+Often unresponsive to other people / balnk stare
+About 10-30% children, only 5% adults
+
+**REM-Sleep Behaviour Disorder (RBD)**
+Loss of muscle tone in REm sleep is absent
+Kick violently, throw punches, or get out of bed
+Injure themselves
+
+**Nightmares + Night terrors**
+Nightmares: bad dreams 
+Night terrors: worse than nightmares, sleeper sits up and scrims, terrified near panic
+
+### Dreams
+Majority of dreaming done during REM, mostly negative emotions / aggressive acts
+
+Why? 
+
+**Freud Theory:** Wish fulfillment, gratification of unconscious desires
+**Activation Synthesis theory:** during REM sleep, brain stem is bombarded with random neural activity, cerebral cortex just interprets it
+**Congitive Approach:** dreams help us find solutions to our problems and conflicts
+
+**Antrobus (1991):** combining aspects from each perspective to explain it
+
+### Psychoactive Drugs
+Drugs that influence subjective experience & behaviour by acting on the nervous system
+
+**Compensatory Responses**
+
+- phsiological reactions opposite to drug effect (body adjusting to drug)
+- influence neurotransmitters (agonists = increase activity, antagonists = dec)
+
+**Stimulants**
+
+- increase blood pressure, respiration, heart rate, alertness
+- improve mood, produce euphoria
+- may improve concentration, attention
+
+**Depressants**
+
+- decrease nervous system activity
+- reduce tension, anxiety, produce relaxation
+- high doses: slow life processes to point of death (anesthesia)
+
+**Alcohol**
+
+Withdrawal: Hangover, headache, nausea, vomiting, cramps, sweating, hallucinations
+
+**Chronic alcohol consumption**
+
+- brain damage 
+- Korsakoff syndrome: severe memory loss, dementia, sensory/motor dysfunction
+- scarring of liver 
+- heart attacks 
+- cancer
+
+**Temporal Myopia**
+Increased attention to immediate events, decreased attention to distant events
+
+**Amphetamines (ecstasy)**
+Increases dopamine and norepinephrine activity, can lead to schizo-like hallucinations
+kills/damages neurons that produce serotonin = linked to depression + suicide
+
+**Cocaine**
+Well-being, confidence, alertness, energy, strength, outgoing 
+
+**Opiates (poppys)**
+Derived from opium (morphine, codeine, heroin)
+Pain relief + mood changes (intense euphoria)
+
+**Hallucinogens (LSD, angel dust)**
+Classified by how close they resemble to certain neurotransmitters
+
+**Weed**
+Acute effects
+	- cardiac acceleration, reddening of eyes, euphoria, giddiness, munchies
+	- impairment in attention + memory, motor skills
+	- caused by binding of THC at receptors in the brain
+
+--- 
+
+## Chapter 7 - Learning
+
+### Hypnosis
+
+People can't be hypnotized against their will, even if they want it, differ in how susceptible in how they are to suggestion
+
+**Dissociation Theory**
+Hypnosis is an altered state involving division of consciousness 
+
+**Social Cognitive Theories**
+experiences result from wanting to be hypnotized
+
+**Orne (1959)**
+
+- Classroom demonstration, students told hands stiffen while hypnotized
+- When hypnotized 55% of them had a stiff hand
+
+### Classical Conditioning
+
+1. Unconditioned Stimulus (UCS): stimulus that elicits unconditioned response
+2. Unconditioned response (UCR) reflexive or innate response to UCS
+3. Conditioned Stimulus (CS): stimulus that is conditioned
+4. Conditioned Response (CR): response that's conditioned
+
+**Common Conditioning Procedures**
+
+1. Short delayed conditioning, CS still present when UCS present = optimal learning
+2. Trace Conditioning: gap in time seperates CS and UCS
+3. Simultaneous: self explan -> slow learning
+
+**Factors that influence CC**
+
+1. # of pairings 
+2. Intensity
+3. Reliability 
+4. Timing
+
+### Phobias
+
+**Classical conditioning to overcome fear**
+
+- Exposure therapy: exposure to CS without UCS
+- Systematic desensitization: gradual exposure
+- Flooding: exposure to fearful stimulus
+- Aversion theory: condition an aversion or repulsion: Ex: cause someone to throw up whenever they consume ___
+- Operant conditioning: learning consequences, good endings = repeated, bad = less likely to occur
+
+**Thorndike's Law of Effect**
+A response followed by a "Satisfying" outcome will become more likely to occur
+
+**Punishment**
+Positive punishment: deliver something aversive 
+Negative: remove something positive
+
+**BF Skinner**
+Used reinforcement to get an indiv. to produce a new behaviour
+
+**Shaping**
+Mold behaviour by reinforcing responses that get closer to it 
+
+### Reinforcers 
+
+**Primary reinforcers:** Basic needs, ex: food
+**Secondary reinforcers:** gains value cause paired with other reinf. ex $
+
+**Fixed Ratio:** ex: Make 100 widgets, earn $1
+**Variable Ratio** changes 
+
+**Bandura Observational Learning**
+Learning by watching others, bobo doll violence
+
+##  Chapter 8 Memory
+
+Memory as information processing 
+
+1. Encoding: translated to neural code
+2. Storage: retain information
+3. Retrieval: abaility to pull information
+
+**3 Levels of Memory**
+
+1. Sensory Memory: holds information long enough to be perceived
+2. Short-term/Working memory: holds info we are conscious of at any given time
+3. Long-term Memory: 
+
+**Short Term Memory**
+Miller (1956) memory studies found that capacity for short term memory is 7+- 2 items
+
+**Serial Position effect**
+Primacy effect: recall early words
+Recency effect: most recent words
+
+**Method of Loci**
+Go on a walk through a familiar environment, map items to locations
+
+### Long Term Memory
+
+Declarative Memory: Facts / Info / Life events
+
+2 Subtypes: 
+	1. Episodic memory: memory of events we experienced personally
+	2. Semantic memory: general knowledge, facts
+
+Procedural Memory: Motor skills, habits
+
+### Visual Imagery 
+
+**Dual Coding Theory** Pavio proposes info stored in verbal and non verbal forms
+
+
+**Deese Roediger McDermott Effect** : False memory, recall a word that is the "lure" or common relation between list of words
+
+
+**Carmichael, Hogan & Walters (1932)**
+Presented participants with images and 2 different set of labels then asked them to reproduce them
+Label impacted how the image was encoded and stored
+
+**Chase & Simon (1973)**
+Tested memory of chess players, 25 pieces on a board for 5 seconds
+Experts did better but when they were random, could only remember 2-3
+
+**Encoding Specificity Principle**
+
+- Memory enhanced when conditions present during retrieval match those during encoding 
+- Stimuli associated with event may be encoded as part of event
+- Context-dependent memory: easy to remember in same location / setting
+- State-dependent: need to be in same internal state
+- Mood-congruent: same but with mood
+
+**Misinformation effect: Loftus & Palmer (1974)**
+Memory warped cause of post-event information
+
+---
+
+Monday July 4th, 2016
+
+## Chapter 9 Language
+
+A shared symbolic system for comm: letters, written and spoken symbols. 
+
+**Properties of Language**
+Language = Words + Rules
+words comprise the mental lexicon
+grammar: rules that dictate the legal combination of the units of language
+
+1. Symbolic: sounds/signs/gestures, allows forming & transferring mental reps
+2. Structure: rule-governed structures 
+3. Generativity: symbols can be combined in many different ways
+
+Displacement: past/future/imaginary ideas/objects can be symbolically rep'd and comm'd
+
+###Structure of language
+
+**Surface structure**: consists of symbols that are used and their order (related to syntax)
+**Deep structure**: refers to the underlying meaning. (related to semantics)
+
+
+### Critical vs Sensitive Period
+
+**Critical Period**: timeframe in which ability MUST be learned or developed, if missed it will never develop
+
+**Sensitive period**: time frame during which development is likely to occur
+
+### Language Acquisition
+
+Genie: neglected + could learn words but could not learn language, speaking ability stalled at around 2-3 year old level 
+
+Victor: Wolf boy, learned to read and write some words but never learned t speak
+
+### Garden Path Sentences
+
+- Sentences that make you go back once it finishes 
+- We are constantly inferring meaning, piece by piece before the sentence is over
+- Demonstrates there is a risk to interpret a sentence as it arrives (for the sake of efficiency)
+- Information necessary for interpretation can often come at the end
+
+### Pragmatics
+
+- Knowledge of practical aspects of using language
+- Rules surrounding the social context of language ( what should and shouldn't be said )
+
+
+### Thinking + Thought
+
+**Propositional thought**: expresses statement "mount fuji is breakthaking"
+**Imaginal Thought**: consist of images in our mind
+**Motoric Thought**: Mental representations of motor movements
+
+### Problem-Solving Strategies
+
+Tower of Hanoi
+
+**Negative set**: Tendency to solve problems in a particular way even when a different approach might be more productive
+
+**Deductive Reasoning**: Top-down from general principles to specific case
+**Inductive Reasoning**: Bottom up from specific facts to general principles
+
+**Confirmation Bias**: Tendency to look for evidence that will confirm a conc, tendency to not look for evidence that could disconfirm beliefs.
+
+**Availability Heuristic**: bias to what we already know.
+
+
+---
+
+## Chapter 13 - Social Psychology
+Main focus: Milgram's Obedience Study
+Zimbardo Standford Prison Experiment
+
+**Social Psychology:**
+
+- studies how we think about and perceive our social world 
+- how other people influence behaviour
+- how we behave towards other people
+
+### Conformity: Asch's Line Task
+
+### Obedience: Milgram's Experiment
+
+- Delivered a shock when a mistake was made
+- How far would they go?
+- Guesses avg out to 1% of partic that went to the end
+- Learner + teacher + experimenter, teacher is the person that's being tested
+- Actual Experiment: 65% obeyed to the highest level of shock value.
+
+**Milgrams' Agency Theory**
+
+- Milgram (1974) suggests 2 states of behaviour:
+	- **autonomous state**: people direct their own actions + take responsibility
+	- **agentic state**: people allow others to direct actions, pass off resp, *act as agents for another person's will* 
+
+**Factors and Variations:**
+
+**Uniform:**
+	- variation used where experimenter left for an ordinary member: **not in lab coat**, obedience dropped 20%
+
+**Two Teacher Condition**
+- let the participant instruct an assistant, 92.5% shocked to the max = less responsibility
+
+**Entering the Agentic State**
+
+1. Person giving orders is perceived as being qualified to direct the other person's behaviour. They are seen as legitimate.
+2. Person being ordered is able to believe that the authority will accept responsibility.
+
+### Social Norms: Rules of the game
+
+**Social Norms:** expectations about how people think/feel/behave. binds social systems together. 
+
+**Social Role:** a set of norms that characterize how people in a given position ought to behave
+
+### Stanford Prison Experiment
+
+- tried to simulate prison life
+- ads for a 2 week experiment looking at the prison experience
+- half would be randomly assigned as prisoners, the others guards
+- what would the behaviours look like? ***would the part readily take on the norms of these social roles?***
+- **Conclusions: **Guards became abusive and degraded the prisoners, experiment didn't last the 2 weeks, only 6 days. 
+
+### Compliance Strategies
+
+- used by telemarketers and sales people
+- **Norm of Reciprocity** - expectations that when people treat us kindly, we should respond in kind. Ex: Hari Krishna "flower power", they shove a daisy in your hand and then ask for donations
+- **Door in the face**: persuader makes a large request, expecting you to reject it and then presents a smaller request.
+- **Foot in the door**: persuader gets you to comply to small request then big one
+- **Lowball**: persuader gets you to commit to an action and before you can perform it they increase the cost of it. Ex: car costs 800 only if they check with their manager. Oops, only 400 more and you can have it 
+
+---
+
+**Prejudice and Discrimination:**
+
+1. **Congitive Roots:** categorize people, in-group and out-group, display favouritism to our in-group.
+2. **Motivational Roots:** Realistic Conflict Theory- competition for resources or Social Identity Theory- prejudice stems from self esteem
+
+**Clark Doll Test**
+
+- black and white doll
+- asked which one was nice/bad/which one looked like them 
+- black was associated with bad, white good.
+
+**Lead Researcher**
+
+- Porter & Geis, 1981
+- typically believed that it's a male at the head of the table. If a female sits there then it's a male somewhere else. 
+
+ 
+## Chapter 16 Psychological Disorders 
+
+Abnormal: social construction from a function of cultural values
+
+- Distressing to individual
+- Dysfunctional 
+- Deviant
+
+**Historical Perspectives**
+
+- abnormal = demonic possesion
+- Treament: trephination = hole in the head
+
+**Medical Model**:
+
+- think of abnormal as disease (main way for mental illness)
+- **Diagnosis**
+- **Etiology:** apparent causation and developmental history of an illness
+- **Prognosis:** forcast of probable course of the illness
+
+### Psychological Perspectives
+
+**Psychoanalytic**
+Inappropriate use of defense mechanisms = neuroses
+Withdrawal from reality = psychoses 
+
+**Behavioural**
+Learned responses
+
+**Cognitive**
+Through processes
+
+**Humanistic**
+Negative self-concept
+
+### Anxiety Disorders
+
+**Social phobias:** fear of certain situations that involve evaluation/embarassment, 
+**Specific phobias:** fear of specific objects
+
+**OCD**
+
+- persistent, uncontrollable intrusions of unwanted thoughts (obsessions) and urges to engage in compulsions
+- 2.5% of pop.
+
+### Mood Disorders
+
+**Depression** (clinical depression)
+**Dysthymia** - chronic disruption of mood
+**Bipolar Disorder**: manic/depressed
+Woman are twice as likely to suffer from unipolar depression.
+
+**Patterns**
+
+1. No recurrence
+2. Recovery from recurrence 
+3. No recovery at all -> chronic depression
+
+**Causal Factors**
+
+- Biological Explanations
+	- Depression:
+		- Genetic factors, higher concordance for MZ twins
+		- Biochemical differences (hormones)
+	- Bipolar disorder
+		- strong genetic component
+		- 50% have relative with disorder
+
+**Dissociative Disorders**
+
+- **Psychogenic amnesia**: selective and extensive memory loss following trauma
+- **Psychogenic fugue**: loss of personal identity
+- **Dissociative identity disorder**: 2 or more separate personalities
+	- own set of memories, ideas, thoughts
+	- one identity might be the protector, another a child
+	- Trauma-dissociation theory: DID generally results from severe traumatic experience during early childhood
+
+**Schizophrenia**
+
+- Thinking: delusions
+- Speech: disorganized, strange words 
+- Perception: hallucinations
+- Emotion: blunted affect. inappropriate affect
+- **Subtypes:**
+	- Paranoid: delusions of persecution
+	- Disorganized: confused
+	- catatonic: severe motor disturbances
+	- undifferentiated: not easily classified
+- **Main categories**
+	- **Type 1:**
+		- predominance of positive symptoms
+		- delusions, hallucinations, disordered speech & thought
+	- **Type 2:**
+		- Predominance of negative symptoms
+		- absense of normal reactions
+		- lack of emotion, expression, motivation
+- **Negative symptoms**
+	- long history of poor functioning 
+- **Positive symptoms**
+	- history of good functioning: better prognosis
+- **Causal Factors:**
+	- Genetics, Neurodegenerative hypothesis (brain atrohphy)
+	- Thalamus: shows MRI activity
+	- Dopamine hypothesis: overactivity of dopamine system: can't regulate emotion / motivation / cognitive function
+	- Antipsychotic drugs reduce dopamine activity
+
+**Psychological Factors**
+
+- **Freud**: extreme use of defence mechanism regression
+- **Cognitive**: defect in ability to filter out irrelevant information
+
+**Personality Disorders**
+
+Clusters of disorders:
+1. Dramatic & impulse behaviours
+2. Anxiety & fearfulness
+3. Odd & eccentric behaviours 
+
+- lack of conscience
+- fail to respond to punishment
+- incapable of true emotion
+- charming & manipulative
+- **Causal Factors:**
+	- Genetic predisposition
+	- dysfunction in brain structures that govern self-control + emotional arousal, some differences in prefrontal lobes 
+
+### Borderline Personality Disorder
+
+- 3-5% of pop, 2/3rds of the being women
+- serious instability in behaviour, emotion, identity, and interpersonal relationships
+- **Emotional dysregulation:** inability to control negative emotions in response to stressful life events
+- Intense and unstable personal relationships
+- Chronic feeling of extreme anger, loneliness and emptiness
+- Momentary loss of personal identity
+- **Inclined to engage in:**
+	- Impulsive behaviour
+	- Running away
+	- Promiscuity
+	- Binge eating
+	- Drug abuse
+- Often marked with repetitive self-destructive behaviours (self-mutilation + suicide 
+- 6-10% commit suicide
+- **Causal Factors:**
+	- Role of inconsistent or abusive parenting
+	- events in which someone treated them badly or injured them emotionally or physically
+	- **Otto Kernberg: Splitting**: sudden shifts from extreme love and clinging to intense hatred and feelings of abandonment.
+	- Genetics: relatives are 5x more likely
+
+### Rosenhan (1973)
+
+- 8 "pseudopatients", including himself, walked into a treatment facility complaining they heard voices
+- If admitted, nothing was ever said again about symptoms and if asked, they would say they didn't hear them anymore. **act as "normal" as possible.**
+- **Results:** all 8 were admitted for schizophrenia. None of the staff realized they were faking it. Other patients did. Average stay was 19 days. 7-52 days.
+- Rosenhan told a large hospital that one or more pseudopatients would admit themselves, 
+	- 193 were admitted
+	- 41 were rated high confidence to be fake
+	- 19 were rated as suspect
+	- 0 pseudopatients were actually sent.
+
+

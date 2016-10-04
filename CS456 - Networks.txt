@@ -1,0 +1,2745 @@
+# CS456 - Computer Networks 
+## Chapter 1 - Introduction
+
+**Summary:**
+
+- high level view of the network
+- Network performance: Loss/Delay/Throughput
+- Network security, Protocols, services
+
+### 1.1 - The Internet
+Interconnected "network of networks". 
+Access Networks (ex: Home Network) -> Regional ISP -> Global ISP
+
+**Packet Switches**:
+Forward packets (information) to outgoing communication links
+Routers: Used in core network
+Link-layer switches: used in access networks
+
+**Standards**: 
+Internet Engineering Task Force (IETF) created standards called **requests for comments (RFCs)** RFCs define protocols such as TCP, IP, HTTP & SMTP. 
+
+####1.1.3 -  Protocols: 
+Define format, order of msgs sent/received and actions taken on transmission/receipt
+
+**TCP: Transmission Control Protocol**
+
+- Guarenteed delivery of messages
+- Breaks long messages into shorter segments
+- provides congestion-control, so source throttles transmission rate when network is congested
+
+**UDP: User Datagram Protocal:** 
+
+- connectionless service, no reliability, no flow control, no congestion control
+- used for low-latency, loss-tolerating connections
+
+IP: Internet Protocol
+Specifies format of packets that are sent/received
+
+### 1.2 The Network Edge
+#### 1.2.1 Access Networks
+The network that **physically** connects an end system to the first router (edge router).
+
+#### Digital Subscriber Line (DSL)
+- Uses telephone line to central **Digital Subscriber Line Acess Multiplexer (DSLAM)**. 
+- Uses twisted pair copper wire
+- Hundreds/Thousands of households connect to a single DSLAM.
+- Designed for short distances between Home and CO.
+- Dedicated line to CO
+
+Ex: Pc -> Dsl Modem -> Splitter -> DSLAM (central office)
+#### Cable
+- Uses television line to central **Fiber Node** 
+- Uses Coaxial cable and fiber cables (referred to as Hybrid fiber coax **HFC**)
+- Neighborhood junction supports 500-5,000 homes
+- homes **share access network** to cable headend (CMTS)
+
+Ex: PC -> Cable Modem --(coaxial cable)-> Fiber Node --(fiber cable)--> Cable Modem Termination System **(CMTS)** (central office) 
+
+**DSLAM & CMTS**: Serve similar function, turn analog from modem back into digital
+
+### 1.3 - Network Core
+#### 1.3.1 - Packet Switching
+Break information into smaller packets: 
+We want to send **L** bits at transmission rate **R** bits/sec then the time is **L/R** seconds.
+
+**Store & Forward Transmission**
+
+- Most common
+- Must receive entire packet before transmission
+- Since the router stores packets then sends them on, (ignoring prop delay), it takes 2L/R time. In general: N*L/R where N = # links
+
+--------
+**Queuing Delay & Packet Loss** 
+
+Routers have an **output buffer / output queue**  that stores packets about to be sent.
+**Queuing delay**: If the sending link is busy, packet waits in output buffer.
+**Packet Loss**: Output queue is full, arriving packet will be dropped
+
+**Forwarding Tables & Routing Protocols**
+
+- Packet comes in, looks at forwarding table to find appropriate outbound link.
+- **forwarding table** exists that maps dest addressess (think IP) to outbound links. 
+
+#### 1.3.2 Circuit Switching
+- Alternative to Packet Switching
+- Resources are **reserved** for duration of communication (not reserved in PS)
+- Ex: Telephone networks, call line is "busy", 
+- Data transfer happens at a **guaranteed constant rate**
+
+**Frequency-division multiplexing (FDM)**
+
+- Divide freq spectrum into bands
+- Dedicated freq for application
+
+**Time-division multiplexing (TDM)**
+
+- Divide into timed blocks
+- Dedicated whole width of frequency for the time
+
+**Packet Switching vs Circuit Switching**
+Circuit Switching: Real Time Services (Games, Video calls), things w variable and end-to-end delays.
+Packet Switching: Better transmission capacity, simpler, more efficient, less costly 
+
+#### 1.3.3 Network of Networks
+**Network Structure 1**:
+
+- Connect all ISPs to a single **global transit ISP**, a network of routers & links.
+- Global transit ISP would be provider, to access ISPs (customer)
+- Running would be expensive, need to charge access ISPs
+
+**Network Structure 2** (Running profitable global ISP):
+
+- Now multiple global transit ISPs
+- In practice: access ISPs -> regional ISP -> tier-1 ISP (similar to Global Transit ISP), each pay each other to connect
+
+**Network Structure 3**:
+
+- Similar to struct 2,
+- Access ISP -> Regional/Provincial ISPs -> National Isps -> Tier-1 ISP
+
+**Network Structure 4**:
+
+- Add other structures to make it realistic (PoPs, multi-homing, peering, IXPs)
+- **PoP**: group of one or more routers where customer ISPs can connect into the provider ISP. 
+- **IXP**: meeting point where multiple ISPs can peer together 
+
+### 1.4 Delay, Loss & Throughput in Packet-Switched Networks
+
+$$ D_{nodal} = d_{proc} + d_{queue} + d_{trans} + d_{prop} $$
+
+**Processing Delay**
+
+- Check bit-level errors
+- Order of microseconds
+
+**Queuing Delay**
+
+- Waiting to be transmitted onto the link
+- Order of microseconds to milliseconds in practice
+
+**Revisited:** 
+R: link bandwidth (bps)
+L: Packet length (bits) 
+a: average packet arrival rate
+
+**Traffic Intensity (La/R) **:
+ ~0: avg q delay small
+	1: avg q delay large
+	\> 1: more "work" arriving that can be serviced, avg delay infinite
+
+**Transmission Delay**
+
+- Packet can only be transmitted after all packets have arrive
+- L bits / R transmission rate
+- Amount required to push all of the packet's bits into the link
+- Order of microseconds to milliseconds in practice
+
+**Propagation Delay**
+- After pushed onto link (transmission), need to propagate to router B (propagation delay)
+- Depends on the physical medium of the link
+- distance between two routers / propagation speed (typically close to the speed of light)
+
+#### 1.4.3 End-to-End Delay + TraceRoute
+Traceroute is a program that sends special packets to a destination and when a router receives this special packet they will send back a short message about the name & address of the router and the delay.
+
+#### 1.4.4 Throughput in Computer Networks
+Bottleneck: Throughput = min of transfer/receiving
+With multiple clients & servers going through same chokepoint R, 
+throughput = $min(R_c,R_s,R/(c+s))$. 
+
+### 1.5 Protocol Layers & Service Models
+Each layer implements a service, as long as the layer provides the same service or uses the same service as before, able to make changes.
+
+Ex: Gates now sort people by height to go through. Still getting people checked to the runway.
+
+**Internet Protocol Stack**
+
+1. Application
+	Supporting network apps: FTP/SMTP/HTTP
+	Packet of information at the application layer: **message**
+2. Transport 
+	Process-process data transfer: TCP, UDP
+	Packet of information at the transport layer: **segment**
+3. Network
+	Routing of **datagrams** from source to dest: IP, routing protocols
+4. Link
+	Data transfer between neighboring network elements: Ethernet, Wifi etc
+	Packet of information at the link layer: **frames**
+5. Physical
+    Bits in the wire
+
+**ISO/OSI Reference Model**
+Adds layers: 
+**Presentation:**
+Allows applications to interpret meaning (encryption, compression)
+
+**Session:**
+Delimiting and Synchronization of data exchange, checkpoints and recovery scheme.
+
+**Encapsulation**
+Each layer takes the packet, appends its own information and then sends it on
+
+### 1.6 Networks Under Attack (Security)
+**Malware:** 
+Virus: Self-replicating infection through receiving/executing an object
+Worm: Self-replicating infection that gets itself executed
+Could be added to botnet for **DDoS attacks**
+
+**Packet Sniffing**
+Passive receiver that records a copy of every packet that flies
+ex: Wireshark 
+
+**IP spoofing**
+Give packets false source, use end-point authent to solve this problem. 
+
+--------
+
+## Chapter 2:  Application Layer
+Apps don't care about network layer, don't need to dev for that
+
+### 2.1.1 Network Application Architecture
+**Client-server architecture** 
+
+- Data Centers
+- Always on
+
+**Peer-2-Peer**
+
+- Not always on
+- Arbitrary end
+- Peers request service from other peers, connect & change IP addresses
+
+### 2.1.2 Processes Communicating
+
+**Sockets**
+
+- Process sends/receives messages from its socket (like a door)
+- Also referred to as the API between the application and the network
+- Developer has control on application side socket but little control of the transport-layer side of the socket. 
+- Choice of 1) Transport protocol and 2) fix transport-layer parameters 
+
+**Addressing Processes**
+
+- Process must have identifier, identifier contains both IP address (32 bit) & port numbers
+- Use destination **port number**
+- Popular/special apps assigned specific ports, ex: Web = port 80, SMTP = port 25.
+
+**App-layer protocol**
+Defines the following traits: 
+- Type of message (req,resp)
+- message syntax (what fields are in msg)
+- message semantics (meaning of fields)
+- rules (how to respond)
+- open protocols (Defined in rfcs (http, smtp))
+
+### 2.1.3 Transport Services Available to Applications
+
+**Reliable Data Transfer**:
+- Guarantee data delivery
+- Other apps can tolerate loss (audio/video)
+
+**Throughput**:
+- **Bandwidth sensitive** apps require min amount of throughput to work
+- **Elastic apps**use whatever is available
+
+**Timing**:
+- Require low delay to be effective
+
+**Security**:
+- Encryption, data integrity, etc
+
+
+### Securing TCP with SSL
+
+**Secure Sockets Layer (SSL)**
+
+- Since TCP and UDP do not provide encryption, use SSL to provide security.
+- SSL is at app layer in both client and server sides of the application, use SSL libraries which "talk" to TCP.
+- When an app using SSL passes cleartext to to the SSL socket, the SSL encrypts data, the receiving socket decrpyts data. 
+
+**What it does**
+
+1. Connect to server w SSL. Ask to identify itself. 
+2. Server sends copy of SSL Cert including server public key
+3. User checks cert root against a list of trusted Certs and that it's unexpired. 
+4. If User trusts cert, it creates, encrypts and sends back a symmetric session key using the server's public key.
+5. Server decrypts key using its private key and sends back acknowledgement to start encrypted session.
+6. Now both encrypt all data with session key
+
+------ 
+
+### 2.2 The Web & HTTP
+Webpages are objects, each object is addressable by a URL: hostname/pathname ex. (abc.xyz/helloImapath)
+
+**HTTP Overview**
+
+- Clients send request, Server sends response to user request
+- Uses TCP: client initiates TCP handshake, port 80
+- HTTP is "stateless" server maintains no information about past client requests 
+
+#### HTTP connections
+
+**Round Trip Time (RTT)**
+- Time it takes for a packet to travel from C->S->C 
+
+**Non-persistent HTTP**
+
+- at most one object sent over TCP connection, then closed
+- multiple objects requires multiple connections
+**Issues: ** 
+- Requires 2 RTT per object
+- OS overhead for EACH TCp connection
+- Often open parallel TCP connections
+
+**Persistent HTTP (Default)**
+
+- Multiple objects sent over single connection between C/S
+- Server leaves open connection after sending response
+- Pipelining: client sends request as soon as it encounters a referenced object
+- As little as one RTT for all referenced objects
+
+**HTTP Response Time**
+1. One RTT for TCP connection
+2. One RTT for HTTP Request/Resp
+3. File Transmission time
+4. Non Persistent HTTP response time = 2RTT + file transmission time
+
+#### HTTP request/response
+
+**HTTP/1.0**
+- Get / Post / Head
+
+**HTTP/1.1**
+- Get / Post / Head / Put / Delete
+
+**HTTP Request Message**
+ASCII format: 
+
+Requestline -> Method, URL, version 
+Header lines -> Header fieldname, value
+Body 
+
+**HTTP Post method**
+- page includes form input
+- input uploaded to server in entity body
+
+**HTTP Response Message**
+ASCII format: 
+
+Status Line -> protocol, status code, status phrase
+Header lines -> header fieldname, value
+Data requested 
+
+#### 2.2.4 Cookies
+Cookies have 4 components:  
+
+1.  Cookie Header line of HTTP response message
+2.  Cookie Header line in next HTTP request message
+3.  Cookie file kept on user host managed by user's browser
+4. Back-end db at website
+
+**Uses:**
+- Auth
+- Shopping carts
+- Recommendations
+- Session state
+
+#### 2.2.5 Web Caching
+**Web cache** or **proxy server**: satisfies HTTP requests on behalf of an origin Web server. Cache is both a server and a client.
+
+1. Browser sends HTTP request to cache
+2. If there, object returned
+3. Else, retrieve from origin server and add to cache
+
+**Advantages**":
+
+- Reduce reponse time
+- Reduce traffic
+- Enable "poor" content providers to deliver content
+- Cheaper than increasing bandwidth
+
+#### 2.2.6 Conditional Get
+- **Goal**: Don't send object if cache is up-to-date.
+- Cache: specify header line: if-modified-since: date
+- If-modified-since header line is equal to the value of Last-Modified head line the time the object was cached. 
+- If this date is behind, fetch and cache the new object
+
+-----
+
+### 2.3 File Transfer - FTP
+- RFC 959
+- TCP control connection with server = Port 21
+- TCP data connection w server = Port 20
+- Client authorized over control connection, commands sent here
+- When server receives file transfer command, server opens a 2nd TCP connection (for file) to client, closed after transfering
+- FTP server maintains "state": current dir, earlier auth
+- Said to be **out-of-band** since it uses 2 TCP connections, HTTP would be **in-band**
+
+
+### 2.4 Email (SMTP, POP3, IMAP)
+
+**User Agents**
+
+- Mail reader: (Outlook, Apple Mail)
+- User agent sends/retrieves messages from the mail server
+
+**Mail Servers**
+
+- Mailbox: incoming messages for user
+- Message Queue: outgoing messages to be sent
+
+**Simple Mail Transfer Protocol (SMTP)**
+
+- uses TCP, port 25
+- Three phases of transfer
+	- handshake
+	- transfer of messages 
+	- closure
+- messages must be in 7-bit ASCII
+
+**Sending an email example**
+
+1. Uses Outlook to send an email to email@email.ca
+2. User agent sends message to mail server, placed on message Q
+3. Client side of SMTP opens TCP connection w recipient's mail server
+4. SMTP client sends message over TCP connection
+5. Recipient's mail server places it in mailbox 
+6. Mail server now retrieves mailbox
+
+**Mail message Format**
+
+Header: To, From, Subject,
+Body: message 
+
+#### 2.4.2 SMTP & HTTP 
+- HTTP is a **pull protocol**: information loaded on Web server, pull information from server at convenience.
+- SMTP is a **push protocol**:  push files to receiving mail servers
+- SMTP  requires message to be in 7-bit ASCII, HTTP doesn't care 
+
+#### 2.4.4 Mail Access Protocols
+Need some kind of pull protocol because SMTP is a push protocol, can't get emails in mailbox. 
+
+**Post Office Protocol (POP)**
+
+- RFC 1939
+- Simple mail access, TCP connection to mail server on port 110
+- Three Phases: 
+	- Auth: send User/PW
+	- Transaction: retrieves messages/mark for deletion/obtain stats
+	- Update: Quit, mail server deletes marked
+- Stateless, 
+
+**Internet Mail Access Protocol (IMAP)**
+
+- Keeps all messages on server
+- Allows user to organize into folders
+- Keeps track of state (folders n stuff)
+
+**HTTP**
+
+- Web based mailboxes: Gmail
+- When sending, sent over HTTP to mail server
+
+### 2.5 DNS - Domain Name System
+
+- Map 32 bit IP addresses to name
+- Hierarchical, scan address left to right, to find out where the host is.
+
+**Why not centralize DNS?**
+
+- Single point of failure: if it goes down, no more internet
+- traffic volume: have to handle all queries 
+- distant centralized db: can't be close to all
+- maintenence: huge db, updated frequently
+- DOES NOT SCALE
+
+**Distributed, Hierarchical Database**
+
+- Split up load, 3 classes of DNS servers, Root DNS servers, top-level domain (TLD) and authoritative DNS servers, 
+- Root: 
+	- Local name server contact these server if they can't resolve name
+	- returns mapping to local name server
+- TLD: broken up as "com, org, net, edu, gov, etc
+- Authoritative: Organization's DNS server
+- Local DNS name server: Each ISP has one, called "default name server"
+- acts as a cache/proxy
+
+**DNS name resolution**
+
+- Non-Recursive: "I don't know but ask this server", hierarchy just tells you which server to ask
+- Recursive Model:  "I don't know, I'll ask the right server for you"
+- Once server learns mapping, it's cached (may be out-of-date)
+
+**DNS Records**
+
+- IF server is Auth then contain type A record for hostname
+- else, type NS record for domain that includes hostname, type A record gives IP
+- Distributed db storing resource records (**RR**)
+- Format: (name,value,type,ttl)
+- Type=A
+	- name is hostname 
+	- value is IP
+	- ex:  relay.bar.foo.com
+- Type=NS
+	- name is domain
+	- value is hostname of auth name server for domain
+	- ex: foo.com
+- Type=CNAME
+	- name is alias for some real name
+	- value is canonical name
+	- ex: www.ibm.com is really server.east.backup2.ibm.com
+- Type=MX
+	- value is mailserver associated with name
+	
+**DNS Protocol / Messages**
+Query + Reply both have same format
+
+Msg header:  identification: 16 bit #, Flags, 
+Name, type fields, RR response to query, records for auth servers 
+additional info
+
+**Inserting records into DNS**
+
+- register name at DNS registrar 
+- provide name / IP add of auth name server
+- registrar inerts two RR into TLD server
+- create auth server type A record, type MX record for mailserver
+
+**Attacking DNS**
+
+- DDoS, attack root servers w traffic, or TLD servers
+- Redirect attacks, intercept queries,
+- DNS poisoning, send bogus replies so they cache them
+- Exploit DNS for DDoS, spoof address to target IP
+
+-------
+
+## 2.6 P2P Applications
+Peers connecting directly with each other
+
+### Scalability: File distribution time 
+**Distribution time** = time it takes to get a copy of a file to all N peers.
+
+**On Client Server:** 
+$ D_{cs} >= max{ NF/u_s,F/d_{min} $
+
+That is to say, the server must transmit file F, N times with its upload speed U_s. And the client who will get it last is given by the size of the file F by how fast he can download the file $d_{min}$
+**The transfer time increases almost linearly with N large**
+
+**P2P network:**
+- At the start, only the server has it, we have at least time $F/U_s$
+- Limited by the user with lowest download rate, $F/d_{min}$ seconds
+- Now, total upload is equal to the sum of the server + all the pears. 
+
+$ D_{p2p} >= max\{ F/u_{s}, F/d_{min}, NF/(u_{s}\} $ + sum of $u_{i}$s
+
+ **The transfer time increases logarythmically** 
+
+### BitTorrent
+- Popular p2p protocol for file distribution
+- Distribution of a file called a torrent,
+- Each torrent has an infrastructure node called a **tracker**
+- When a peer joins a torrent, it registers with the tracker and periodically informs the tracker that it's still there.
+- Peer will create TCP connections with all peers
+- Each peer has a list of chunks, you request for the **rarest first**
+- Respond to the requests from the peers sending you the most data, on every 30 seconds, picks someone at random and sends it chunks
+
+## 2.6.2 Distributed Hash Tables (DHT)
+Hash tables -> Key, Value pairs stored by passing original Key through a hash function. **faster to sort through ints**
+
+**DHT:**
+
+- Goal: Distribute (k,v) pairs over millions of peers
+- Any peer can query database for values
+- Each peer only knows a subset of peers
+- Robust to **churn**, peers coming and going
+- Give all the peers an **identifier #**
+- After passing original key through hash function, assign (k,p) to the closest peer (closest successor)
+- Use a **Circular DHT** (think doubly linked list), each peer keeps track of previous + next peer.
+- Can use shortcuts to skip peers in the circular dht
+
+**Handling Peer Churn**
+
+- Each peer knows 2 successors
+- periodically ping to see if they're still alive, if one leaves, choose next as new successor
+
+## 2.7 Socket programming with UDP and TCP
+Client Program and server program communicate by writing to and reading from sockets.
+
+### 2.7.1 Socket Programming with UDP
+
+**Client must contact server**
+	
+- server process already running, server must have a socket that welcomes client contact
+
+**Client contacts server by**
+
+- Creating TCP socket, specifying IP address & port
+
+**Server: when contacted by client**
+
+- creates new socket to communicate with particular client (can talk to mult)
+
+**Example: Send message to server, server will uppercase the message and send it back**
+
+UDPClient.py
+> from socket import *
+serverName = ‘hostname’
+serverPort = 12000
+clientSocket = socket(socket.AF_INET, socket.SOCK_DGRAM)
+message = raw_input(’Input lowercase sentence:’)
+clientSocket.sendto(message,(serverName, serverPort))
+modifiedMessage, serverAddress = clientSocket.recvfrom(2048)
+print modifiedMessage
+clientSocket.close()
+
+UDPServer.py
+> from socket import *
+serverPort = 12000
+serverSocket = socket(AF_INET, SOCK_DGRAM)
+serverSocket.bind((’’, serverPort))
+print ”The server is ready to receive”
+while 1:
+message, clientAddress = serverSocket.recvfrom(2048)
+modifiedMessage = message.upper()
+serverSocket.sendto(modifiedMessage, clientAddress)
+
+
+### Client / Server with TCP
+- TCP servero must be running before client initiates contact
+- Server program must have a **special socket** that welcomes initial contact
+- We initiate a TCP connection by creating a TCP socket, specifying the address of the welcoming socket in the server (IP + port)
+- After creating its socket, client initiates 3 way handshake in transport layer.
+
+**3 Way Handshake**
+- Client knocks on welcoming door
+- Server creates a new door (socket) dedicated to the client. Now called the connection socket
+
+TCP_Client.py
+> from socket import *
+serverName = ’servername’
+serverPort = 12000
+clientSocket = socket(AF_INET, SOCK_STREAM)
+clientSocket.connect((serverName,serverPort))
+sentence = raw_input(‘Input lowercase sentence:’)
+clientSocket.send(sentence)
+modifiedSentence = clientSocket.recv(1024)
+print ‘From Server:’, modifiedSentence
+clientSocket.close()
+
+TCP_Server.py
+> from socket import *
+serverPort = 12000
+serverSocket = socket(AF_INET,SOCK_STREAM)
+serverSocket.bind((‘’,serverPort))
+serverSocket.listen(1)
+print ‘The server is ready to receive’
+while 1:
+connectionSocket, addr = serverSocket.accept()
+sentence = connectionSocket.recv(1024)
+capitalizedSentence = sentence.upper()
+connectionSocket.send(capitalizedSentence)
+connectionSocket.close()
+
+---
+
+## 3.1 Intro + Transport-Layer Services
+Transport layer provide **logical communication**, makes the application believe that it and the server are directly communicated.
+
+Transport layer packets = **segments**
+
+### 3.1.1 Transport vs Network Layer
+
+**Network Layer**: 
+Logical communication between hosts
+
+**Transport Layer**
+
+- Logical communication between processes running on different hosts
+- Transport-layer protocols live in the end system, moves messages to the network layer (and vice-versa) but does not control how messages move in the network
+
+### 3.2 Multiplexing/Demultiplexing
+
+**Multiplexing at sender:**
+Handle data from multiple sockets, add transport header to segment, pass to network layer
+
+**Demultiplexing at receiver**
+Use transport header info to deliver received segments to correct socket
+
+**How demultiplexing works**
+
+- Host receives IP datagrams
+	- Carries source IP address + destination IP addr
+	- Carries source port # and destination port #
+	- Carries one transport-layer segment
+
+**Host uses IP addr & Port # to direct segments**
+
+#### Connectionless Multiplexing & Demultiplexing
+
+Recall: creating socket with:
+> clientSocket = socket(socket.AF_INET, socket.SOCK_DGRAM)
+
+Now we can specify the port number via socket *bind()* method: 
+> clientSocket.bind((''.19157))
+
+Typically, client side lets transport assign port number, and server side assigns a specific port #
+
+#### Connection-Oriented Multiplexing & Demult
+
+**With TCP**
+
+- TCP socket identified by 4-tuple:
+	- source IP
+	- source port #
+	- dest IP
+	- dest port #
+- Demux: uses all 4 values to direct segment -> if source ip/port# are different, they will be directed to different ports.
+
+### 3.3.2 UDP Checksum
+
+Checksum is error detection, used to determine if bits in the segment have been altered from source to destination.
+
+**Sender**: 
+
+- Treat sender contents (incl. headers) as 16 bit integers 
+- 1's complement of the sum of all 16 bit words in a segment
+- Any overflow is wrapped around
+- sender puts checksum value into UDP checksum field
+
+**Receiver:**
+
+- compute checksum of received segment
+- check if computed checksum = checksum value
+- if they are not equal -> ERROR DETECTED
+
+## 3.4 Principles of Reliable Data Transfer 
+
+**Reliable Data Transfer Protocol**: No transferred data bits are corrupted or lost and all are delivered in the order in which they were sent.
+
+**Service Implementation**: rdt_send() + udt_send() to send data, rdt_rcv() to receive data on the other side. deliver_data() delivers data to upper layer. 
+
+udt_send() is called by rdt to transfer packet to unreliable channel to receiver
+**Rdt_send -> udt_send -> rdt_rcv -> deliver_data**
+
+### 3.4.1 Building a Reliable Data Transfer Protocol
+
+#### RDT over a perfectly reliable channel: RDT1.0
+
+- Underlying channel is reliable = no error / loss
+- FSM with 1 state for both the receiver and the sender
+- FSM looped on itself
+
+**Sender**
+State 1: 
+rdt_sent(data)
+> packet = make_pkt(data) 
+> udt_send(packet)
+
+**Receiver**
+State 1:
+rdt_rcv(packet)
+> extract(packet,data)
+> deliver_data(data)
+
+**Notes**
+
+- Since it is perfectly reliable, receiver does not need to send feedback to the sender (since nothing can go wrong)
+- Assumed the receiver is able to receive data as fast as the sender receives = no need to ask sender to slow down
+
+#### Channel with bit errors: RDT 2.0 
+
+- Assume all packets are received (although bits may be corrupted) 
+- Uses message-dictation protocol with positive ("OK") and negative ("Please repeat") acknowledgements (ACKs) to let sender know message has been received correctly
+- Automatic Repeat reQuest (ARQ) protocols: used to resend data that requires repeating
+
+**Automatic Repeat reQuest (ARQ) protocols**
+
+- Error detection (recall: checksum)
+- Feedback: ACK/NAK (pos/neg acks) from receiver to sender
+- Retransmission (packets w errors are repeated)
+
+**Sender**:
+
+State 1: Wait for call from above (points @ 2)
+rdt_send(data)
+> sndpkt=make_pkt(data,checksum)
+> udt_send(sndpkt)
+
+State 2: Wait for ACK or NAK (points @ 1,2)
+rdt_rcv(rcvpkt) && isNAK(rcvpkt)
+> udt_send(sndpkt)
+
+rdt_rcv(rcvpkt) && isACK(rcvpkt) 
+> // return to 1, since message was fine
+
+**Receiver**:
+
+State 1: Wait for call from below (points @1 x 2)
+rdt_rcv(rcvpkt) && corrupt(rcvpkt)
+>sndpkt=make_pkt(NAK) 
+>udt_send(sndpkt)
+
+rdt_rcv(rcvpkt) && notcorrupt(rcvpkt)
+> extract(rcvpkt, data)
+> deliver_data(data)
+> sndpkt=make_pkt(ACK)
+> udt_send(sndpkt)
+
+**Notes**
+
+- While sender waits for ACK/NAK, it cannot get more data from the upper layer = rdt_send can't occur. Need to get ACK to leave state
+- RDT2.0 known as a stop-and-wait protocol
+
+**Handling ACK/NAK Corruption Possibilities**
+
+1. Repeat, either sender/receiver can have packets corrupt, no idea how to resolve, could continue on
+2. Add checksum bits to detect & recover from bit errors
+3. Sender don't give a fuck and resent current packet when it receives garbled ACK or NAK packet. This creates duplicate packets, receiver doesn't know if it succesfully sent ACk, not sure if new data or retransmission
+
+**Easy solution: sequence number**
+
+- Sender numbers its data packets 
+- Receiver just checks # to see if retransmission
+- Only need 1 bit sequence number
+
+#### RDT with sequence number (RDT2.1)
+
+Same as RDT 2.0 but now, we mirror as we wait for 0 or 1 to tell that the packet is new.
+
+#### RDT without NAK (RDT 2.2) 
+
+- Instead of sending a NAK we send an ACK for the last successful packet
+- When sender knows the receiver had 2 duplicate packets, they send the following packet
+
+#### RDT over a lossy channel with bit errors: (RDT3.0)
+
+- Channel can now lose packets along with errors 
+- Need to detect packet loss and what to do when it occurs
+- Let Sender detect + recover from lost packets
+- We can't wait forever to assume the packet has been lost
+- Use a countdown timer to interrupt the sender and retransmit / do what it needs to do
+- Sometimes referred to as ALTERNATING-BIT PROTOCOL
+- This is really slow though :(
+
+**Use pipelining to make it faster**
+
+### 3.4.3 Go-Back-N (GBN) / Sliding Window Protocol
+
+- Send packets without waiting for ack, having no more than some max N unacked packets
+- BASE = oldest unacked packet, nextseqnum = next number for new packet about to be sent
+- Packets [0, Base-1] are ack'd, [Base, nextseqnum -1] are unack'd, [nextseqnum , base+N-1] are numbers available
+- N called the window size
+
+1. Check if window is full, if it is then refuse data, else send it
+2. When we receive ack, we assume cumulative ack, (all packets up to and including that # are ackd)
+3. Timout event: resend ALL packets that are not ackd yet
+
+### 3.4.4 Selective Repeat (SR)
+
+- If we lose a packet, GBN can cause us to resend A LOT OF PACKETS 
+- Only retransmit packets that we suspect were corrupted/lost
+- Receiver must individually acknowledge packets
+- Buffer packets as needed for in-order delivery
+- Sender timer for each packet (retransmit when respective timer runs out)
+- If the window is too large, could wrap around and not sure if retransmission or a lost ack
+- Window size hould be <= half the size of sequence number space
+
+--- 
+
+### 3.5.1 the TCP Connection
+
+- Full-duplex service: flows both ways
+- Point-to-point, single sender and single receiver, no parties here
+- Perform a three-way handshake (3 segments are sent)
+
+**Sequence Numbers**
+
+- byte-stream number of the first byte in the segmen
+- Eg: first byte is 0, 2nd is 1000, 2000, etc.
+- In practice, initial seq num is random 
+
+### 3.5.3 Round-Trip Time Estimation & Timeout
+
+- SampleRTT = amount of time between sent and ack is received
+- New sampleRTT for each segment that works, retransmission doesn't count
+
+$ EstimatedRTT = (1-\alpha) * EstimatedRTT + \alpha * sampleRTT $
+ 
+ Use weighted alpha (typically 0.125)
+
+**Timeout Interval**
+$ TimeoutInterval = EstimatedRTT + 4*DevRTT $ 
+DevRTT is our "safety margin"
+
+### 3.5.3 Reliable Data Transfer
+
+- Use a single timer, when the timer runs out, only send the first packet they did not receive, as long as the others are sent before the timer runs out again, then they will not be transmitted
+- Alternative: use accumulative acknowledgement
+
+**TCP fast retransmit**
+
+- Timeout typically too long
+- Detect loss by duplicate ACKs when 3 of the same are received then retransmit
+- TCP is like GBN but doesn't send all packets = buffers
+
+**TCP flow control**
+
+- Keep rwnd value so sender stops sending you so much (buffer overflow)
+
+**Connection Management**
+Closing connection: Send FIN 1, server sends back ack, they send FIN, after timed wait, you send back ack
+
+**Congestion**
+
+- Leads to packet loss / duplicates / premature timeout 
+- More work done (retransmission)
+
+---
+
+## 3.6 Principles of Congestion Control
+
+### 3.6.1 Cause & Cost of Congestion
+
+**Scenario 1: 2 senders, router has infinite buffers**
+
+- Host A and B sending packets through a router with infinite buffers 
+- Shared outgoing link capacity R
+- As the data sent $\lambda$ exceeds R/2, throughput is always the same (can't keep up with the data)
+- Delay increases to infinite as input rate increases
+
+**Scenario 2: 2 Senders, router has finite buffers**
+
+- let $\lambda$ be input and $\lambda '$ be Offered Load (data and retransmitted data) 
+- If hosts knew when buffer was full then $\lambda = \lambda '$
+- If only send when we KNOW packet is lost, $\lambda ' = R/2$ approximately 0.333R bytes/sec are original data and 0.166R bytes/sec are retransmitted data
+- if sender may time out prematurely and retransmit, so both orig and retrans may reach the receiver. Router may use its link bandwidth to forward unneeded copies of a packet. Throughput capped at R/4 as offered load approaches R/2
+
+**Scenario 3: 4 Senders, Routers with infinite buffers, multihop paths**
+
+- if senders have to cross over the same router, possible that throughput of one pair of routers is virtually 0
+
+### 3.6.2 Approaches to Congestion control
+
+**End-end congestion control**
+
+- no feedback from network
+- congestion inferred from end-system observed loss, delay
+- approach taken by TCP
+
+**Network-assisted congestion control**
+
+- routers provide feedback to end systems
+- use **choke packets** to tell network "I'm congested!"
+- can also update packet to notify receiver of congestion, then receiver tells sender
+
+### 3.6.3 Network Assisted Congestion Control Example: ATM ABR
+
+- Asynchronous Transfer Mode (ATM), Available Bit Rate (ABR), Resource Management (RM)
+- ATM takes a virtual-circuit oriented approach toward packet switching, maintains state about source2dest VCm tracks behaviour + congestion
+- Makes ATM ideally suited to perform network-assisted congestion control
+- ABR designed as an elastic data transfer service, when congested, ABR limits transmission rate
+- ATM terms: packers = cell, router = switch, data cells = RM cells
+- RM cells can be modified and sent back to sender, switch can also generate RM cells = direct network feedback 
+
+#### Resource Management Cells (RM cells)
+
+- EFCI bit: explicit forward congestion indication bit.
+- EFCI set to 1 to signal congestion to the destination host
+- CI and NI bits: Congestion Indication (CI) and no increase (NI)
+- NI = mild congestion and CI = severe congestion
+- ER setting = 2 byte Explicit Rate (ER) field. ER set to the min supportable rate of all switches
+
+##  3.7 TCP Congestion Control
+
+- TCP needs end-to-end CC cause can't send feedback
+- Approach: have each sender limit the rate at which they send traffic as a function of perceived network congestion
+- Perceived congestion is low -> increase send rate else reduce send rate
+- TCP keeps track of a **congestion window (cwnd)** that provides a constraint on transfer rate
+
+$ LastByteSent - LastByteAcked \le min(cwnd,rwnd) $
+$ TCP sending rate is roughly = cwnd/RTT  bytes/sec $
+
+### Approach: Additive increase, multiplicative decrease (AIMD)
+
+- Increase cwnd by 1 MSS, every RTT until loss is detected
+- Multiplicative decrease: cut cwnd in half after loss
+- TCP can kind of tell congestion from receiving 3 duplicate ACKs or getting acks quickly, or waiting for acks. It can use ACKs so clock its increase in CWND
+- tcp is **self-clocking**
+
+### Slow Start
+
+- cwnd initialized at 1, grows exponentially until loss (congested by timeout).
+- cwnd doubled at each RTT
+- When loss detected, cwnd set to 1, start doubling process again. sets value of **slow start threshold (ssthresh)** to cwnd/2
+- Another solution is when cwnd = ssthresh, start **congestion avoidance mode** (increase slowly, linearly) instead of exponentially
+- When 3 duplicates are received go to **Fast Recovery Mode**: increased by 1 for every duplicate ACK received, if ack received then congestion-avoidance after deflating cwnd. If timeout then slow start, cwnd to 1, ssthresh = cwnd/2.
+
+**TCP Tahoe: Early TCP**
+Always went to slow start after timeout OR 3 duplicates
+
+**TCP Reno: Newer TCP**
+Incorporated fast recovery (much better)
+
+### TCP Throughput
+
+We look at the average rate of a TCP connection.
+During a particular round-trip interval, the rate is a function of cwnd/current rtt. With window size w bytes and current rtt is RTT seconds, TCP transmission rate is roughly: w/RTT or w/2RTT when we have loss.
+
+Average throughput of a connection = 0.75 * W/RTT
+
+### TCP over High-Bandwidth Paths
+
+MSS = Maximum segment size 
+L = loss rate
+$TCP Throughput = 1.22 * MSS / (RTT * \sqrt{L})$
+
+In order to achieve a throughput of 10 Gbps, we can only tolerate segment loss of $2*10^{-10}$
+
+### 3.7.1 Fairness
+
+**Goal:** If K TCP sessions share the same bottleneck link of bandwidth R, each should have average rate of R/K. That is, each has equal share of bandwidth.
+
+**Why is TCP fair?**
+
+- TCP eventually fluctuates along the equal bandwidth share line.
+- Additive increase + multiplicative decreases
+
+**Fairness and UDP**
+
+- Multimedia apps don't use TCP: 
+- Do not want rate throttled + audio/video tolerate packet loss. 
+
+**Fairness and Parallel TCP connections**
+
+- Using multiple parallel connections gets a larger fraction of bandiwdth
+- link rate R with 9 client-server applications, each using 1 TCP connection
+- If a new app asks for 1 tcp, gets rate R/10.
+- If a new app asks for 11 tcp, gets R/2 instead 
+
+------
+
+## Chapter 4: Network Layer
+
+- transport by sending datagrams, deliver to transport layer
+- network layer protocol in every host, router
+- router examines header files in all IP datagrams passing through it
+
+**Network Layer's 2 functions: Forwarding vs Routing**
+**Forwarding:** transfer of a packet from incoming to outgoing within a single router
+**Routing:** determine the path that packets take from source to dest including all of a network's routers
+
+**Interplay between routing + forwarding**
+Routing algorithm determines end-end path
+Forwarding table determines local forwarding (output link)
+
+**Connection Setup**
+Think: TCP handshake but for networks. This has to happen before data packets can be given from source to destination. 
+**Network: ** between 2 hosts
+**Transport:** between 2 processes
+
+### 4.1.2 Network Service Models
+
+**What kind of service model for transporting datagrams from sender to receiver?**
+
+**Individual datagrams:**
+
+- guaranteed delivery
+- guaranteed deliv with bounded delay (< 40 ms delay)
+
+**Flow of datagrams:**
+
+- in-order datagram delivery 
+- guarenteed min bandwidth to flow 
+- restrictions on changes in inter-packet spacing (jitter)
+
+**Connection / Connection-less service**
+
+- Datagram network provides network-layer connectionless server
+- Virtual-circuit network provides network-layer connection service
+
+### 4.2.1. Virtual Circuit Networks
+
+- Source-to-Dest path is a telephone circuit: performance and network actions
+- call setup/teardown for each call before data can flow
+- each packet carries CV identifier
+- every router maintains "state"
+- link, router resources may be allocated to VC, dedicated resources = predictable service 
+
+**VC implementation**
+
+Consists of: 
+1. Path: source to dest
+2. VC numbers: one for each link along path
+3. Entries in forwarding tables: in routers along path
+
+**Each intervening router must replace the VC number of each traversing packet with a new VC number, obtained from the forwarding table.**
+
+**Why doesn't a packet keep the same VC number?**
+
+1. Replacing the number reduces length of the VC field in the packet header
+2. VC setup is significantly simplified by permitting a different VC at each link along the path of the VC. Each link can choose a VC number independently of VC numbers chosen at other paths. Do not need to send messages to agree on a VC num.
+
+### Virtual Circuit Signaling Protocols 
+
+- messages to setup/maintain/teardown VC
+- used in ATM/frame-relay/X.25
+- not used in today's internet
+
+### 4.2.2 Datagram Networks
+
+- no call to setup at network layer 
+- routers: no state about end-end connections
+- packets hold destination address 
+
+**Datagram Forwarding Table**
+
+- Can use range to split up but may not split up nicely
+- Better way is to use **longest prefix matching rule**
+- Because forwarding tables can be changed, a series of packets sent from one system to another may follow different paths and may arrive in different order.
+
+---
+
+**Datagram Network OR VC Network**
+
+Internet (Datagram)
+- Elastic service, no timing requirement
+- Many link types
+- smart end systems (computers) can adapt, perform control and error recovery
+
+ATM (Virtual Circuits)
+- from telephones
+- human conversation: strict timing + reliability requirements, guarentee service
+- Dumb end systems (telephones), complexity inside the network
+
+## 4.3 What's Inside a Router
+
+**Input Ports**
+
+- Performs physical layer function of terminating an incoming physical link
+- Lookup function performed at input port. Use forwarding table to figure out where to go
+- Packets forwarded from input port to routing processor
+
+**Switching Fabric**
+
+- connects routers input port to output ports
+- **switching rate:** rate at which packets can be transferred from input to outputs
+- 3 types: Memory / Bus / Crossbar
+
+**Switching Via MEMORY**
+
+- first generation routers
+- traditional computers with switching under direct control of CPU
+- packet copied to system's memory
+- speed limited by memory bandwidth (2 bus crossings per datagram)
+
+**Switching via BUS**
+
+- input port adds label to the datagram and sends it to the bus, only matching port will keep it
+- **bus contention:** speed limited by bus bandwidth
+
+**Switching via INTERCONNECTION NETWORK (CROSSBAR)**
+
+- can overcome bus bandwidth limitations
+- interconnected network consisting of 2N buses to connect N ports to N output ports
+- capable of forwarding multiple datagrams in parallel
+
+**Output ports**
+
+- stores packets received from switching fabric and transmits to outgoing link.
+- buffering when datagrams arrive faster than transmission rate
+- scheduling discipline: priority scheduling for best performance and net neutrality
+
+**Output Queuing**
+
+RFC 3439 rule of thumb: average buffering time for N flows
+$ RTT*C / \sqrt{N} $
+
+**Input Queuing**
+
+- when fabric slower than input ports we experience queuing delay
+- **Head of the Line (HOL) blocking:** queued datagram prevents others in queue from moving forward
+
+## 4.4. Internet Protocol (IP): Forwarding and Addressing in the Internet
+
+### IP Fragmentation + Reassembly
+
+- Diff protocols carry different sizes of datagrams. Called the maxmium transmission unit (MTU)
+- The MTU places a hard limit on the length of the IP datagram
+- Could be a problem if different links use different protocols -> Fragmentation
+- Let the end system reassemble the fragments
+- **Identification Flag + Fragmentation offset:** fields in IP datagram header to determine which fragment.ca
+- ID flag = 1 means there is more fragments to come, 0 means last fragment
+
+### 4.4.2 IPv4 Addressing
+
+**IP Address:** 32 bit identifier for host/router interface
+**Interface:** connection between host/router and phsyical link (eg: wired ethernet, wireless etc)
+**IP addresses associated with each interface:** 223.1.1.1 = 11011111 000000001 etc.
+
+**Subnets**
+
+- also called an IP network or network in internet literature
+- IP address: subnet part = high order bits, host part = low order bits
+- A subnet is a device interface with same subnet part of IP address
+- to determine subnets, detach each interface from its host or router, creating islands of isolated networks. each isolated network is a subnet
+
+ **Classless InterDomain Router (CIDR)**
+
+- subnet portion of address of arbitrary length
+- address format: a.b.c.d/x where x is the # bits in subnet portion of address 
+
+subnet part: 11001000 00010111 0001000  host part: 0 00000000
+200.23.16.0/23
+
+**Classful addressing**
+
+1. Class A: 8 bit subnet addr
+2. Class B: 16 bit subnet addr 
+3. Class C: 24 bit subnet addr
+4. Problem Class C is too small only 254 and Class B is too big almost 64K 
+
+**Broadcast address: 255.255.255.255**
+When a host sends a datagram with dest 255.255.255.255, the message is delivered to all hosts on the same subnet. Routers can optionally forward message to neighboring subnets as well (although they usually don't)
+
+**IP Addresses: How to get one?**
+Q: How does a host get an IP address? 
+
+- hard-coded by the system admin in a file
+- **Dynamic Host Configuration Protocol (DHCP)**
+	- Dynamically gets address from a server
+	- Assign host IP address (might be temporary)
+	- Learn subnet mask + default gateway
+	- Local DNS server
+
+**DHCP Continued**
+
+- **goal:** allow host to dynamically obtain its IP address when it joins the network
+	- can renew its lease on address in use
+	- allows reuse of addresses
+	- support for mobile users who join network
+- plug-and-play protocol
+- hosts broadcasts "DCHP discover" msg [optional]
+- DHCP server reponds with "DCHP offer" msg [optional]
+- host requests IP address: "DHCP request" msg
+- DHCP server sends address "DHCP ack" msg
+
+**DHCP Client-Server scenario: 4 step process**
+1. DHCP discovery: client an IP datagram containing the discover message along with broadcast dstination IP address and a "this host" source IP of 0.0.0.0. Broadcasts to all notes in the subnet
+2. DHCP offer: server receives the broadcast and responds to client with a offer message that is broadcast to all nodes on subnet. Each offer contains the transaction ID of the discover message, the proposed IP addr for the client, network mask, and IP address lease time (how long it's valid).
+3. DHCP request: The new client will choose among server offers and respond sleecting its offer with request message, echoing back the configuration parameters
+4. DHCP ack: server responds to request message with an ack, confirming the requested paramaters
+
+**Because a new IP address is obtained from DHCP each time a node connects to a new subnet, the TCP connection cannot be maintained.**
+
+**DHCP: more than IP addresses**
+
+- Can return more than just IP addr on subnet 
+	- address of first-hop router for client
+	- name and IP addr of DNS server
+	- network mask (indicating network vs host portion of address)
+
+**IP addr: How to get one? Continued**
+Q: How does network get subnet part of IP addr
+A: gets allocated portion of its provider ISP's address space
+
+ISP block = 200.23.16.0/20  
+ISP divides its address block into 8 blocks (20 -> 23)
+Org 1 = 200.23.16.0/23 
+Org 2 = 200.23.18.0/23
+Org 3 = 200.23.20.0/23
+
+**Hierarchical addressing: route aggregation**
+Allows efficient advertisement of routing information
+Because addresses are contiguous, the ISP can advertise one route on the global Internet.
+"Send me anything with addresses beggining with X"
+
+**Q:** How does an ISP get a block of addresses?
+**A:** Internet Corporation for Assigned Names and Numbers (**ICANN**)
+they allocate addr, manage dns assign domain names, resolve disputes
+
+-----
+
+**Network address translation (NAT)**
+
+- All datagrams **leaving** the local network have the **same** single source NAT IP address: 138.76.29.7, different source port numbers
+- Datagrams with source or destination in this network have 10.0.0/24 address for source, destination (as usual)
+- **Motivation:** local network uses one IP address as far as outside world is concerned
+	- range of addr not needed from isp: just one
+	- can change addr in local network without notifying anyone 
+	- can change isp without changing addr of local devices
+	- devices in local net not explicitly addressable = security +
+-**Implementation:** NAT router must:
+	- outgoing datagrams: replace (source IP addr, port 3) of every outgoing datagram to (NAT IP Addr, new port #)
+	- remember (in NAT translation table) every (source IP addr, port #) to (NAT IP addr, new port #) translation pair
+	- incoming datagrams: replace (NAT IP addr, new port #) in dest fields of every incoming datagram with corresponding (source IP addr, port #) stored in NAT table
+
+**NAT network address translation**
+
+1. Host sends datagram to Addr A with source A to dest B
+2. Nat router changes datagram source from source A to source B 
+PLACES TRANSLATION INTO TABLE
+3. Server replies to dest address Source B
+4. NAT router changes source B to source A 
+
+- 16-bit port-number field
+	- 60,000 simultaenous connections with a single LAN-side address
+- NAT is controversial:
+	- routers should only process up to layer 3
+	- violates end-to-end argument (need to take it into account by app designers)
+	- address shortage should instead be solved by IPv6
+
+**NAT traversal problem**
+
+- client wants to connect to server with address 10.0.0.1
+	- server addr local to LAN (client can't use it as dest addr)
+	- only one externally visible NATed address: 138.76.29.7
+- **solution 1:** statically configure NAT to forward incoming connection requests at given port to server. (138.76.29.7 forwarded to 10.0.0.1)
+- **solution 2:** universal plug and play (UPnP) internet gateway device (IGD) protocol. allows host to: 
+	- learn public IP address (138.76.29.7)
+	- add/remove port mappings
+	- ie: automate static NAT port map configurations 
+- **solution 3:** relaying (used in Skype) 
+	- NATed client establishes connection to relay
+	- external client connects to relay
+	- relay bridges packets between two connections
+
+### 4.4.3 Internet Control Message Protocol (ICMP)
+
+- used by hosts and routers to communicate network-layer information to each other
+- typically used for error reporting
+- Considered part of IP but architecturally lies just above IP as ICMP messages are carried inside datagrams. 
+- ICMP message: type, code plus first 8 bytes of IP datagram causing error
+
+**Traceroute and ICMP**
+
+- source sends series of UDP segments to destination
+	- first set has TTL = 1, second has TTL=2 etc
+- when nth set of datagrams arrives to nth router:
+	- router discards datagrams and sends source ICMP message (type 11, code 0 )
+	- ICMP messages includes name of router & IP address
+	- when ICMP messages arrives, source records RTT
+- **stopping criteria:** 
+	- UDP segment evntually arrives at dest host
+	- dest returns ICMP "port unreachable" message (type 3, code 3)
+	- source stops
+
+### 4.4.4 IPv6
+
+ **Motivation:**
+- 32 bit addr space soon to be completely allocated
+- header format helps speed processing/forwarding
+- header changes to facilitate QoS
+
+**IPv6 datagram format:**
+
+- fixed length 40 byte header 
+- no fragmenetation allowed
+- **priority:** identify priority among datagrams in flow
+- **flow label:** indentify datagrams in same "flow"
+- **next header:** identify upper layer protocol for data 
+
+**Other changes from IPv4**
+
+- checksum: removed entirely to reduce processing time at each hop 
+- options: allowed but outside of header, indicated by "next header" field
+- ICMPv6: new version of ICMP: 
+	- additional message taypes
+	- multicast group management functions
+
+**Transitioning from IPv4 to IPv6**
+
+- not all routers can be upgraded simultaneously
+	- no flag days
+	- how will network operates with mixed IPv4 and IPv6 routers?
+- **Tunneling:** IPv6 datagram carried as payload in IPv4 datagram among IPv4 routers
+
+## 4.5 Routing Algorithms
+
+- typically host attached directly to one router, the **default or first-hop router** (typically the source router)
+- Use graph abstraction to figure out least-cost path from u to z 
+
+**Global routing algorithm**
+
+- computes least-cost path using complete global knowledge about the network
+- needs to obtain all information before performing the calculation at one site (centralized global routing algorithm) or replicated at multiple cites
+- in practice, known as **link-state (LS) algorithms**
+
+**Decentralized routing algorithm**
+
+- router knows physically connected neighbors, link costs to neighbors
+- iterative process of computation, exchange of info with neighbors
+- **distance vector (DV) algorithms**
+
+**Static vs Dynamic routing algorithms**
+
+- Static: routes change very slowly through human manually changing it
+- Dynamic: change routing paths as network traffic loads or topology, can be run either periodically or in direct response to link cost change. Can create routing loops or oscillation in routes. 
+
+### 4.5.1 The Link-State (LS) Routing Algorithm
+
+- **Dijkstra's algorithm**
+	- link costs all known
+	- computes least-cost (shortest path)
+	- starting from source, look at each neighbour, if the cost of current node + link cost < current cost then it has a new cost
+	- **complexity: ** n nodes, each iteration checks all nodes = n(n+1)/2 comparisons = $O(n^2)$ possible to do it in O(nlogn)
+	- **Oscillations possible:** support link cost equals amount of carried traffic (swapping from routing CW to CCW and back)
+	
+-------
+
+### 4.5.2 The Distance Vector (DV) Routing Algorithm
+
+**Bellman-Ford equation (dynamic programming)**
+
+- The shortest path of u to v, is the shortest path from u's neighbours + their distance to v. 
+- $d_{x}(y) = min (c(x,v) + d_{v}(y))$
+- where c(x,v) is the cost to neighbour v
+- where dv(y) is the distance from v to dest y 
+
+**Distance Vector Algorithm**
+
+- node x: 
+	- knows cost to each neighbour v c(x,v)
+	- maintains its neighbours' distance vectors
+- **Key idea:**
+	-  from time-to-time each node sends its own distance vector estimate to neighbours
+	- when x receives updates, it updates its own DV 
+	- under minor changes, the estimate converges to the actual least cost.
+- **Iterative, asynchronous:**
+	- each iteration cause by link cost change / DV update message
+- **Distributed: **
+	- each node notifies neighbours only when DV changes
+- **Each Node:**
+	- wait: for change
+	- recompute estimates
+	- notify neighbours
+
+**Link Cost Changes:**
+
+- when node detects cost change: bad news travels slow, could have a count to infinity problem (The core of the count-to-infinity problem is that if A tells B that it has a path somewhere, there is no way for B to know if the path has B as a part of it.) 
+- Takes a lot of iterations to stabilize
+
+**Poisoned Reverse:**
+
+- If Z routes through Y to get to X
+- Z tells Y it's distance to X is infinite
+- This however doesn't solve the count-to-infinity looping problem
+
+**Comparison of LS and DV algorithms**
+
+- **Message Complexity:**
+	- LS: n nodes, e links, O(nE) msgs sent
+	- DV: exchange between neighbours, convergence time varies
+- **Speed of Convergence:**
+	- LS: O(n^2)
+	- DV: time varies, may have routing loops + count-to-infinity problem
+- **Robustness:**
+	- LS: node can advertise incorrect link cost, each node computes only its own table 
+	- DV node can advertise incorrect path cost, each node's table used by others. **ERROR PROPAGATES**
+
+
+### 4.5.3 Hierarchical Routing
+
+- **Scale:**
+	- overhead in computing / storing / communicating becomes prohibitive (makes LS really hard)
+- **Administrative autonomy:**
+	- should be able to run and administer its network while being able to connect its network to outside networks
+
+**Autonomous Systems (ASs)**
+
+- solves both of the problems above
+- each AS consists of a group of touers that are under the same administrative control. Routers within the same AS all run the same routing protocol called **intra autonomous system routin protocol**
+- **gateway router: ** at the edge of the AS, has link to routher in another AS
+- IASRP needs to know which gateway router to send packets to so dest is reachable and propagate that info.
+- **Forwarding table:** configured by both intra and inter-AS routing algorithm. 
+- Choosing between multiple Ases: **hot potato routing:** send packet towards the gateway with smallest least cost. Enter into forwarding table.
+
+
+## 4.6 Routing in the Internet
+
+
+**Itra-As Routing / Interior Gateway Protocols (IGP)**
+
+- Most commonly:
+	- Routing Information Protocol (**RIP**)
+	- Open Shortest Path First (**OSPF**)
+	- Interior Gateway Routing Protocol (**IGRP**) (Cisco proprietary)
+
+**RIP**
+
+- DV algorithm
+	- distance metric: # hops (max 15) each link has cost 1
+	- DV exchanged with neighbours every 30 sec in response to message (aka advertisement
+	- Each advertisement: list of up to 25 dest subnet (in IP addressing sense)
+
+**RIP: Link Failure, recovery**
+
+- If no advertisement heard after 180 sec, link declared dead (should be every 30s)
+	- Routes via neighbour invalidated
+	- new adv sent to neighbours
+	- neighbours in tern send out new advertisements (if tables changed)
+
+**RIP table processing**
+	
+- RIP routing tables managed by application level process called route-d (deamon) (it's convoluted using transport level UDP to manage network layer)
+- advertisements sent in UDP packets periodically repeated 
+
+--- 
+
+**Open Shortest Path First (OSPF)**
+
+- **Successor of RIP using link state + dijkstra**
+- open: publicly available
+- typically used in upper tier ISPs
+- uses link state algorithm
+	- LS packet dissemination
+	- topology map at each node
+	- route computation using dijkstra's algorithm
+- Individual link costs configured by sys admin (can use 1 to find min hops)
+- Broadcast link state
+	- periodically (every 30 min)
+	- when there is a change in link state
+- Advertisements flooded to entire AS
+	- carried in OSPF messages directly over IP
+- IS-IS routing protocol: nearly identical to OSPF
+- sends HELLO message to neighbor routers to check link state
+
+**OSPF Advanced Features (not in RIP)**
+
+- **security:** all OSPF messages authenticated
+- **multiple same-cost paths** allowed
+
+**Hierachical OSPF**
+
+- Each area runs its own OSPF link-state routing alg
+- **Area border routers** responsible for routing packets outside the area
+- **backbone**: one OSPF area in the AS, routes traffic between the other areas
+- Area Internal router -> Area border router -> backbone -> boundary router
+
+### 4.6.3 Inter-AS routing: BGP
+
+- **Border Gateway Protocol (BGP)**, the glue that holds the net together 
+- BGP provides each AS a means to:
+	- eBGP: obtain subnet reachability information from neighboring ASs
+	- iBGP: propogate information to all AS-internal routers
+	- determine "good" routes to other networks
+- Allows subnet to advertise its existence to rest of internet: "I am here"
+
+
+**BGP Basics**
+
+- BGP session: two routers ("peers") exchange BGP messages
+	- advertising paths
+	- create a semi-permanent TCP connection
+- When a router advertises a prefix to its pair: 
+	- router promises it will forward datagrams towards that prefix
+	- router can aggregate prefixes in its advertisement
+- **Distributing Path Information:**
+	- using eBGP session, AS1 sends info to AS2
+		- pair now uses iBGP to distribute to all routers in AS2
+		- in AS2 there is another outward facing pair that can re-advertise info to AS3
+	- When router learns new prefix, it creates in entry in its forwarding table
+
+**Path Attributes and BGP Routes**
+
+- advertised prefix includes BGP attributes
+	- prefix + attribute = route
+- Important attributes: 
+	- **AS-PATH:** contains ASs through which prefix advertisement as passed
+	- **NEXT-HOP:** indicates specific-internal AS router to next-hop AS (may be multiple links from current AS to next-hop-AS)
+- gateway router receiving route advertises uses **import policity** to accept decline
+	- eg: never route through AS x
+	- **policy based** routing
+
+**BGP Route Selection**
+
+- router may learn about more than 1 route to destination chosen by: 
+	- local preference (policy) 
+	- shorterst AS-Path
+	- closest Next-hop 
+
+**BGP Messages**
+
+- **OPEN:** open tcp connection to peer and authenticates sender 
+- **UPDATE:** advertises new path or withdraws old 
+- **KEEPALIVE:** keeps connection alive in absense of updates, also ACKs OPEN request
+- **NOTIFICATION:** reports errors in prev msg, also closes connection
+
+**Q: How does an Entry Get Into A Router's Forwarding Table?**
+A: Complicated but, ties together hierarchical routing, BGP and OSPF! 
+
+High level overview: 
+	1. Router becomes aware of prefix
+	2. Router determines output port from prefix
+	3. Router enters prefix-port in forwarding table
+
+**Router becomes aware of prefix**
+	
+- BGP message contains routes
+- Ex route: Prefix: 138.16.64/22 ; AS-PATH: AS3 AS131 ; NEXT-HOP: 201.44.13.125
+
+**Router may receive multiple routes**
+
+- may receive multiple routes for same prefix
+- has to select one route
+
+**Select best BGP route to prefix**
+
+- Router selects route based on shortest AS-PATH (less AS in path)
+- Ex: 
+	- AS2 AS17 to ....   SELECTED
+	- AS3 AS131 AS201 to ... 
+
+**Find best intra-route to BGP route**
+
+- Use selected route's NEXT-HOP attribute
+	- Route's NEXT-HOP attribute is the IP address of the router interface that begins the AS PATH
+	- Use OSPF to find shortest path to NEXT-HOp
+
+**Router Identifies port for route**
+
+- identifies port along the OSPF shortest path
+- adds prefix-port entry to its forwarding table (138.16.64/22, port 4)
+
+#### Hot Potato Routing
+
+- suppose there are 2 or more best inter-routes
+- Then choose route with closest NEXT-HOP (use OSPF)
+
+#### BGP Routing Policy
+
+- Provider networks only want to route to/from its customer networks
+
+**Why Different Intra / Inter AS routing?**
+
+- **Policy:**
+	- Inter-AS: admin wants control over how its traffic gets routed, and who's routes through new
+	- Intra-AS: single admin, no policy decisions needed 
+- **Scale:**
+	- hierachical routing saves table size, reduced update traffic
+- **Performance:**
+	- Intra-AS: can focus on performance
+	- Inter-AS: policy may determine performance
+
+## 4.7 Broadcast and Multicast Routing
+
+**Broadcast Routing**
+
+- Deliver packets from source to all notes. Source duplication is inefficient
+
+**In-network Duplication:**
+
+- **Flooding:** when node receives broadcast packet, send copy to all neighbors
+	- problems: cycles & broadcast storm
+- **Controlled flooding:** node only broadcast if it hasn't broadcast same packet before
+	- node keeps track of packet ids
+	- or reverse path forwarding (RPF): only forward packet if it arrived on shortest bath between node and source
+- **Spanning Tree:** 
+	- no redundant packets received by any node
+	- **Creation:** messages forwarded until it arrives at a node already belonging to the spanning tree
+
+**Internet Group Management Protocol (IGMP)**
+
+- operates between host and directly attacehd router 
+- provides the means to inform the attached router that an app wants to join a group 
+- IGMP messages are encapsulated in an IP datagram 
+- Three messages 
+	- Membership query 
+	- Membership report
+	- Leave group 
+
+#### Multicast Routing: Problem Statement
+
+-**Goal:** find a tree (or trees) connecting routers having local mcast group members
+-	tree: not all paths between routers used
+-	shared-tree: same tree used by all group members
+-	source-based: different tree from each sender to receivers 
+
+**Building mcast trees:**
+
+- **source-based tree:** one tree per source 
+	- shortest path trees
+	- reverse path forwarding
+- **group-shared tree:** group uses one tree
+	- min spanning (steiner) 
+	- center-based trees
+
+#### Shortest Path Tree 
+
+- mcast forwarding tree: dijkstra's algorithm
+
+#### Reverse Path Forwarding (RPF)
+
+- rely on router's knowledge of unicast shortest path from it to sender 
+- each router has simple behaviour: 
+	- if mcast datagram received from shortest path to center
+	- flood into all outgoing links else ignore 
+- **pruning:** no need to forward datagrams down subtree that don't contain group members
+	- "prune" msg sent upstream by routers with no group members downstream 
+
+#### Center-Based Trees
+
+- single delivery tree shared by all 
+- one router is the center 
+- to join:
+	- edge router sends unicast join-msg addressed to center router 
+	- join-msg "processed" by intermediate routers, forwarded to center 
+	- join-msg hits existing tree branch or arrives at center 
+	- path becomes new branch of tree for the router 
+
+#### Internet Multicasting Routing: DVMRP
+
+- **DVMRP:** distance vector multicast routing protocol
+- **Flood and prune:** reverse path forwarding, source-based tree
+	- RPF tree based on DVMRPs own routing table
+	- no assumptions about underlying unicast 
+	- initial datagram to mcast group flooded via RPF 
+	- routers not wanting group: send prune message upstream
+- **Soft state:** DVMRP router periodically "forgets" branches are bruned: 
+	- mcast data again flows down unpruned branch, 
+	- reprune or continue to receive data
+- routers can quickly regraft to tree
+	- following IGMP join at leaf 
+- Commonly implemented in commercial router
+
+#### Protocol Independent Multicast (PIM)
+
+- not dependent on any specific underlying unicast routing algorithm
+- two different multicast distribution scenarios:
+- **dense:**
+	- group members in proximity (use RPF) 
+- **sparse:**
+	- # networks with group members small wrt # interconnected networks
+	- group members "widely dispersed" 
+	- (use spanning tree)
+
+**Consequences of sparse-dense dichotomy**
+
+- **Dense:**
+	- group membership assumed until explicitly pruned
+	- data-driven construction (RPF) 
+	- bandwidth and non-group-router profiligate (wasteful)
+- **Sparse:**
+	- no membership until routers explcitly join 
+	- receiver-driven, construction of mcast tree (center-based)
+	- bandwidth and non-group-router processing conservative
+
+## Chapter 5: Link Layer
+
+Link layer services: 
+
+- error detection, correction 
+- sharing broadcast channel: multiple access
+- link layer addressing 
+- local area networks: LAN/Ethernet/VLANs
+- instantiation, implementation of various link layer technologies
+
+#### PIM- Dense Mode
+
+- **Flood-and-prune RPF: similar to DVMRP BUT:**
+	- underlying unicast protocol provides RPF info for incoming datagram
+	- less complicated (less efficient) downstream flood than DVMRP reduces reliance on underlying routing algorithm
+	- has protocol mechanism for router to detect it is a leaf-node router
+
+#### PIM - Sparse Mode
+
+- center based approach
+- router sends JOIN msg to rendezvous point **RP**
+	- intermediate routers update state and forward join
+- after joining via Rp, router can switch to source-specific tree
+	- The source specific tree is constructed if there is enough traffic to warrant this 
+	- increased performance: less concentration, shorter paths
+- **SENDERS:**
+	- unicast data to RP, distributes down RP-rooted tree
+	- RP can extend mcast tree upstream to source 
+	- RP can send STOP msg if no attached receivers (no one is listening)
+
+#### Tunneling
+
+Q: How to connect islands of multicast routers in a sea of unicast routers?
+
+- mcast datagram encapsulated inside "normal" (non-multicast-addressed) datagram
+- normal IP datagram sent through "tunnel" via regular IP unicast to receive mcast router (recall IPv6 inside IPv4)
+- receiving mcast router unencapsulates to get mcast datagram
+
+### 5.1 Introduction to Link Layer
+
+Terminology: 
+	- **Nodes:** host * routers
+	- **Links:** comm channels that connect adjacent nodes
+	- **Frame:** link layer packet
+
+**Data-link layer** has the resp of transferring datagram from one node to physically adjacent node over a link 
+
+#### Link Layer: Conext
+
+ - datagraph transferred by different link protocols over different links. eg: Ethernet
+ - each link protocol provides different services, may not provide rdt (reliable data transfer) over link
+ - **Transportation analogy:**
+	 - tourist = datagram
+	 - transportation segment = comm link 
+	 - transportation node = protocol 
+	 - travel agent = routing algorithm
+
+#### Link Layer Services
+
+**Framing + Link access:**
+
+- encapsulate datagram into frame, add header, trailer
+- channel access if shared medium
+- "MAC" addresses used in frame headers to indentify source/dest (different from IP)
+
+**Reliable delivery between adjacent nodes**
+
+- seldom used on low bit-error link (fiber, some twisted pair)
+- wireless links: high error rates
+
+**Other Services**
+
+- Flow control 
+- error detection: receiver detects errors 
+- error correction corrects bit errors after identification
+- half-duplex and full-duplex: half = nodes at both ends can transmit but not at same time
+
+### 5.1.2 Where is the Link Layer Implemented? 
+
+- in each and every host
+- link layer impl in adaptor OR on a chip (**network adapter** or **network interface card (NIC)**
+	- Ethernet card / chipset
+	- implements link phsyical layer 
+- attaches into host's sytem buses
+- combination of hardware, software, firmware
+
+**Adaptors communicating**
+- **Sending:**
+	- encapsulates datagram in frame
+	- adds error checking bits, rdt, flow control, etc
+- **Receiving:**
+	- error checking
+	- extracts datagram, passes to upper layer
+
+## 5.2 Error Detection and Correction Techniques
+
+- Error detection and correction bits (**EDC**) (for redundancy)
+	- larger EDC field yields better detection and correction
+- D = data protected by error checking
+- Need to be able to find out if there are errors in D' from EDC'
+
+### 5.2.1 Parity Checks 
+
+**Single Parity bit**
+
+- Even/Odd scheme, count the # of 1s and and then add parity bit to match the scheme. 
+
+**2 dimensional bit parity**
+
+- uses row and column single bit parity to find out **WHICH** bit is wrong.
+
+**Checksum (review) **
+
+- **Sender:**
+	- treat sequence as 16 bit ints, 1's complement of the sum
+	- put value into checksum value in UDP field
+- **Receiver:**
+	- compute checksum, compare to checksum field 
+
+### 5.2.3 Cyclic Redundancy Check (CRC)
+
+- more powerful 
+- view data bits D as binary number
+- choose r+1 bit pattern (generator, **G**)
+- goal: choose r CRC bits **R** such that
+	- (D, R) is mod 2
+	- receiver knows G, divides (D,R) by G, if non-zero then  error detected
+- **widely used in practice** (Ethernet, 802.11 Wifi, ATM)
+
+for d bits from D data, r bits from R CRC bits 
+$ D* 2^r XOR R $
+
+We want $D * 2^r  XOR  R = nG$ equivalently  $D*2^r = NG XOR R$
+And we want remainder R to satisfy:  $ R = remainder(D*2^r / G)$
+
+## 5.3 Multiple access protocols
+
+**2 Types of Links:**
+
+- **Point-to-point:**
+	- consists of a single sender and a single receiver
+- **Broadcast (shared wired or medium)**
+	- multiple sending and receiving nodes, all connected to the same, single, shared broadcast channel
+
+**Collision:** a node receives 2+ signals at the same time
+
+**Multiple Access Protocol:**
+
+- distributed alg that determines how nodes share the channel (when node can transmit)
+- communication about channel sharing must use the channel
+
+**An Ideal Multiple Access Protocol**
+
+**given:** boradcast channel with rate R bps
+**Goal:**
+	
+1. When one node wants to transmit, it can send at rate R
+2. When M nodes want to transmit they can send at rate R/M
+3. Fully Decentralized: no special node to coord transmission
+4. Simple
+
+### MAC protocols: Taxonomy
+
+3 Broad classes: 
+
+1. **Channel Partitioning**: allocate piece to node for exclusive use
+2. **Random Access**: channel not divided, allow collisions, recover from them
+3. **Taking Turns**: nodes take turns, nodes with more to send take longer turns.
+
+### Channel Partitioning
+
+**TDMA: time division multiple access**
+
+- access in rounds of a fixed time length slot.
+- unused slots go idle
+
+**FDMA: Frequency division multiple access**
+
+- split into freq
+- each station gets assigned freq
+- unused goes idle
+
+**CDMA: Code division multiple access **
+
+- assign different code to each node 
+- each node uses code to encode the data it sends 
+- codes are orthogonal
+- different nodes can transmit at the same time
+- all the spectrum all to time 
+- Used in cell networks (Spring, Verizon)
+
+### Random Access Protocols
+
+- When node has packet to send
+	- transmit at rate R
+	- no a priori coordination among nodes
+- 2 or more transmitting nodes = collision
+- **random access MAC protocol**:
+	- how to detect collisions + how to recover 
+	- Ex: ALOHA, CSMA, CSMA/CD, CSMA/CA
+
+#### Slotted ALOHA
+
+**Assumptions**
+- all frames same size 
+- time divided into equal size slots
+- nodes starting to transmit only slot beginning
+- nodes are synchronized 
+- if 2 or more nodes transmit in slot, collision
+
+**Operation:**
+
+- when node obtains fresh frame, transmit in next slot 
+	- if no collision: send next frame in next slot 
+	- if collision: node retransmits frame in each subsequent slot with probability p until success
+
+**Pros:**
+
+- single active node can continuously transmit at full rate R
+- highly decentralized, only slots in nodes need to be in sync
+- simple 
+
+**Cons:**
+
+- collisions, wasting slots
+- idle slots
+-  nodes may be able to detect collision in less time to transmit packet 
+- clock synch
+
+**Efficiency:**
+Max efficiency = 1/e = 0.37 = **at best:** channel used for useful transmissions 37% of the time.
+
+#### Pure (unslotted) ALOHA
+
+- simpler, no synch
+- when frame arrives
+	- transmit immediately
+- collision prob increases 
+
+**Efficiency:** 18% **WORSE THAN SLOTTED ALOHA**
+
+----
+
+#### Carrier Sense Multiple Access (CSMA)
+
+- Listen before transmit:
+	- if channel idle: transmit entire frame 
+	- if busy: defer transmission
+	- Human analogy: **don't interrupt others!**
+- **collisions still occur:** prop delay means two nodes may not hear each other's transmission
+- **collision:** the entire packet transmission time is wasted
+	- distance & prop delay determine collision probability
+
+#### CSMA/CD (collision detection)
+
+- **CSMA/CD** carrier sensing, deferral as in CSMA 
+	- collisions detected within short time 
+	- colliding transmission aborted = reduce wastage 
+- collision detection:
+	- easy in wired LAN, measure signal strength, compare transmitted + received
+	- difficult in wireless, received signal strength overwhelmed by local transmission str
+- human analogy: **the polite conversationalist**
+
+**Ethernet CSMA/CD Algorithm**
+
+1. NIC receives datagram from network layer, creates frame 
+2. If NIC senses channel idle, starts frame transmission. If NIC busy, wait until idle then transmit
+3. IF NIC transmits entire frame without detecting another transmission, NIC is done with frame 
+4. IF NIC detects another transmission, abort and sends jam signal
+5. After aborting NIC enters **binary (exponential) backoff:** after the mth collision, NIC chooses K at random, NIC waits K*512 bit times, returns to step 2. longer backoff interval with more collisions.
+
+**CSMA/CD efficiency:**
+- Efficiency goes to 1
+	- as $t_{prop}$ goes to 0 and as $t_{trans}$ goes to infinity
+- better formance than ALOHA: simple, cheap, decentralized.
+
+#### "Taking Turns" MAC protocols 
+
+**channel partitioning MAC protocols:**
+
+- share channel efficiency & fairly at high load 
+- inefficient at low load: delay, 1/N bandwidth allocation 
+
+**Random Access MAC protocols**
+
+- efficient at low load: single node uses full channel 
+- high load: collision overhead
+
+**Taking turns protocols:**
+
+- best of both worlds!
+
+#### Taking turns (cont)
+
+**Polling:**
+
+- master node "invites" slaves to transmit in turn 
+- typically used with "dumb" slave devices 
+- concerns:
+	- polling overhead 
+	- latency
+	- single point of failure (master) 
+
+**Token Passing:**
+
+- control token passed from one node to the next sequentially
+- token message 
+- concerns: 
+	- token overhead
+	- latency
+	- single point of failure (token) 
+
+## 5.4 Local Area Networks (LANs)
+
+**MAC addresses and ARP**
+
+- 32 bit IP addr
+	- network-layer addr for interface (used for forwarding) 
+- MAC (or LAN or physical or Ethernet) addr: 
+	- function: used locally to get from from one interface to another
+	- 48 bit MAC addr (for most LANs) burned into NIC ROM, also sometimes software settable 
+	- e.g: 1A-2F-BB-76-09-AD (hexidecimal = 48 bits)
+
+**LAN Addresses and ARP **
+
+- each adapter on LAN has unique LAN address
+- MAC addr allocation administered by IEEE
+- anology: MAC addr: like SSN, IP addr: like postal addr
+- MAC flat address -> portability, can move LAN card from one LAN to another
+- IP hierarchical addr, not portable (depends on attached nodes)
+
+## 5.4.1 Address Resolution Protocol (ARP)
+
+Q: How to determine MAC addr from IP addr? 
+
+**ARP table:**
+
+- each IP node on LAN has table
+	- IP/MAC addr mapping for LAN nodes (IP, Mac; TTL)
+- TTL (Time To Live) time after which addr mapping with be forgotten (typically 20 min)
+
+**ARP protocol: same LAN**
+
+- A wants to send datagram to B, B's MAC addr not in A's ARP table 
+- A broadcasts ARP query packet, containing B's IP addr
+- B receives ARP packet, replies to A with its MAC addr
+- A caches IP/MAC pairing into ARP table until it times out
+	- soft state: information times out 
+- ARP is "plug and play": nodes create their own ARP tables
+
+**Addressing: routing to another LAN**
+
+- walkthrough: send datagram from A to B via R
+- focus on addressing - at IP and MAC layer (frame)
+- Assume A knows B's IP addr 
+- Assume A knows IP of first hop router R 
+- assume A knows R's MAC addr (how?)
+- A creates IP datagram with IP source A dest B
+- A creates link-layer frame with Rs MAC address as dest , frame contains A-to-B IP datagram
+- frame sent from A to R
+- received at R, datagram removed, passed to IP,
+- R forwards datagram with IP source A, dest B 
+- R creates link-layer frame with B MAC addr as dest, frame contains A-B IP datagram
+- datagram forwarded
+
+## 5.4.2 Ethernet 
+
+- cheap, widely used, simple, kept up with speed
+
+**Physical Topology:**
+
+- **bus:** popular through mid 90s
+	- all nodes in same collision domain (can collide)
+- **star: ** used today 
+	- active switch in center
+	- each spoke runs a seperate Ethernet protocol (no collisions)
+
+**Ethernet Frame Structure**
+
+- sending adapter encapsulates IP datagram in **Ethernet frame**
+- **preamble:** 7 bytes with pattern 10101010 followed by one byte with pattern 10101011. Used to synch receiver + sender clock rates 
+- **addresses:** 6 byte source, dest mac addr
+- **type:** indicates higher layer protocol (mostly IP)
+- **CRC: cycling redundancy check** at receiver, error detected: frame dropped
+
+**Ethernet: unreliable, connectionless**
+
+- **Connectionless:** no handshake
+- **Unreliable:** no ack/nack sending
+	- data in dropped frame recovered only if initial sender uses higher layer rdt (eg tcp) otherwise lost 
+- Ethernet's MAC protocol: unslotted CSMA/CD with binary backoff
+
+**802.3 Ethernet Standards: link & physical layers**
+
+- many different ethernet standards 
+	- common MAC protocol & frame format 
+	- different speeds + different physical layer media: fiber/cable 
+
+---
+
+### 5.4.3 Ethernet Switch 
+
+- link-layer device:
+	- store, forward ethernet frames
+	- examine incoming frame address, selectively forward frame to one or more outgoing links 
+- **transparent:** hosts are unaware of presence of switches 
+- **plug-n-play & self-learning:** do not need to be configured
+
+**Switch: Multiple Simultaneous Transmissions**
+
+- hosts have dedicated, direct connection to switch 
+- switches buffer packets 
+- Ethernet protocol used on each incoming link but no collisions, full duplex 
+	- each link has its own collision domain
+- **switching:** A-to-A' and B-to-B' can transmit simultaneously without collisions.
+
+**Switch Forwarding Table**
+
+Q: How does the switch know A' reachable via interface 4, etc
+A: each switch has a switch table, each entry: (Mac addr of host, interface to reach host, time stamp), basically a routing table 
+
+Q: How are entries created and maintained in switch table: 
+A: Like routing protocol.
+
+**Switch: Self-learning**
+
+- switch l earns which hosts can be reached through which interfaces 
+	- when frame received, switch learns location of sender: incoming LAN segment
+	- records sender/location pair in switch table
+
+**Switch: Frame Filtering/Forwarding**
+
+When frame is received at switch: 
+
+1. record incoming link, MAC addr of sending host
+2. index switching table using MAC dest addr 
+3.  if entry found for destination then [ if dest on segment from which frame arrived then drop frame, else forward frame ] else flood (forward on all interfaces except arriving)
+
+**Self-learning, forwarding example**
+
+- frame destination, A', location unknown: flood
+- destination A, location known, selectively send on just 1 link
+
+**Interconnecting Switches**
+
+- switches can be connected togethers
+- Q: sending from one switch network to another switch network
+- A: self learning: works exactly like the single switch case
+
+#### Switches Vs Routers 
+
+**Both store and forward: **
+
+- **routers:** network-layer devices
+- **switches:** link=layer devices
+
+**Both have forwarding tables:**
+
+- **routers:** compute tables using routing algorithms, IP addresses 
+- **switches:** learn forwarding using flooding, learning, MAC addresses 
+
+### 5.4.4 Virtual Local Area Network (VLAN)
+
+- Define and configure multiple **virtual** LANs over a single physical LAN infrastructure 
+- **port-based VLAN:** switch ports grouped so that **single** physical switch operates **multiple** virtual switches
+
+**Port-Based VLAN**
+
+- **traffic isolation:** frames to/from ports 1-8 can only reach ports 1-8
+	- can define VLAN based on MAC addr of endpoints rather than switch port
+- **dynamic membership:** ports can be dynamically assigned among VLANs 
+- **forwarding between VLANs:** done via routing (just as with seperate switches)
+
+**VLANs spanning multiple switches**
+
+- **trunk port:** carries frames between VLANs defined over multiple physical switches
+- frames forwarded within VLAN between switches can't be vanilla 802.1 frames
+
+## 5.7 A day in the life of a web request
+
+- Putting it all together! 
+- **Goal:** Identify, review, understand protocols (at all layers) involved in simple scenario: requesting www page
+- **Scenario:** student attaches laptop to campus network, requests + receives www.google.com
+
+1. Connecting laptop gets its own IP addr, addr of first hop router, addr of DNS server: use DHCP 
+2. DHCP request encapsulated in UDP, in IP, in 802.3 Ethernet
+3. Ethernet frame broadcast (dest: FFFFFFFFFFFF) on LAN, received at router running DHCP server
+4. Ethernet demuxed to IP demuxed, UDP demuxed to DHCP
+5. DHCP server formulates DHCP ack, containing client's IP addr, IP addr of first-hop router for client, name & IP addr of DNS server
+6. Encapsulation at DHCP server, frame forwarded (switch learning) through LAN demultiplexing at client
+7. DHCP client receives DHCP ACK reply (**Client now has IP addr, knows name & addr of DNS server, IP addr of its first-hop router**)
+
+**ARP query**
+
+1. Before sending HTTP request, need IP addr of google.com -> DNS
+2. DNS query created, encapsulated and trying to send frame to router. need MAC addr of router = ARP. 
+3. ARP Query broadcast received by router, sends ARP reply with MAC Addr of router. Can now send frame for DNS query
+4. IP datagram containing DNS query forwarded through routers
+5. DNS server replies with IP addr of google.com
+
+**TCP carrying HTTP**
+
+1. open TCP socket,
+2. TCP SYN -> 3 way handshake
+3. TCP SYNACK -> server responds
+4. TCP ACK -> connection established
+5. HTTP request sent into TCP socket 
+6. IP datagram containing HTTP request routed to google.com
+7. Webserver responds with HTTP reply
+8. IP datagram reply routed back to client 
+
+#### Chapter 5 Summary
+
+- Principles behind data link layer services: 
+	- error detection + correction 
+	- sharing a broadcast channel: multiple access 
+	- link layer addressing
+- Instantiation and implementation of various link layer technologies
+	- Ethernet 
+	- Switched LANs, VLANs
+- Synthesis: a day in the life of a web request
+
+## Chapter 6 Wireless and Mobile Networks
+
+**Elements of a wireless network**
+
+- base station: 
+	- connected to wired net
+	- relay: responsible for sending packets between wired & wireless in its area
+- wireless link
+	- used to connect mobile(s) to base station
+	- used as backbone link
+	- multiple access protocol coordinates link access
+- handoff: mobile changes base station providing connection into wired network
+
+**ad hoc mode**
+
+- no base stations
+- nodes can only transmit to other nodes within link coverage
+- nodes organize themselves into a network
+
+**Wireless network taxonomy**
+
+**Infrastructure:**
+
+- SIngle hop: host connects to base station which connects to larger net (WiFi)
+- Multiple hops: host relay through several wireless nodes to connect to larger net: (mesh net)
+
+**No infrastructure**
+
+- Single hop: no base station, no connection to larger Internet (Bluetooth)
+- Multiple hops: no base station, no connection to larger net. May relay to reach a given wireless node (MANET, VANET)
+
+## 6.2 Wireless Links
+
+**Wireless Link Characteristics**
+
+- **decreased signal strength:** radio signal weakens as it passes through stuff
+- **interference from other sources:** standardized wireless network frequencies (eg 2.4 GHz) shared by other devices 
+- **multipath propagation:** radio signal reflects off objects ground, arriving at dest at slightly different times
+- **SNR: signal-to-noise ratio**
+	- larger SNR - easier to extract signal from noise (a "good thing")
+- **SNR versus (Bit error rate) BER tradeoffs** 
+	- **given physical layer:** increase power -> increase SNR -> decrease BER
+	- **given SNR:** choose physical layer that meets BER requirement, giving highest throughput. SNR may change with mobility, dynamically adapt physical layer.
+
+**Wireless Network Characteristics** 
+
+- Multiple wireless senders and receivers create additional problems
+- **Hidden terminal problem:**
+	- B, A hear each other 
+	- B, C hear each other 
+	- A, C can't hear each other = A, C unaware of their interference at B
+- **Signal Attenuation:** gradual loss of signal strength over distance 
+
+**Code Division Multiple Access (CDMA)**
+
+- unique "code" assigned to each user
+	- all users share same freq but user has its own "chipping seq" (code) to encode data
+	- allows multiple users to coexist and transmit simultaneously with minimal interference
+- **encoded signal** = (original data) X (chipping seq)
+- **decoding:** inner-product of encoding signal and chipping seq
+
+## 6.3 IEEE 802.11 Wireless LAN
+
+ - Wireless host communicates with base station 
+	 - base station  = access point (AP)
+ - **Basic Service Set (BSS):** (aka "cell") in infrastructure mode contains:
+	 - wireless hosts 
+	 - access point (AP): base station
+	 - ad hoc mode: hosts only
+
+**802.11: Channels, association**
+
+- 02.11b: 2.4gbz - 2.485 Ghz spectrum divided into 11 channels at different frequencies
+	- AP admin chooses frequency for AP 
+	- interference possible: channels can be same as neighboring AP
+- host must **associate** with an AP
+	- scans channels listening for beacon frames containing AP's name (SSID) and MAC addr
+	- selects AP to associate with 
+	- may perform authentication
+	- will typically run DHCP to get IP addr in AP's subnet
+
+**802.11: Passive & Active scanning**
+
+- **Passive Scanning: (someone tell me you're there)**
+	- beacon frames sent from APs
+	- association request sent from H1 to seleted AP
+	- association reponse frame sent from selected AP to H1
+- **Active Scanning: (hello who's out there)**
+	- probe request frame broadcast from H1
+	- prob response frames sent from APs
+	- Association Request sent H1 to selected AP
+	- Association Reponse sent fron selected AP to H1 
+
+**IEEE 802.11: multiple access**
+
+- avoid collisions: 2+ nodes transmitting at the same time
+- 802.11 CSMA - sense before transmitting
+	- don't collide with ongoing transmission by another node
+- 802.11: no collision detection 
+	- difficult to receive (sense collisions) when transmitting due to weak signals
+	- can't sense collisions in any case: hidden terminal
+	- goal: avoid collisions: CSMA/CA 
+
+#### IEEE 802.11 MAC Protocol: CSMA/CA (collision avoidance)
+
+**802.11 Sender**
+
+1. if sense channel idle for DIFS (pause) then transmit entire frame (no CD)
+2. if sense channel busy then
+	- start random backoff time 
+	- timer counts down while channel idle 
+	- transmit when timer expires
+	- if no ACK, increase random backoff interval repeat 2
+
+**802.11 Receiver**
+
+1. If frame is OK, return ACK after SIFS (pause)
+
+#### Avoiding Collisions 
+
+- **idea:** allow sender to "reserve" channel rather than random access = avoid collisions of long datagrames
+- sender first transmits small request-to-send (**RTS**) packet to BS using CSMA
+	- RTS can collide with each other (but they're short)
+- BS broadcasts clear-to-send CTS in reponse to RTS
+- CTS heard by all nodes
+	- sender transmits data frame
+	- other stations defer transmissions
+- **Avoid data frame collisions completely using small reservation packets ** 
+
+ #### 802.11 Frame: Addressing
+
+Address 1: MAC addr of host/AP to receive 
+Address 2: MAC addr of host or AP sending
+Address 3: MAC addr of router AP is attached to 
+Address 4: used only in ad hoc mode
+
+#### 802.11 Mobility within the same subnet
+
+- Host remains in IP subnet, IP address can remain the same but access point to change 
+	- Self-learning: switch will see frame from H1 and remember which port can be used to reach H1
+
+#### 802.11 Advanced Capabilities
+
+- **Rate adaption**
+	- dynamically change transmission rate as mobile moves, SNR varies
+- **Power management: **
+	- node-to-AP: "I'm going 2 sleep until next beacon frame"
+		- AP knows not to transmit frames to node
+		- node wakes up before next beacon frame
+	- beacon frame: contains list of mobiles with AP-to-mobile frames waiting to be sent
+
+**802.15: Personal Area Network**
+
+- less than 10m diameter
+- replacement for cables, ad hoc: no infrastructure
+- master/slaves setup
+- Evolved from bluetooth
+
+--- 
+
+### 6.4 Cullular Internet Access
+
+**Cellular networks: the first hop**
+
+- Two techniques for sharing mobile-to-BS radio spectrum
+	- **combined FDMA/TDMA**
+	- divide spectrum in freq channels, divide into time slots
+- **CDMA**
+	- code division multiple access
+
+**2G & 3G networks**
+
+- Cell towers go to base station controller to mobile switching center MSC, to a gateway MSC and then to internet 
+- WIth 3g (data) need to feed into the internet now
+- Connected to the outer MSC is now a Serving GPRS support node and a gateway GPRS support node which operates **in parallel**
+
+## 6.5 Mobility
+
+- no mobility: using 1 access point 
+- kind of mobile: connect/disconnect using dhcp
+- mobile: passing through multiple AP, maintaining connections
+
+#### How to Contact a Mobile Friend: Approaches
+
+- **Let routing handle it (NOT SCALABLE)**
+	- routers advertise permanent address of mobile nodes
+- **let end-systems handle it**
+	- indirect routing: communication from mobile goes through home agent then forwarded to remote
+	- direct routing: correspondent gets foreign address of mobile, sends directly to mobile
+
+
+**Indirect Routing**
+
+1. Contact Home network, home agent knows location of mobile
+2. home agent will tell you where mobile is
+3. Home agent contacts foreign agent who knows about mobile
+4. Mobile replies directly to correspondent
+
+**Permanent Address:** (like home addr), used by correspondent to contact home agent
+**Care-of-address:** used by home agent to forward datagrams to mobile
+
+#### Moving between networks 
+
+- suppose mobile moves to another network 
+	- registers with new foreign agent
+	- new foreign agent registers with home agent
+	- home agent update care-of-address for mobile
+	- packets continue to be forwarded to mobile
+
+**Direct Routing**
+
+1. Contact home network, home agent knows location of mobile (care-of-addr)
+2. Forwards you to foreign agent
+3. You contact foreign agent, forwards packets to mobile
+4. Mobile replies directly to you
+
+#### Accomodating mobility with direct routing
+
+- anchor foreign agent: FA in first visited network
+- data always routed first to anchor FA
+- when mobile moves, new FA arranges to have data forwarded from old FA
+
+## 6.6. Mobile IP
+
+3 components to standard:
+
+- indirect routing of datagrams
+- agent discovery
+- registration with home agent
+
+**Indirect Routing**: When home agent redirects to foreign agent, encapsulate packet inside packet.
+
+#### Agent Discovery
+
+- agent advertisement: foreign/home agents advertise service by broadcasting ICMP messages
+
+1. Foreign Agent sends mobile ICMP agent
+2. Mobile Sends back Registration
+3. Foregin Agent sends Home registration req
+4. Home sends back registation reply
+5. foreign agent forwards same to mobile
+
+--- 
+
+## 7.1 Multimedia Networking
+
+### 7.1 Multimedia Network Applications
+
+**Multimedia Audio**
+
+- analog audio signal sampled at constant rate
+- each sample quantized (**rounded**)
+- receiver convers bits back to analog signal = loss in quality
+
+**Multimedia Video**
+
+- sequence of images displayed at constant rate
+- coding: use redundancy **within** and **between** images to decrease # bits used to encode image
+	- spatial (within image) (ex: instead of sending purple N times, send purple, then N)
+	- temportal (one image to next) (only send differences from frame i)
+**CBR:** constant bit rate, video encoding fixed
+**VBR:** variable bit rate, video encoding rate changes as amount of spatial, temporal coding changes
+
+**3 Application types**
+
+- **Streaming, stored audo/video**
+	- can begin playout before downloading entire file
+	- stored(at server) can transmit faster than rendered
+	- ex: youtube/netflix
+- **Conversational, voice/video over IP**
+	- interactive nature of human-to-human conversation limits delay tolerance
+	- ex: Skype
+- **Streaming live audo, video**
+	- eg: live sporting event
+
+### 7.2 Streaming Stored Video 
+
+- **continuous playout constraint:** once client playout begins, playback must match original timing
+	- network delay is variable (jitter), use client-side buffer to match playout requirements
+- Other challenges:
+	- client interactivity: pause / jump through video
+	- video packets may be lost 
+
+#### Client-side Buffering
+
+1. Initial fill of buffer, until playout begins at $t_p$
+2. Playout begins at $t_p$
+3. Buffer fills at rate $x(t)$ and playout rate constant $r$
+
+- **x < r**: buffer empties, causing freezing until video buffers again
+- **x > r**: buffer will not empty, provided inital playout delay is large enough to absorb variability in x(t)
+	- Initial playout delay tradeoff: buffer starvation less likely with larger delay but larger delay until user begins watching
+
+#### Streaming multimedia: UDP
+
+- server sends rate appropriate for client
+	- often: sendrate = encoding rate = constant rate
+	- transmission rate oblivious to congestion
+- short playout delay (2-5 seconds) to remove net jitter 
+- error recover: application level
+- UDP may not go through firewalls
+
+#### Streaming multimedia: HTTP
+
+- multimedia file via HTTP GET
+- send at max possible rate
+- fill rate fluctuates due to TCP congestion control
+- larger playout delay: smooth TCP delivery rate
+- HTTP/TCP passes more easily through firewalls
+
+#### Streaming multimedia: DASH
+
+- **Dynamic, Adaptive, Streaming over HTTP (DASH)**
+- **server:**
+	- divides video file into multiple chunks 
+	- chunk stored, encoded at different rates 
+	- **manifest file:** url for different chunks
+- **client:**
+	- periodically measures server-to-client bandwidth
+	- consults manifests, request one chunk at a time
+		- chooses max coding rate sustainable at given bandwidth
+		- can choose different coding rates at different points in time
+- **Intelligence at client**: client determines
+	- when to request chunk
+	- what encoding rate 
+	- where to request
+
+#### Content Distribution Networks (CDN)
+
+- **Challenge:** how to stream content to hundreds of thousands of simultaneous users?
+- **Option 1:** single, large "mega-server"
+	- single point of failure 
+	- network congestion 
+	- long path to distant clients
+	- **Doesn't scale**
+- **Option 2:** store/serve multiple copies at mutliple geographically distributed sites (CDN)
+	- **enter deep:** push CDN server into many access networks
+	- **bring home:** smaller (10s) of larger clusters in POPs near (but not within) access networks
+
+#### CDN: simple content access scenario
+
+1. bob get URL for video
+2. Resolve url via bob's local DNS
+3. url returns url2
+4. Resolve url2 via authoritative DNS, which returns IP address
+
+#### CDN Cluster Selection Strategy
+
+- **challenge: how does CDN DNS select "Good" CDN node to stream to client**
+	- pick CDN node geographically closest to client
+	- pick CDN with shortest delay (or min # hops) to client
+	- IP ancast
+- Alt: let client decide, give client a list of CDN sevrers, ping servers, pick best one. 
+	- netflix approach
+
+#### Case Study: Netflix 
+
+- owns very little infrastructure 
+- uses Amazon cloud services
+	- netflix uploads studio master to amazon cloud
+	- create multiple versions (different encodings) 
+	- upload versions from cloud to CDNs
+	- Cloud hosts netflix web pages for user browsing
+	
+1. Bob manages netflix account
+2. Bob browses netflix video (from amazon cloud) 
+3. Manifest returned for requested video
+4. DASH streaming from any CDNs
+
+### 7.3 Voice-over-IP (VoIP)
+
+- need to maintain "conversational" aspect
+- low latency < 150 = good
+- **Session initialization:** how does callee advertise IP addr, port, encoding alg
+- **Value-added Services:** call forwarding, screening, recording
+- **Emergency Services: 911**
+
+**VoIP characteristics**
+
+- application-layer header attached to each chunk
+- chunk+header encapsulated into UDP or TCP
+- app sends segment into socket every 20 msec during talkspurt
+
+**VoIP Packet Loss, delay**
+
+- network loss: loss due to congestion
+- delay loss: datagram arrives too late for playout at receiver
+- loss tolerance: packet loss rates between 1% and 10% can be tolerated
+
+**VoIP fixed playout delay**
+
+- receiver attempts to playout each chunk exactly q ms after chunk was generated
+- chunk has time stamp t, play out at t + q
+- chunk arrives after t+q: data arrived too late = lost 
+- tradoff in choosing q:
+	- large: less packet loss
+	- small: less delay
+ 
+**Adaptive playout delay**
+
+- we want low delay, low loss rate
+- estimate net delay, adjust playout delay at beginning of each talk spurt
+- silent periods compressed and elongated
+- chunks still played out every 20 ms during talk spurt
+
+Q: how does receiver determine whether packet is first in a talkspurt?
+
+- If no loss, receiver looks at successive time stamps
+	- If difference > 20ms then it's a new one 
+- with loss, receiver must look at time stamp and sequence number
+	- if diff > 20ms and sequence # without gaps -> talk begins
+
+**Recovery from packet loss**
+
+- **Challenge:** recover from packet loss given small delay and playout 
+	-	each ACK/ACK takes one RTT
+	-	alt: **Forward Error Correction (FEC)**
+		-	send enough bits to allow recovery without retransmission (2 dim parity)
+-	**Simple FEC**
+	-	for every group of n chunks, create redundant chunk by ORing n original chunks
+	-	send n+1 chunks, increasing bandwidth by factor 1/n
+	-	reconstruct original n chunks if at most one lost from n+1 chunks with playout delay
+-	**Another FEC scheme**
+	-	piggyback lower quality stream 
+	-	send lower res auto stream as redundant information
+	-	receiver can coneal loss
+- **Interleaving to conceal loss:**
+	- audio chunks divided into small chunks
+	- packet contains small units from different chunks
+	- if packet lost, still have most of every original chunk
+
+### 7.4 Protocols for real-time conversational applications
+
+**Dimensioning best effort networks**
+
+- deploy enough link capacity that congestion doesn't occur
+	- high bandwidth costs: how much bandwidth is enough?
+
+**Providing multiple classes of service**
+
+- making best of best effort service
+- or: multiple classes, partition traffic (VIP vs regular)
+- Scenario:
+	- 1mbps VoIP, HTTP share 1.5 Mbps link
+	- HTTP bursts can congest router, causing audop loss
+	- want to give priority to audio over HTTP
+
+**QoS Guarentees**
+
+- Policing: force source to adhere to bandwidth allocation
+- Provide protection/isolation for one class from others
+- allocating fixed bandwidth to flow: inefficient use of bandwidth if doesn't use full allocation
+
+**Scheduling and Policing Mechanisms**
+
+- scheduling: find out which packet to send next 
+- FIFO: send in order of arrival
+	- discard policy: 
+		- tail drop: drop arriving packet
+		- priority: drop on priority bases
+		- random: drop random 
+
+**Priority Scheduling: ** Use multiple queues
+**Round Robin Scheduling:** cyclically scan class queues sending one packet from each class
+**Weighted Fair Queuing:** Generalized round robin, each class gets weighted amount of service
+
+**Policing Mechanisms**
+
+- average rate: cap averate # pkts send per time
+- peak rate: fastest trans rate
+- burst size (max) max # of pkts sent consecutively
+
+**Token bucket:** limit input to max burst size.
+
+**Use Token Bucket + WFQ to provide QoS!**
+

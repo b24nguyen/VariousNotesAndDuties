@@ -1,0 +1,1131 @@
+-------
+
+# CS349 - User Interfacces
+
+## 1.2 Windowing Systems
+
+### XWindows (X11) System
+
+- Emerged as standard for windowing system for Unix
+- Free, cross-platform
+- One of the most successful free-software projects ever
+
+**Base Windowing System**
+
+- separate from operating system
+- not a window manager
+- Creates windows, handles input, drew graphics
+- standard for low-level graphical output and user input
+
+### X Client-Server Architecture
+
+- Opposite of what we normally think
+- X Client handles all application logic
+- X server handles displaying output / user input
+- Able to have a beefy "client" handle all computation for all the weaker computers
+
+**Typical X Program**
+
+1. Client initialization
+2. Connect to X server 
+3. Perform X related init
+4. Event loop: 
+	- get next event from X server
+	- Handle event
+	- send draw request back to X server
+5. close down connection to X server
+6. client cleanup
+
+### X Windows Summary
+
+- XWindows architecture influenced by time period: use powerful (expensive) computer to handle all computation, get less powerful machines to draw results
+- As computation got cheaper, we have software running on client computer, OS handles display rendering
+
+### Base Window System (BWS)
+
+- Creating / Destroying / Managing windows
+- Routes input to correct window
+- Ensures only one application changing frame buffer at a time (video memory)
+- Creates canvas abstraction for aplications
+
+### Window Manager
+
+- Provides conceptually different functionality than BWS
+- Provides interactive componenets for windows (menus, close, resize, look & feel)
+- Window manager owns the window, application owns the canvas
+
+**BWS vs Window Manager**
+
+- Enables different look & feels, 
+- Easy to innovate by changing WM,
+- Resiliency because BWS and VM are separate processes
+
+--- 
+
+## 2.1 Basic GUI Drawing
+
+### Graphics Context
+
+- Gather all drawing options into a single structure- Graphics Context (GC) structure
+- In X, graphics context is stored on the X server,
+
+### Painter's Algorithm
+
+- Draw back-to-front, layering image
+- Keep an ordered list of 'displayables"
+- Each displayable knows how to display itself (has paint method)
+- Repaint: 
+	- Clear window
+	- Repaint everything back to front
+
+---
+
+## 2.2 Events
+
+### Role of GUI Tookit / BWS / WM
+
+1. Collect event info
+2. Put relevant info in a known structure
+3. Order events by time
+4. Decide which application & window should get the event
+5. Deliver the event
+
+### Receiving Events
+
+**X:**
+>XNextEvent(Display* d, XEvent* e)
+
+Gets * removes the next event from q, blocks until next event if empty
+We don't want to block so we can avoid it by using:
+
+>XPending(Display* d)
+
+### Double Buffering
+
+- Create off screen image buffer 
+- Draw to buffer
+- Copy buffer to screen as quickly as possible -> stops flickering / tearing
+- In java swing, DB is enabled by default
+
+---
+
+## 2.3 Event Dispatch 
+
+### Widget Layout
+
+- Widgets laid out in a hierarchy: **Interactor tree**
+- Dispatching an event to the proper widget means traversing this tree
+
+### Lightweight vs Heavyweight Widgets
+
+**Heavyweight widgets (AWT)**
+
+- wraps native-OS widgets
+- BWS/OS provides hierarchical "windowing" system for all widgets across all appliactions, treats a widget as a window
+- BWS can target a specific widget
+
+**Lightweight widgets (Swing)**
+
+- draws its own widgets
+- responsible for mapping incoming events to widgets 
+- BWS/OS can dispatch to the window / NOT the widget, window needs to dispatch to widget
+
+### Positional Dispatch
+
+- Send input/event to the front-most widget under the cursor
+- How to determeine appropriate target widget?
+
+**Bottom-up**
+
+- Start from leaf nodes
+- Leaf can either 1) process the event 2) Pass to parent
+
+**Top-down**
+
+- Start to highest-level node in interactor tree
+- Nodes can either 1) process event or 2) pass to parent
+- Supports really easy logging of events for later replay
+
+
+**Bottom-up vs Top-down**
+
+- Toolkit decides which one is used
+- To end user, no different, just slightly different implementation
+
+### Focus Dispatch
+
+- Events dispatched to widget in focus, regardless of mouse position
+- Keyboard focus: Text fields
+- Mouse focus: Dragging buttons, sometimes called mouse capture
+- Maximum of one keyboard focus / one mouse focus
+
+--- 
+
+## 2.3.1 Event Handling
+
+### Event Loop
+All events consumed in one event loop: 
+
+> while ( true ) { 
+	XNextEvent(display, &event);
+	switch( event.type ){ 
+		case Expose:
+			... 
+			break; 
+		case ButtonPress;
+			...
+			break;
+		...
+	...
+
+### Inheritance Binding
+
+- Widget inherits base widget class with event handling methods
+- Widget overrides methods for the events it wishes to handle
+
+**Inheritance Problems**: 
+
+- Multiple event types process through each event method (prone to errors)
+- Non-scalable (how to add new events?)
+
+### Event Interfaces & Listeners
+
+EX:
+> public class MyPanel extends JPanel implements MouseMotionListener { }  
+
+- Define an interface for event handling
+- interface is a set of functions for handling events
+- create class that implement these interfaces
+
+**Interface Problems:**
+
+1. Each widget handles events separately = a lot of code
+2. Separation between GUI and application logic
+
+**Listener object binding**
+
+> public class MyPanel extends JPanel { 
+	MyPanel() { 
+		this.addMouseMotionListener( new MyPanelListener() );
+	}
+	//
+	class MyPanelListener implements MouseMotionListener{
+	...
+	}
+
+ Typically only interested in a few methods, will have a lot of blank methods
+ 
+ **Solution:** just extend the adapters, only override functions we care about
+
+> public class MyPanel extends JPanel { 
+	MyPanel() { 
+		this.addMouseMotionListener( new MyPanelListener() );
+	}
+	//
+	class MyPanelListener implements MouseMotionAdapter{
+	...
+	}
+
+### Delegate Binding
+
+Using callbacks, function is called when a specific event occurs
+
+> public delegate void Del(string m); 
+> 
+> Del handler
+>
+> public static void MyMethod(string m){ ... }
+> handler = myClassObject.MyMethod; 
+> handler("aklsdjlaksjd"); 
+
+Can add other methods with: 
+handler = myMethod1 + myMethod2; 
+
+---
+
+## 3.1 Graphics
+
+Have Model -> Render -> Image.
+
+--- 
+
+## Affine Transformations
+
+**Transformation**: 
+Add a scalar to each component
+
+$ x' = x + t_x $
+$ y= = y + t_y $
+$ x' = x + t_x $
+$ y= = y + t_y $
+
+**Scaling**:
+Multiply component by a scalar
+
+$x' = x * s_x $
+$y' = y * s_y $
+
+**Rotation**:
+
+$ x' = x * s_x $
+$ y' = y * s_y $
+
+**Rotation**:
+
+$x' = xcos(\theta)-ysin(\theta)$
+$y' = xsin(\theta)+ycos(\theta)$
+
+### Combining transformations
+
+1. Scale
+2. Rotate
+3. Translate
+
+**Homogenous Coordinates**
+
+- need help applying 2d translations
+- use component (w)
+- $[x,y,w]^T$ is a point at location $[x/w,y/w]^T$
+- Now [x y] => [x y 1 ]
+
+With vectors: last thing is 0 = [ x y 0 ]
+With points: last thing is 1 = [ x y 1 ]
+
+We always have to move back to the origin and apply transformations right to left
+
+$$ p' = T(t_x,t_y) * R(\theta) * S(s_x, s_y) * p $$  
+
+### Scene graph
+
+- An interactive tree is a scene graph
+- Each part has a transform matrix, each part draws its children relative to itself
+
+Each component:
+
+1. Paints itself 
+2. For each child
+	- save the current affine transform
+	- calculate new transform matrix using current transform + location of child
+	- tell child to repaint itself
+
+---
+
+## 3.3 MVC
+
+- Input to **Controller**, changes the **Model**, notifies the **View**
+- View and controller know about the model
+- Model only knows the view (notifies the view when something changes)
+
+**MVC in theory**
+View & Controller refer to Model directly, Model uses observer pattern to inform view of changes
+
+**MVC in practice** 
+VIew & Controller are tightly coupled, Model loosely coupled with UI with observer pattern
+
+
+### Observer Design Pattern
+
+**Java**
+
+- View implements Observer 
+- Model extends Observable 
+
+### Practical Implementation
+
+- Create Model + Views + Main
+- Main: Create instances, display views in a frame, 
+- Call *updateAllViews()*just before exiting any public method that changes the model
+
+### Reasons to MVC 
+
+- Less coupled, easier to test
+- Easy to change views, views don't care about each other (when we seperate model) 
+
+---
+
+## 4.2 Widgets
+
+### Widget Toolkit Design Goals
+
+1. Complete set of widgets + functionality
+2. Consistent: look and feel across platforms
+3. Customizable: can reasonably extend funtionality
+
+### Logical Input Devices 
+
+LID: graphical components defined by their function
+Widget can be considered a logical input device with appearance.
+
+Ex: Button
+- Events: generates a "pushed" event
+- Appearance: can look like a push button / keyboard shortcut / menu item
+
+### Characteristics of Widgets
+
+Model: the widget manipulates (number, text choice etc)
+Events: the widget generates
+Properties: to change behaviour / appearance
+
+---
+
+## 4.3 Layout
+
+- Widgets have min size / preferred size / max size for resizing
+
+### Composite Design Pattern
+ Pattern specifies that a group of objects are to be treated as a single instance of an object
+
+### Strategy Design Pattern
+
+Factors out an algorithm into seperate objects, allowing client to switch algorithms.
+
+Ex: Switching game's move selection alg from easy to hard
+
+### General Layout Strategy
+
+**Fixed Layout**
+
+- Widgets have fixed size / position (layoutmanager null)
+
+**Struts and Springs Layout**
+- Struts: Fixed space
+- Springs: Stretch & compress to fill space 
+- In Java: Spring/Box Layout
+
+**Strategy Pattern**
+Toolkits without layout manager: use absolute position with %?
+
+---
+
+## 5.1 Design Principles
+
+### Usefulness vs Usabilitiy
+
+**Usefulness**: Meeting needs & supporting real tasks
+**Usability**: Effectiveness + Efficiency 
+
+### Mental Models
+
+- What the user believes about the system
+- How it works, what state it's in
+- System model = actual system
+
+### Models of Interaction
+
+**Execution & Evacuation**
+What we do to the system, what happened with our goal
+
+**Execution**:
+
+1. Form an intention to act to achieve a goal 
+2. Plan steps 
+3. Execute steps
+
+**Evaluation**
+
+1. Perceive state of the system
+2. Interpret that perception according to experience
+3. Evaluate the interpreted state compared to our goal
+
+**Gulf of Execution**: Trouble translating user wants to system behaviour
+**Gulf of Evaluation**: Trouble perceiving the state of the system
+
+
+### UI Design Principles
+
+Affordance = actionable properties of an object 
+Perceived Affordance is based on: 
+- Individual histories
+- Cultural background
+- Current Goals
+
+### UI Mappings
+
+**Degree of integration**: ration of DOF of device to on-screen actions
+**Degree of compatibility**: similarity between action and effect
+
+### Constraints
+
+- Physical: ex: bricks only fit 1 way
+- Semantic: Based on meaning  ex: windshield protects driver
+- Cultural: ex: Red means brake light
+- Logical: ex: last piece goes in last spot
+
+### Metaphors
+
+- Common to use metaphors to simplify interaction, make things relatable.
+
+---
+
+## 5.2 Design Process
+
+**User Centered Design: UCD**
+
+1. Ask people what they need
+2. Ask how they do it now / problems with current solution
+3. Think about the people that will use your software
+4. Test with people
+
+### Priorities
+
+**Critical**: super duper important to core
+**Important**: required before shipping
+**Nice to have**: <-
+
+### Interaction sequence
+Flow chart of the product
+
+### Interface Schematics
+Screens of different parts of the product
+
+--- 
+
+## 6.1 Visual Design
+
+1. Keep things simple (people have limited cognitive processing)
+2. Leverage pre-attentive processive (make designs intuitive and obvious)
+
+**Simplicity**
+
+- less information = less time to process
+- less to remember = less to recal
+
+**Organization and Structure**
+
+- Gestalt principles
+	- Proximity (elements associated with nearby elements)
+	- Similarity (associated by basic visual characteristics)
+	- Continuation (brain forms the connection, association based on smooth curves and lines)
+	- Closure (we create closure)
+	- Figure/Ground (interpret background/foreground)
+	- Law of Pragnanz (Interpret ambiguous images as simple and complete) 
+		- Design: minimize # elements
+		- symmetrical perceived as simpler
+	-	Uniform connectedness (associated by being similar)
+
+#### Pleasing Layouts
+
+- 4 Principles
+	- Proximity 
+	- Alignment 
+	- Repetition
+	- Contrast
+
+**Proximity:** Items related should be placed together.
+**Alignment:** Edge/Center aligned, creates clean look
+**Repetition:** Repitition creates unity
+**Contrast:** used for Visual attraction, show importance
+
+---
+
+## 6.2 Responsiveness
+
+1. Design UI to meet human deadline requirements
+2. Load data efficiently so it's quickly available 
+
+**Perception of Responsiveness**
+
+- User expectations: How quickly the system should react
+- System needs ability to: 
+	- keep up with user 
+	- keep them informed
+	- not make them wait unexpectedly
+- **Resp != Performance**
+
+**Responsive by:**
+
+1. Provide feedback about what user has done (le tthem now their input was received)
+2. Keep user informed if they can't fulfill requests immediately
+3. Provide feedback about what's happening (loading bar)
+4. Allow users to perform other tasks while waiting
+5. If task is longer, let user pause or cancel the task
+
+**Deadline Implication:** If software waits longer than 0.1 second to show response, cause and effect is broken..
+
+#### Responsive UI Tricks 
+
+1. Busy Indicators: spinning or static timer
+2. Progress indicators: faster ones by animating ribbed bars going backwards
+3. Render/Display important information first: display first item while finding the rest of them in the background
+4. Fake heavyweight computations during hand-eye coord tasks. Ex: show outline while moving or resizing
+5. Working ahead: Use low load to precompute high probability requests
+
+#### Concurrency: Multi-threading
+
+3 types of threads in java
+
+1. Initial thread 
+2. Event Dispatch (EDT / UI Thread)
+3. Worker Threads (background threads)
+
+- **2 Strategies:**
+	- **A:** Run in UI thread
+	- Break task into subtask, periodically execute each subtask on UI
+	- Advantages: 
+		- naturally handles pausing
+		- run in swing event thread
+		- useful in single-threaded platforms (mobile)
+	- Disadvantages:
+		- Tricky to predict length of subtasks
+		- Not everything can be broken into subtasks 
+	- **B:** Run in seperate worker thread **BETTER METHOD**
+	- Communicate with UI thread
+	- Method regularly checks if task should be cancelled and reports to UI thread
+	- Make an object, add to event queue (invokeLater), run() will be executed when object gets to the front of the event queue
+	- **Advantages:**
+		- Easiest to implement
+		- Takes advantage of multi-core architectures
+	- **Disadvantages**
+		- Extra code required to pause/restart
+		- Usual thread problems (race conditions, deadlocks etc)
+
+#### Classic Web Architecture
+
+**Gen 1:** Static pages, code is on server 
+**Gen 2:** Dynamic Content, shift parts to client
+**Gen 3:** Use of services from other servers
+
+Using HTTP requests:
+
+- GET sends query in URL
+- POST sends query in message body
+
+Disadvantages: 
+
+- poort distribution of processing 
+- high user response latency
+- difficulty programming user interfaces 
+
+**Use AJAX instead of HTML**
+
+- server handles request and sends data asychronously to client in (JSON/HTML etc)
+- client receives the feed in a callback function and updates UI
+- Advantages: 
+	- minimize bandwidth
+	- requests faster
+
+---
+
+## 7.1 Undo
+
+- All changes to document (model) should be undoable
+- changes to view or interface should be undoable IF they require significant effort
+- Ask to confirm before doing destructive action
+
+**Undoable Actions:** what can/can't be undone? printing, deleting, etc
+**Undo feedback:** Highlight the object that was undone
+
+**Granularity:** What defines a "chunk", a conceptual change from 1 state to another. (ex: how much of a word do I undo?)
+
+- Suggestions: 
+	- Ignore intermediate states ex: adjusting image with slider/resizing/moving objects 
+	- Chunk all changes resulting from an interface event ex: find/replace all
+	- Delimit on discret input breaks ex: words or sentences in text
+
+**Scope:** is undo/redo glocal/local/someplace in between? **Document Level**
+
+#### Undo Implementation
+
+- **Option 1: Forward Undo**
+	- save complete baseline state at some point
+	- save recorded changed to transform baseline into current document state
+	- to undo last action, apply ALL changes except for the last one
+- **Option 2: Reverse Undo**
+	- save complete current document state 
+	- save reverse change records (inverse) to return to previous state 
+	- to undo, apply last reverse change record
+
+**Change Record Implementation:**
+
+- **Option 1: Memento Pattern:**
+	- Save snapshots,
+	- can be complete state or difference from "last" state
+- **Option 2: Command Pattern:**
+	- save commands to execute or unexecute to change state
+
+**Reverse Undo Command Pattern**
+
+- User issues command
+	- execute command to create new state 
+	- push command onto undo stack
+	- clear redo stack 
+- Undo
+	- pop command from undo stack and un-execute it to create last state 
+	- push command onto redo stack
+- Redo
+	- pop command off redo stack and execute to create new state 
+	- push onto undo stack
+
+**Solutions for "Destructive" Commands**
+
+- **Option 1: Use forward command undo**
+- **Option 2: Use reverse command undo**, but unexecute command stores previous state for "destructive" commands
+	- That's Memento!
+	- might require a lot of memory
+
+**Option 2 commonly used where it's difficult to undo** eg: bit drawings, affine transforms
+
+---- 
+
+## 7.2 Cut, Paste, Drag and Drop
+
+**The Clipboard**
+
+- data placed on clipboard, application indicates the format it can provide data 
+- Simplest way: place each supported data format on the clipboard, most preferred to least preferred
+- Data not always copied to clipboard immediately
+	- wasteful to put all formats
+	- may never be pasted
+	- INSTEAD must make a copy if user changes data
+	- must also put it on clipboard if app exits
+	
+**Local & System Clipboards**
+
+- Local clipboard holding data only for application (cut/paste in same program)
+- System = system wide clipboard
+
+**Copying Data to Clipboard**
+
+1. Get Clipboard 
+2. create transferable object
+3. set clipboard contents to new transferable object
+
+**Pasting Data from Clipboard**
+
+1. Get Clipboard
+2. See if it supports desired data format (DataFlavor)
+3. Get data, casting to proper object
+
+#### Drag n Drop
+
+- Use TransferHandler to each widget to manage data transfer
+- Need to detect the start-of-drag gesture (mouse listener)
+
+**Drag:**
+
+- set transfer handler on each comp that supports drag
+- define mouse listener to know when drag starts
+- get comp transferhandler and call its exportAsDrag method
+- Override createTreansferable and exportDone to do the right thing
+
+**Drop:**
+
+- set transfer handler on each comp that supports drop 
+- Override importData Method
+
+--- 
+
+## 7.3 History
+
+**Early Computers:** Charles Babbage analytical engine
+Used Dials, Knobs, Lights
+
+**Batch Interfaces**
+
+- set of instructions fed from punch cards / paper tape / magnetic tape
+- response received on paper printout
+- no interaction possible
+- results received hours/days later
+- Used: only by highly trained indiv (RED ROOM + IBM)
+
+**Conversational Interfaces**
+
+- User command lines + terminal
+- Programs run to completion before response 
+- user can be prompted, feedback can be given during execution
+- Users: trained experts
+	- **Advantages:**
+		- highly flexible, can create highly sophisticated sets of operations
+	- **Disadv:**
+		- need to understand computer
+		- system language, not task language, (conform to the system)
+		- requires recall rather than recognition
+
+#### Important People
+
+**Vannevar Bush**
+
+- Office of scientific research and development 
+	- Manhattan project, other WW2 science efforts 
+- 1945 article, As We May Think, inspires cs kids to present day
+- Goal was to augment human intellect
+
+**Bush's Memex**
+
+- memex stores books, records, comms (supplementary memory)
+- propose associate links between content (hyperlinks)
+- dual display
+- proposed direct connection to nervous system 
+
+**Ivan Sutherland**
+
+- Sketchpad (1963)
+	- light pen 
+	- direct manipulation
+	- early graphical interface
+- expands to artists, draftsmen 
+- language of interface moves closer to task domains
+
+**Douglas Engelbart**
+
+- Stanford Research Team
+	- Invented Mouse
+	- implemented Hypertext
+	- introduced copy/paste 
+	- vision of computer-supported collaborative work
+
+**Alan Kay**
+
+- Object oriented programming
+- Xerox Star: GUI (**First commercial computer with GUI**)
+- Dynabook: conceptual basis for laptops + tablets 
+- "The best way to predict the future is to invent it"
+
+
+#### Graphical Interfaces
+
+- Hardware interfaces (mice + keyboard)
+- WIMP interface (windows, icon, menu, pointer)
+- Make interaction closer to user's own language, closer to task domain
+
+---
+
+## 8.2 Touch Interfaces
+
+An interface is composed of 
+- **Domain Objects:** the thing of interest
+- **Interaction Instruments:** mediator between user and domina objects
+Domain objects are manipulated using interaction instruments
+
+WIMP Instruments are activated **spatially** or **temporally**
+**Spatial:** caused by moving mouse/cursor to control area
+**Temporal:** caused by a former action; enters a mode
+
+Spatial requires an on-screen representation
+Temporal can be on-screen or keyboard
+
+#### Evaluating Instruments 
+
+- Degree of **Indirection**
+	- spatial/temporal offset between instrument and action on object
+	- ex: Drag to translate / resize boxes, (far) scrollbar, dialog boxes
+- Degree of **Integration**
+	- Ratio of DOF (deg of freedom) of input device to DOF of logical instrument 
+	- ex: Scrollbar = 1 DOF (up and down), mouse = 2 DOF -> ratio = 1/2
+- Degree of **Compatibility**
+	- similarity of action on control device/instrument to action on object
+	- ex: Dragging = high, scrolling = medium, dialog = low 
+
+NUI = Natural User Interface (touch)
+
+#### Touch Interfaces
+
+**Direct Touch Technology**
+
+- **Resistive**
+	- 2 transparent conductive layers,
+	- pressure is applied and the 2 touch, registering the location of the touch 
+-**Capacitive**
+	- emitters at 4 corners
+	- senses conductive properties of finger
+	- location determined from the differences at 4 corners
+- **Mutual Capacitance**
+	- capacitors in a grid
+	- touch location determined by every point on the grid
+	- allows detection on multiple locations
+- **Inductive**
+	- uses a magnetized stylus to return magnetic signal (WACOM)
+	- expensive!
+- **Optical**
+	- camera's watch the surface
+
+#### Input
+
+Indirect: Mouse, touchpads, joysticks
+Direct: touch screen, tablets w stylus
+
+**Challenges:**
+
+1. **Fat Finger Problem:** fingers fat, not precise
+2. **Ambiguous Feedback:** no "click"
+3. **No Hover**
+4. **Multitouch capture:** super ambiguous
+5. **Physical Constraints:** touch breaks when you can't move past bounds of object
+
+#### Interaction 
+
+**Direct Manipulation (DM)**
+
+- touch uses DM, allows user to directly act on objects in the interface
+- users feel like they are interacting with the task instead of the interface
+- almost all actions reversible, able to explore
+- rapid and incremental operations
+
+**Solutions to common problems:**
+
+- elastic effects 
+- snapping 
+- catch-up zones 
+- limits reaching
+
+#### Summary
+
+- need to fit limitations of: 
+	- screen sizes
+	- fat fingers
+	- high-variable input (gesture) to output mapping
+	- ambiguity in input
+
+--- 
+
+## 9.1 Touchless Interfaces 
+
+**Frustration Meter:** 
+
+- yell at mic
+- pressure sensing mouse + keyboard
+- webcam to detect frowning 
+- chair sensor
+-	Problems:
+	-	Sensor output is noisy
+	-	Need to map output to presumed frustration
+
+#### Signal to Command Systems 
+
+1. Pre-processing
+	- thresholding, handle latency
+2. Feature Selection
+	- face detection: distance between eye, nose and mouth
+	- eye blinking patterns
+3. Classification 
+	- determine which class observations belong to
+	- recog guestures being made
+
+**Touchless is always on, 1 state, reads everything**
+
+**Solutions?**
+
+- Reserved actions
+- Delimiters / Gestural Clutch
+	- ex: small gesture like pinching fingers together
+
+#### Multi-Modal Input
+
+Why does iPhone (touch) have a button?
+A: Reserved action, touch goes to application, hardware buttons control system (volume, power)
+
+#### Summary 
+
+- Touchless = 1 state 
+- Mapping is computationally expensive, ambiguous, error prone 
+- In designing touchless, a key objective is to ensure that the system fails gracefully, errors are managed properly
+
+---- 
+
+## 10.1 Wearable Computing
+
+- Small display
+- limited interaction + attention
+- limited functionality
+- **Carry out operation on handheld, send results to the wearable**
+
+**Google Guidelines**
+
+- Quick interaction while user is in motion
+- Design for big guestures (they're walking)
+- Watch is secondary to the user's primary task
+- Do one thing really fast
+
+**Why isn't it popular?**
+
+- new
+- lack of radio
+- another device to charge every day 
+- cost 
+- no killer ap 
+
+---
+
+## 10.2 Input
+
+**Classifying input**
+
+- **Sensing Method:**
+	- Mech (switch, potentiometer)
+	- Motion (accelerometer, gyro)
+	- Contact (capacitive touch, pressure) 
+	- Signal Processing (computer vision, audio)
+
+#### Text Input
+
+Qwerty / Dvorak
+
+**Dvorak Corrections to Qwerty:**
+
+- letters alternating hands
+- most common letters on home row
+- least common should be on bottom row
+- right hand should do more typing cause more people are right handed
+- There really isn't a difference
+
+**Soft virtual keyboards**
+
+- erg problems, no feedback, resting of hands compromised
+- improves aesthetics, increases screen size
+- good when input is limited
+- bad if device requires frequent text input
+
+** Text Input Summary:**
+
+ - A lot of info is textual
+ - Keyboard primary text input for desktops
+ - Laptops may alter form, size and has drawbacks
+ - Tradeoffs for portability and speed
+
+#### Positional Input
+
+(Etch-A-Sketch & skedoodle)
+
+**Properties:**
+
+- Force vs Displacement:
+	- joystick = force, mouse = displacement
+- Position vs Rate
+	- joystick = rate, mouse = position
+- Absolute vs Relative
+	- touch = absolute, mouse = relative 
+- Direct vs Indirect
+	- touch = direct, mouse = indirect
+- Dimensions Sensed 
+	- 1 = dial, 2= mouse 3= wiimote
+
+**Control Display Gain (CD Gain)**
+
+- A ratio of display movement to control movement, called "gain", in terms of input device velocity
+- $CD gain = V_{pointer} / V_{device}$
+
+---
+
+## 11.1 Input Performance
+
+**Keystroke Level Model (KLM)**
+
+- Give actions values
+- sum up times to estimate how long the task takes
+- Use KLM to compare performance of different date entry widgets
+
+**Mental Operations**
+
+- identify when people need to think
+- Insert M operation when people have to
+	- initiate a task 
+	- make a strategy decision
+	- retrive a chunk from memory 
+	- etc 
+
+**Benefits:**
+
+- Easy to model
+- can be done from pictures or ideas
+
+**Drawbacks:**
+
+- Doesn't model errors + learning time
+- estimates are variable (typing speed)
+
+#### Fitts' Law
+
+**IP (b): index of performance**
+**ID = index of difficulty (log(D/W +1))**
+
+Predictive model for 2D pointing time, considering device, distance and tagrget size
+
+- Large the distance, longer the time
+- smaller the size, the longer the time
+- Movement time proportional to Distance / Size
+
+$$ MT = a + b log_{2} (D/min(H,W)  + 1) $$ 
+
+#### Steering Law
+
+- Subjects passed a stylus from one end to the other
+	- as fast as possible, between each goal
+	- different length + widths
+
+Goal at the endpoint $ID_1 = log_2 (A/W +1)$
+When adding N goals, difficulty related, T = b*(A/W), to just A/W.
+
+#### Summary
+
+- We have math models to acquire target
+	- larger/closer is faster
+- Keep things close (pie menus)
+- make things large 
+- manipulate motor space to make intended targets stickier
+
+--- 
+
+## 11.2 Accessibility
+
+**Temporary Disabilities**
+
+- sick, injured
+	- loss of motor / cognitive capabilities 
+- driving a car, making dinner, attending to children
+	- limited attention
+
+**Walking + Visual Search and Cog Performance**
+
+- people slower reading time while walking
+- reponse time, no difference
+- correctness of response = significantly worse in the walking condition
+- time: people took longer to tap, walking 
+- errors: twice as many errors walking
+
+**Need to make software inclusive!**
+
+- full support of accessibility issues
+- control cursor from keyboard
+- captions / subtitles
+- magnify portions of screen
+
+#### The Curb Cut
+
+**Things intended to benefit people with disabilities wind up benefiting everyone**
+Ex: Cassette tapes developed for limited-market but then widely adopted
+Engineers didn't think average user would but it cause of inferior audio quality
+
+**It's the Law!**
+Legal obligations to accommodate disabilities  
+
+---- 
+
+## 12.1 Visual Perception
+
+**Temporal Resolution: Flicker**
+	- Critical Flicker Frequency: when perception of light source changes from flickering to continuous light
+	- motion blur + frame interlacing helps
+	- (24 fps film, 60 fps ntsc video, etc)
+
+**Spacial Resolution: Visual Acuity**
+
+- Measure of the spatial resolution
+- (20/20), seperate lines 1 arc minute at 20 feet
+
+**Colour Perception:**
+
+Additive Colour: light added to produce white, RGB used for display
+Subtractive: Coloured light absorbed to produce black, CMY/CMYK, used for printing
+
+Humans use **cones** to perceive colour, **rods** for light to dark
+
+#### Summary 
+
+Need to be aware of colour relationships + external stimuli + how people perceive stimuli
+
+---
+
+## 12.2 User Cognition
+
+- Design devices that fit human abilities: physical and cognitive
+<!--se_discussion_list:{"F6LHvDdkQOYlSUwyCxRslNvn":{"selectionStart":6484,"type":"conflict","selectionEnd":6483,"discussionIndex":"F6LHvDdkQOYlSUwyCxRslNvn"}}-->
