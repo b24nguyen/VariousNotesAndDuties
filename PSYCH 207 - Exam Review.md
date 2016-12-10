@@ -118,7 +118,7 @@
 
 #### Long term Memory
 
-- **Forgetting**: happens rapidly and then tapers off: large portions of spanish helld for 50 years, significant dropoffs in first 2 years and 2 months
+- **Forgetting**: happens rapidly and then tapers off: large portions of spanish held for 50 years, significant dropoffs in first 2 years and 2 months
 - **Retrieval**: easier retrieval when context of encoding is the same as retrieval
 
 #### Working Memory
@@ -144,7 +144,7 @@
 #### Processing and Encoding
 
 - Maintenance rehearsal: memorizing something
-- Elaborateive rehearsal: elaborate on the meaning of a concept
+- Elaborative rehearsal: elaborate on the meaning of a concept
 
 #### Memories
 
@@ -231,7 +231,7 @@
 **Two approaches to the study of reasoning**:
 
 - Rule-based: people rely on mental rules but can't consciously think about them to draw conclusions
-- Mental models: does not consist of special rules, consists of creating mental models ex: pictures for infomration processing
+- Mental models: does not consist of special rules, consists of creating mental models ex: pictures for information processing
 
 ## Chapter 11
 
@@ -285,4 +285,4 @@
 #### Gender
 
 - Men better at spatial, females better at telling when the location of the object has changed
-- Female better linguistics, less lateralized = better recovery 
+- Female better linguistics, less lateralized = better recovery

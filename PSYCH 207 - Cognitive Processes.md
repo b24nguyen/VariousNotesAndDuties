@@ -870,7 +870,7 @@ This magic number 7, can be increased dramtically with **Chunking**, grouping up
 **Elizabeth Loftus & Eyewitness Memory**
 
 - In one of her earliest studies, she showed participants a film clip of a car crash
-- Afterwords asked participants how fast the cars were going when they #{something} each other, with the blank filled by words "smashed, collided, bumped, hit and contacted" for separate groups.
+- Afterwards asked participants how fast the cars were going when they #{something} each other, with the blank filled by words "smashed, collided, bumped, hit and contacted" for separate groups.
 - Speed estimates changed as a function of the word inserted into the blank
 - A week later, participants were asked if they had remembered seeing the broken glass, there was no broken glass yet some participants remembered seeing it
 - Those who received the stronger verb were more likely to misremember broken glass than those who received the weaker verbs
