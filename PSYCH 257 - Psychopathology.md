@@ -108,3 +108,63 @@
     - Originated in USA
     - Specific to psychopathology
     - Defines symptoms and treatment
+
+## Lecture 3 - Jan 9th
+
+**Socio-Political Context of the 20th Century**
+
+- asylums in EU, NA and Middle East
+    - increase # of patients
+    - minimal effectiveness
+    - short on staff
+- WW1 & WW2
+    - Discovery of Neuroleptics; calmed people down, removed hallucinations
+    - Declaration of Human Rights
+- Scientific Method
+    - Genetics: DNA discovered by F. Crick & J. Watson
+    - Brain Imaging: Egaz Moniz
+
+**Development of DSM-5**
+
+- 13 panels with 15 members
+- All proposals reviewed by Scientific Review Committee and Public Health Committee
+- Goals: make diagnostics evidence based, incr
+ease access to treatment, clarify overlapping categories
+
+**More Terminology**
+
+- Presenting Problem: what's observable and reportable
+
+**Criticism of Psychiatry**
+
+- Nellie Bly (Elizabeth Cohrane): "Ten days in a mad house"
+    - faked insanity and got into a facility
+    - stopped faking symptoms as soon as got admitted and was subjected to waterboarding
+- David Rosenhan: "Sane in insane places"
+    - 8 pseudo-patients experiment (5 men, 3 women)
+    - No psychiatrists suspected they were faking
+    - Several patients suspected that they were faking
+    - Longest stay was 52 days
+
+**Thomas Szasz**
+
+- Denied the reality of mental illness; romanticized psychosis
+
+### The Era of Scientific Method: Roamdap**
+
+- Pavlov & Behaviourism
+- Neurology, Freud and psychoanalysis
+- Maslow and Humanism
+- Bandura and Social Learning
+
+**Ivan Pavlov**
+
+- Introduced conditioned response (classical conditioning)
+- Nobel prize for medicine/physiology
+
+**Mechanisms**
+
+- Generalization: tendency of new stimulus to produce a similar response
+- Discrimination: response to some stimulus but not others
+- Extinction: weakening of the CR in the absence of the US (not feeding dog weakens dog salivating when bell heard)
+- Reacquisition: reintroduction of US second acquisition is faster
