@@ -150,7 +150,7 @@ ease access to treatment, clarify overlapping categories
 
 - Denied the reality of mental illness; romanticized psychosis
 
-### The Era of Scientific Method: Roamdap**
+### The Era of Scientific Method: Roadmap
 
 - Pavlov & Behaviourism
 - Neurology, Freud and psychoanalysis
