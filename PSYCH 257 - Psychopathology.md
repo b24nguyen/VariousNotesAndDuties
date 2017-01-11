@@ -40,7 +40,7 @@
 - Hippocrates
     - 4 humours related to 4 body fluids (yellow & black bile, blood phlegm)
     - sanguine (optimistic and social)
-    - choleric (short-termpered or irritable)
+    - choleric (short-tempered or irritable)
     - melancholic (analytical and quiet)
     - phlegmatic (relaxed and peaceful)
     - Thought mental illness is an imbalance in the body
@@ -153,6 +153,7 @@ ease access to treatment, clarify overlapping categories
 ### The Era of Scientific Method: Roadmap
 
 - Pavlov & Behaviourism
+- Social Learning: Bandura (under behavioural in the textbook)
 - Neurology, Freud and psychoanalysis
 - Maslow and Humanism
 - Bandura and Social Learning
@@ -168,3 +169,67 @@ ease access to treatment, clarify overlapping categories
 - Discrimination: response to some stimulus but not others
 - Extinction: weakening of the CR in the absence of the US (not feeding dog weakens dog salivating when bell heard)
 - Reacquisition: reintroduction of US second acquisition is faster
+
+## Lecture 4? - Jan 11th
+
+### Behaviourism
+
+**John B Watson**
+
+- Little Albert, formation of phobia in a healthy infant
+- Scared of furry objects
+
+**B.F. Skinner**
+
+- Operant conditioning: learning through reward and punishment (does not need to be biological)
+- Changing behaviour using reinforcement after the desired response
+- Positive reinforcement: add pleasant stimulus, Negative reinforcement: absence of unpleasant stimulus
+- Punishment: add unpleasant stimulus
+
+### Social Constructivism
+
+**Bandura**
+
+- Behaviour can be learned in the absence of reinforcement
+- Learning requires more than trials and errors
+- Sometimes can just learn through observation, other times need attention, retention, reproduction
+- Bobo doll: children watching adults play with a doll aggressively did the same when they interacted with the doll
+
+### Psychoanalysis
+
+**Freud**
+
+- Key ideas: dynamic unconsciousness, internal conflicts,
+- Personality: id, ego, superego,
+- Focused on the preconscious and subconscious processes
+
+**Defense Mechanisms**
+
+- If conflict is too great, problem goes to unconscious processes
+- Anna Freud expanded this idea, George Vaillant classified levels 1 to 4,
+- Helpful when grieving
+- Examples:
+    - repression, reaction formation (idolize someone you hate), regression, rationalization
+
+### Humanism
+
+**Abraham Maslow**
+
+- studies monkeys and attackments
+- discouraged by behaviourists
+- behaviour defined by needs
+
+### Cognitive Theories & Behavioural Therapy
+
+**Albert Ellis: Rational Emotive Behaviour Therapy**
+
+- Considered the grandfather of cog therapy
+- Irrational beliefs are mechanisms psychopathology
+- Method: confronting irrational beliefs, believing that people think they are being rational
+- If we can change irrational beliefs then we can treat people
+
+**Aaron Beck: Cognitive Therapy**
+
+- Developed the term of schema,
+- Schema and automatic thoughts that lead to cognitive distortions
+- Method: accessing cognitive content of upsetting experience, restructuring of underlying "core schema"
