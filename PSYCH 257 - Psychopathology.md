@@ -215,7 +215,7 @@ ease access to treatment, clarify overlapping categories
 
 **Abraham Maslow**
 
-- studies monkeys and attackments
+- studies monkeys and attachments
 - discouraged by behaviourists
 - behaviour defined by needs
 
@@ -230,6 +230,39 @@ ease access to treatment, clarify overlapping categories
 
 **Aaron Beck: Cognitive Therapy**
 
+- Grandfather \#2
 - Developed the term of schema,
 - Schema and automatic thoughts that lead to cognitive distortions
 - Method: accessing cognitive content of upsetting experience, restructuring of underlying "core schema"
+- Ex: thinking "I'm stupid, I never do anything right", asks if they can behave differently
+- Goal to change behavioural aspect that follows the thought
+- Worked with clients with depression
+- **Cognitive Triad**:
+    - Distorted thinking and rigid schemas cause negative views
+    - Negative view of self, others and future
+    - hopelessness and helplessness
+
+## Jan 13th 
+
+**Donald Meichenbaum: Cognitive Behaviour Modification**
+
+- **Stress inoculation Training**:
+    - focuses on stress and how people respond
+    - how to prepare people for stressful events (instead of acting reactively)
+    - skill acquisition and rehearsal: teaches specific behavioural response and coping skills
+- Worked with a lot of soldiers + military men
+- Focused in preventing violence and anger issues
+
+**Case of Charly**
+
+- 15 y/o with heart palpitations, butterflies in the stomach 2 times a day, not gastro-intestinal pathology
+- Smell of the gym makes it worse
+- Behaviourist: What are the US, CS CR? US = Smell of the gym, UR = possible nausea, CS = Gym, CR = nausea
+- psychoanalysis: what mechanisms underlie these symptoms? Repression + Denial: Charly unable to accept something, causes him to get nausea
+- cognitive therapist: what processes could be present? Looking for automatic thoughts: "I'm going to get sick, I have gastritis"
+
+**Diagnostic Structure of DSM**
+
+- No treatment guidelines
+- Contains 19 categories
+- Specify criteria for categories and threshold/cut-offs for symptoms
