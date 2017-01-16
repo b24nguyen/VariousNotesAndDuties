@@ -109,6 +109,16 @@
     - Specific to psychopathology
     - Defines symptoms and treatment
 
+## Chapter 1 : Summary
+
+- Statistical (frequency), Personal Distress, Personal Dysfunction (interferes with functioning), Violation of Social Norms, Experts all attempt to classify abnormal behaviour
+- Prehistoric times: thought it was supernatural
+- Greeks and Romans thought they were biological causes
+- Arabs treated it humanely with environmental and psychological factors emphasized
+- Middle Ages, thought it was demons
+- Lobotomies to treat mental disorders
+- Shock therapy for depression
+
 ## Lecture 3 - Jan 9th
 
 **Socio-Political Context of the 20th Century**
@@ -242,7 +252,7 @@ ease access to treatment, clarify overlapping categories
     - Negative view of self, others and future
     - hopelessness and helplessness
 
-## Jan 13th 
+## Jan 13th
 
 **Donald Meichenbaum: Cognitive Behaviour Modification**
 
@@ -266,3 +276,18 @@ ease access to treatment, clarify overlapping categories
 - No treatment guidelines
 - Contains 19 categories
 - Specify criteria for categories and threshold/cut-offs for symptoms
+
+## Chapter 2 : Summary
+
+- Move toward the etiology of mental health problems
+- Theories gain strength not because of their evidence but because others are rejected
+- Biological views: brain dysfunction, neurotransmitters or hormonal problems can cause psychological problems
+- Freud and psychodynamics suggest behaviour controlled by unconscious
+
+
+## Chapter 3 : Summary
+
+- Diagnostic systems exist to provide:
+  - descriptions of mental disorders, distinguishing between them and providing vocabulary
+  - effective treatment depends on classification
+- Many believe that DSM-5 aligns too closely with the medical model and creates stigmatization and loss of information
