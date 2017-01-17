@@ -180,7 +180,7 @@ ease access to treatment, clarify overlapping categories
 - Extinction: weakening of the CR in the absence of the US (not feeding dog weakens dog salivating when bell heard)
 - Reacquisition: reintroduction of US second acquisition is faster
 
-## Lecture 4? - Jan 11th
+## Lecture 4 - Jan 11th
 
 ### Behaviourism
 
@@ -252,7 +252,7 @@ ease access to treatment, clarify overlapping categories
     - Negative view of self, others and future
     - hopelessness and helplessness
 
-## Jan 13th
+## Jan 13th - Lecture 5
 
 **Donald Meichenbaum: Cognitive Behaviour Modification**
 
@@ -291,3 +291,35 @@ ease access to treatment, clarify overlapping categories
   - descriptions of mental disorders, distinguishing between them and providing vocabulary
   - effective treatment depends on classification
 - Many believe that DSM-5 aligns too closely with the medical model and creates stigmatization and loss of information
+
+## Jan 16th - Lecture 6
+
+- Recall: Chary 15 y/o example
+- Does gender matter? Kind of, some things happen more frequently in males / females
+
+**Gender Bias: DSM, training and society**
+
+- Some have gender bias, ex: ADHD more likely in boys, girs diagnosed at later age
+- Possible bias: Majority of children are raised by female educators so "normal" could be biased
+- Higher prevalence in boys vs girls:
+    - ADHD, ODD, Autism, Tourette
+
+**Cultural Bias in DSM**
+
+- Higher prevalence in minorities
+    - psychosis among african american men
+    - lower rates of depression among black/hispanic
+- Culture-specific syndromes:
+    - Japan: fear of harming and offending others
+    - Attack of nerves (Peurto Rico): uncontrollable screaming, crying, trembling, sensations of heat rising in chest and head
+
+**Criticism of DSM**
+
+- Empirical Criticism: defined by expert committees, not by the phenomena
+- Political: Only people with a diagnosis have access to services
+- Humanitarian: Labelled, totalized, segregated
+- Pragmatic: personal context are de-emphasised, "cultural blindness"
+
+**Nature, Nurture, Genetics**
+
+- 
