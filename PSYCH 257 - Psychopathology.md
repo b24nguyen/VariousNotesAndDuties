@@ -317,7 +317,7 @@ ease access to treatment, clarify overlapping categories
 
 - Empirical Criticism: defined by expert committees, not by the phenomena
 - Political: Only people with a diagnosis have access to services
-- Humanitarian: Labelled, totalized, segregated
+- Humanitarian: Labeled, totalized, segregated
 - Pragmatic: personal context are de-emphasised, "cultural blindness"
 
 **Nature, Nurture, Genetics**
@@ -326,13 +326,32 @@ ease access to treatment, clarify overlapping categories
 
 ## Jan 20th
 
-Psychopathology and Law
+### Psychopathology and Law
 
-- **unfit to stand trial**: unable to due mental disorder to defend against charges that they're facing
-- Process of acssssment:
+- **Unfit to stand trial**: unable to due mental disorder to defend against charges that they're facing
+- Process of assessment:
     - Stage 1: judge decides whether there is a need for the evaluation
     - Stage 2: assessment of mental state
     - Stage 3: brief hearing to determine fitness to proceed with the trial
-- **Not criminally responsible on account of Mental Disorder**
+- **Not criminally responsible on account of Mental Disorder (NCRMD)**
     - not guilty by reason of insanity
     - at the time, they were so deranged that they did no not know the nature of their actions
+
+**Decisions based on Criminal Insanity**
+
+- Outcomes of NCRMD
+    - Ordered to receive treatment
+    - Detained in hospital
+    - Release from hospital
+
+**Duty to Protect/Duty to Warn**
+
+- Clinician's obligation to protect society from potentially dangerous patients
+- (If they tell you, they're going to do something horrible then you can break doc-patient confidentiality)
+
+**Civil Commitment**
+
+- Permits commitment when the following three commitments have been met:
+    - Diagnosed with mental illness
+    - Deemed dangerous to self or others.
+    - The person is in need of treatment
