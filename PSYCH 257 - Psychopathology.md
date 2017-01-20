@@ -322,4 +322,17 @@ ease access to treatment, clarify overlapping categories
 
 **Nature, Nurture, Genetics**
 
-- 
+## Jan 18th - MISSED LECTURE
+
+## Jan 20th
+
+Psychopathology and Law
+
+- **unfit to stand trial**: unable to due mental disorder to defend against charges that they're facing
+- Process of acssssment:
+    - Stage 1: judge decides whether there is a need for the evaluation
+    - Stage 2: assessment of mental state
+    - Stage 3: brief hearing to determine fitness to proceed with the trial
+- **Not criminally responsible on account of Mental Disorder**
+    - not guilty by reason of insanity
+    - at the time, they were so deranged that they did no not know the nature of their actions
