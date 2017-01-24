@@ -322,7 +322,45 @@ ease access to treatment, clarify overlapping categories
 
 **Nature, Nurture, Genetics**
 
-## Jan 18th - MISSED LECTURE
+## Jan 18th
+
+**Stigma and Mental Illness**
+
+- Despite high prevalence of MI in population, stigma remains
+- Efforts to deal with stigma (Bell Let's Talk)
+
+**Integrative models: Diathesis-Stress Model**
+
+- Environmental stress interacts with genetics to predict mental disorders
+- Predisposition to mental disorder from stress that we may never trigger unless we accumulate enough stressors to cross our threshold
+- The more predisposed you are at birth means you're closer to your tipping point
+
+**Reciprocal Gene-Environment Model**
+
+- Environmental stress mediates the effect of genetics on Psychopathology
+- Claims that people with genetic predisposition to a disorder may have a genetic tendency to create environmental risk factors that promote that disorder. Ex: people predisposed to depression may have a tendency to get into bad relationships.
+
+**Integrative Model: Biopsychosocial Model**
+
+- Attributes disease outcome to the intricate, variable interaction of the following factors:
+- Bio: genetic vulnerability, sleep deprivation
+- Psych: challenging beliefs about self as weird, a burder, self awareness and self-compassion
+- Social: availability of support, social activities, social skills
+
+**Biopsychosocial model of Psychopathology?**
+
+- Biological basis for violence
+    - Lobrosso's theory of born criminals
+    - minor physical anomamlies (frontal lobe + amygdala)
+- Neurolaw & Criminology
+    - Biological risk combined with environmental & social risk
+    - Studies suggest that the anatomy of brain (prefrontal cortex) can make individuals more prone to violence
+
+**Assessment Methods**
+
+- Clinical: Interview, projective, cognitive
+- Neuropsychological: Traditionally assessed impairment of specific brain structure
+- Many others
 
 ## Jan 20th
 
