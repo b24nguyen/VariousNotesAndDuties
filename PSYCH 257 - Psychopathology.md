@@ -355,3 +355,58 @@ ease access to treatment, clarify overlapping categories
     - Diagnosed with mental illness
     - Deemed dangerous to self or others.
     - The person is in need of treatment
+
+## Jan 23rd
+
+**Sam Yatin case**
+
+- 18 y/o with mental illness
+- held a knife, killed by police while being non-threatening
+
+**Police-PMI Encounters**
+
+- 5% of calls involve someone with mental illness, others report 31%
+- Mentally ill have 3x greater risk to have police contact
+- PMI have repeated occurrences with police + have higher arrest rates
+- 60% police-PMI-interactions involve criminal behavior
+- Not a violent interaction
+
+**Mental illness related to violence: Schizophrenia**
+
+- Delusions + hallucinations
+- Persecutory/Threat Delusion: belief of being followed, harassed, spied on
+- Control Override Delusion: False belief that another person controls one's thoughts, feelings or behavior
+
+**Mood Disorders**
+
+- Major depression: painful state of extreme anguish, sadness, worthlessness, suicidal ideation
+- Bipolar Disorder: Depression and euphoria (mania), talkative, less need for sleep, buying sprees, recklessness
+
+**Rise in Police-PMI contact**
+
+- Stigma of PMI as dangerous and unpredictable
+    - risk of violence is 50% (more likely to commit violence)
+    - Media Sensationalization: Media loves violent mentally ill people
+- Deinstitutionalization of MH treatment
+    - Advent of psychotropic medication
+    - Lower psychiatric hospital beds capacity
+- Inadequacy of community MH treatment model
+    - underfunded
+- Reforms in mental health legislation
+    - provincial mental health act
+    stricter civil commitment criteria
+
+**SYSTEMS THEORY**
+
+- Limited access to MH care + public perception of danger + high visibility = police call
+- Police often called upon to assist people displaying erratic or bizarre behavior
+- People trying to access mental health care, police are the first line of mental health care
+
+**Police Decision Making**
+
+- Play pivotal role in outcome that involve PMI
+- Response options:
+    - MHA apprehension
+    - Arrest and/or Charge
+    - Informal resolution (warning)
+    - Divert to the MH system
