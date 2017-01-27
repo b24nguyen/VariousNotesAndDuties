@@ -410,3 +410,93 @@ ease access to treatment, clarify overlapping categories
     - Arrest and/or Charge
     - Informal resolution (warning)
     - Divert to the MH system
+
+## Jan 25th
+
+**Rorschach Test**
+
+- Developed by Hermann Rorschach
+- Inkblot test, subjects' perceptions are recorded and analysed using psychological interpretation, complex algorithms or both
+- Used to examine personality and emotional functioning
+- Used when patients are reluctant to describe their thought processes openly
+
+**Thematic Apperception Test (TAT)**
+
+- Developed by Henry Murray & Christiana Morgan @ Harvard University
+- 32 ambiguous cards with intention to provoke an emotional response. 10-20 chosen for each patient
+- Idea that people interpret ambiguity in accordance to their own past experiences or current motivations, conscious or unconscious
+- Asked to provide:
+    - What has led up to the event shown
+    - what is happening at the moment
+    - what the characters are feeling
+    - what the outcome of the story was
+
+**Mental Status Exam (MSE)**
+
+- Key part of the initial psychiatric assessment in an out-patient (less than 24 hours) or psychiatric hospital setting
+- purpose is to obtain evidence of symptoms and signs of mental disorders at the time of the interview
+1. Appearance and Behaviour: unusual actions, is clothing appropriate for season/age/occasion
+2. Thought process:
+    - rate and flow of speech
+    - clarity and content of speech and ideas
+    - speed of thought (time between thought and verbal expression)
+    - racing thoughts (thoughts in a seamless fashion, often in a list form, associated with anxiety and manic states (bipolar))
+3. Mood and affect: Low mood vs euphoric, affect and mood appropriate or inappropriate
+4. Intellectual functioning: does the client have a reasonable vocabulary and memory
+5. Sensorium: General awareness of surroundings such as date, place, time knowledge of self
+6. Attention: Distractible, preoccupied, rumination
+7. Affect & Mood: congruent (genuine mood, appropriate emotional expression to the content) / incongruent (inauthentic, superficial, inappropriate emotional response)
+
+**Personality Assessment (MMPI)**
+
+- Developed at University of Minnesota Hospitals
+- Composed of 567 T/F questions, short form is 370 questions
+- Version for adolescents 14-18 y/o: MMPI-A
+- 10 major categories of abnormal human behaviour
+- 4 validity scales
+    - cannot say scale - number of omitted items
+    - L scale: attempt to present oneself in a favorable light
+    - F scale: detect deviant or atypical ways of responding to test items
+    - K scale: subtle index: "defensive scale" attempts to deny psychopathology
+
+**Interpersonal Assessment**
+
+- important in assessment of personality disorders, family therapy and group therapy
+- Contempt: passive aggressive style of relating to others, mocking vocal tone
+- Defensive: responding to others in a hostile manner
+- Dismissive: responding with disregard for others input, think they know better
+- Guarded: overly careful about sharing information, lack of trust
+
+**Assessment of disorders**
+
+- Neuropsychological: carried out to assess impairment of specific brain structure, focus on cognition and behaviour
+    - Non verbal reasoning,
+    - Visual-Motor integration (copy image)
+    - Stroop test (interference): coloured words
+- Psychoeducational: learning disabilities
+- Neuroimaging: Cat scan, MRI, PET scan, fMRI, etc
+
+### Research Methods
+
+**Null Hypothesis (H0)**
+
+- observed differences or relationships merely result from chance errors inherent in sampling processes
+- rejuect null hypothesis for research hypothesis
+
+**Reliability**
+
+- Test-retest reliability: able to retest with different individuals
+- Parallel reliability: administer different versions of an assessment
+- inter-rater reliability: comparing the degree to which different raters agree in their assessment
+- Internal consistency reliability: evaluate the degree to which different test items that probe the same construct produce similar results
+
+**Validity**
+
+- Face validity: appears to measure what it states to measure
+- Construct validity: is actually measuring what it is intending to and not other vars
+- Criterion validity: reflects a certain set of abilities as measured by another test
+- Sampling validity: test covers a broad range of areas within the concept under study
+
+
+
+## Jan 27th    
