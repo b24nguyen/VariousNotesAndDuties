@@ -535,6 +535,4 @@ ease access to treatment, clarify overlapping categories
 - Criterion validity: reflects a certain set of abilities as measured by another test
 - Sampling validity: test covers a broad range of areas within the concept under study
 
-
-
 ## Jan 27th    
