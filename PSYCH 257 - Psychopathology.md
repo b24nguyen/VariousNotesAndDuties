@@ -536,3 +536,67 @@ ease access to treatment, clarify overlapping categories
 - Sampling validity: test covers a broad range of areas within the concept under study
 
 ## Jan 27th    
+
+### Anxiety disorders
+
+- most common group of disorders
+- Evolutionary perspective:
+    - safety mechanism to danger
+    - over time impairs the normal day to day functioning, can have profound impact on learning
+- Fear response, as it stays, it becomes an anxious state
+- Negative mood state: worrying about negative outcomes
+- Future focused: what if, sense of lack of control
+
+**When does it become a disorder?**
+
+- Dysfunction: pervasive and persistent symptoms of anxiety and fear
+- Deviance: Excessive avoidance and escapist tendencies
+- Distress: Clinically significant distress or impairment
+
+**Generalized Anxiety Disorder (GAD)**
+
+- Excessive anxiety and **worry** about a range of events or activities, can change from one day to another
+- Difficulty controlling worries
+- Somatic symptoms: muscle tension, fatigue, irritability
+- At least 3 physical symptoms: restlessness, fatigued, impaired concentration, irritability, muscle aches, difficulty sleeping
+
+**Different theories of Anxiety**
+
+- Intolerance of Uncertainty: It's okay to not be certain of outcomes
+- Emotion Regulation: People regulate their emotions differently
+- Cognitive avoidance: Worrying is a defense mechanism to avoid conflict
+
+**Challenges with GAD**
+
+- moving target for therapists and patients
+- worries keep changing and nobody knows what it will be
+
+**Treatment of GAD**
+
+- Medication:
+    - Benzodiazapenes: effective short term relief, no evidence of long term benefits, physical and psychological dependence
+    - Need to be switched off, only meant for short-term relief
+- Psychotherapy
+    - Cognitive behavioural therapy (CBT)
+    - Mindfulness Based Therapy
+
+**Panic Disorder**
+
+- Recurrent unexpected panic attacks
+- One attack followed by
+    - 1 month (or more) of one or both
+    - concern or worry about subsequent attacks
+    - Maladaptive behavioural chnages related to attacks
+
+**Agarophobia**
+
+- Fear of public spaces and closed spaces
+- Standing in line or being in a crowd
+- Being outside of the home alone
+
+**Cognitive Model of Panic Attacks**
+
+- Internal or External Trigger (causing perceived threat)
+- Interpretation: of sensations as catastrophic
+- Body sensation: serves as a trigger
+- Apprehension: or worry about having an attack
