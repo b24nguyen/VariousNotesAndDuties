@@ -600,3 +600,44 @@ ease access to treatment, clarify overlapping categories
 - Interpretation: of sensations as catastrophic
 - Body sensation: serves as a trigger
 - Apprehension: or worry about having an attack
+
+## Jan 30th
+
+**Social Anxiety Disorder**
+
+- avoid or endure with great distress, interferes with functioning
+- extreme fear/anxiety in social situations where they may be negatively evaluated
+- Speaking or performing in front of people
+- avoid social situations
+- gets worse over time
+
+**Selective Mutism**
+
+- person who can speak doesn't speak to certain people or under certain circumstances
+
+**Obsessive Compulsive Disorder(OCD)**
+
+- obsessions and compulsions interfere with everyday life
+- thoughts that are bad or horrible to someone else or self
+- become obsessed with the thought becoming a reality: thought reality fusion
+- compulsion is a treatment method to deal with their thoughts
+
+**Anxiety vs OCD**
+
+- Anxiety: thought of worry leads to panic
+- OCD: worries lead to compulsion
+
+**related disorders**
+
+- body dysmorphic disorder (imaginary body defects)
+- hoarding
+- trichotillomania (hair pulling)
+- Excoriation disorder (skin picking)
+
+**OCD lifecycle**
+
+- Trigger
+- Obsession
+- Meaning you give to the obsession
+- Anxiety
+- Compulsion to cope with anxiety
