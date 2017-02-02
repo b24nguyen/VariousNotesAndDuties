@@ -641,3 +641,64 @@ ease access to treatment, clarify overlapping categories
 - Meaning you give to the obsession
 - Anxiety
 - Compulsion to cope with anxiety
+
+## Feb 1
+
+**1st test stuff**
+
+- look at uptake of medications, (ch 2)
+
+**Major Depressive Disorder**
+
+- No history of mania or hypomania
+- Major depressive episode -> MDD single episode OR -> MDD Recurrent
+- Dysthymia, persistent mild depression, lasts a long time
+- If you have both -> DOUBLE DEPRESSION, happens quite often for those that suffer from recurrent MDD
+
+**Persistent Depressive Disorder (Dysthymia)**
+
+- Depressed mood most of the days, more days than not for at least 2 years
+- Presence while depressed of 2 or more of:
+    - poor appetite
+    - insomnia or hypersomnia
+    - low energy or fatigue
+    - low self-esteem
+    - poor concentration or difficulty making decisions
+    - feelings of hopelessness
+- During 2 year, person is never without symptoms for > 2 months at a time
+
+**Major Depressive Episode (MDE) Building Block**
+
+- During same 2 week period >= 5 symptoms
+- 1 or 2 present
+    - depressed mood, most of the day, nearly everyday
+    - diminished interest or pleasure in all or almost all activities
+    - appetite / weight
+    - sleep pattern
+    - energy levels
+    - etc etc
+- Not better explained by medical or substance abuse
+- does not meet criteria for mixed episode
+
+**Disruptive Mood Dysregulation Disorder (DMDD)**
+
+- Onset before age 10
+- Mood fluctuates often for children (can't be an adult)
+- irritability displayed as temper tantrums that occur frequently
+- far beyond temper tantrums, out of proportion
+- diagnosis between 6-18 y/o
+
+**Causes of Mood Disorders**
+
+- Biological
+    - Genetic influences
+    - neurotransmitters (has genetic component too), 3 neurotransmitters (serotonin, GABA, norepinephrine), attack on serotonin seems to be the most effective.
+    - Most effective anti depressants use SSRI to inhibit serotonin uptake (blocking receptors)
+    - endocrine system
+    - People that work night shifts at higher risk (sleep & circadian rhythms)
+- Social and cultural dimensions
+    - (Not only creating, but coping with disorders)
+    - Martial relations
+    - Gender roles
+    - Social support
+- Cultural beliefs
