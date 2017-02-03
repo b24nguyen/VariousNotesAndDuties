@@ -601,9 +601,9 @@ ease access to treatment, clarify overlapping categories
 **Cognitive Model of Panic Attacks**
 
 - Internal or External Trigger (causing perceived threat)
-- Interpretation: of sensations as catastrophic
-- Body sensation: serves as a trigger
 - Apprehension: or worry about having an attack
+- Body sensation: serves as a trigger
+- Interpretation: of sensations as catastrophic
 
 ## Jan 30th
 
@@ -623,7 +623,7 @@ ease access to treatment, clarify overlapping categories
 
 - obsessions and compulsions interfere with everyday life
 - thoughts that are bad or horrible to someone else or self
-- become obsessed with the thought becoming a reality: thought reality fusion
+- become obsessed with the thought becoming a reality: thought-action fusion
 - compulsion is a treatment method to deal with their thoughts
 
 **Anxiety vs OCD**
@@ -706,3 +706,26 @@ ease access to treatment, clarify overlapping categories
     - Gender roles
     - Social support
 - Cultural beliefs
+
+##  Chapter 5 Summary - Anxiety and related disorders
+
+- 3 components of emotion (and stress):
+    - Physiology: increase heart rate and breathing
+    - Cognition: bad thoughts "I'm dumb"
+    - Behaviour: trying to avoid the trigger
+- Etiological models of anxiety disorder & phobias:
+    - Two-factor theory (conditioning): negative stimulus gets paired with neutral stimulus
+    - Equipotentiality premise: Idea that all neutral stimulus have equal prob to become phobias
+    - nonassociative model: process of evolution gives you these fears (too dangerous to learn to fear them)
+
+## Chapter 8 Summary - Mood Disorders & Suicide
+
+- Depressive disorders include MDD and Dysthymia
+- MDD symptoms: 5 must be present for at least 2 weeks
+- Persistent depression last for >= 2 years + 2 depressive symptoms
+- Cognitive Models: focus on negative thoughts and negative schema about self/world/future
+- Interpersonal: heightened risk for interpersonal conflict and rejections trigger depression
+- Biological Models:
+    - Genetics: predisposed to anxiety
+    - Neurotransmitters: Serotonin transporter gene in heightened sensitivity to stressful life events
+- 
