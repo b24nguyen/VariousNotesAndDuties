@@ -524,15 +524,19 @@ ease access to treatment, clarify overlapping categories
 **Reliability**
 
 - Test-retest reliability: able to retest with different individuals
+    - Since patients can get better at the test after taking it once, you need alternate-form reliability to produce a 2nd test that offers the same ultility
 - Parallel reliability: administer different versions of an assessment
 - inter-rater reliability: comparing the degree to which different raters agree in their assessment
 - Internal consistency reliability: evaluate the degree to which different test items that probe the same construct produce similar results
 
 **Validity**
 
+- Internal validity: The degree to which the changes in the dependent vars are a result of the manip in the indep vars
+- External validity: the findings apply to other individuals in other settings
 - Face validity: appears to measure what it states to measure
+- Content validity: test's content include representative sample of all relate behaviours (ex: Depression assessment looks at sadness, lack of energy etc)
 - Construct validity: is actually measuring what it is intending to and not other vars
-- Criterion validity: reflects a certain set of abilities as measured by another test
+- Criterion validity: reflects how a measure is related to the outcome. (ex: A art test with high marks from only art students has high criterion validity)
 - Sampling validity: test covers a broad range of areas within the concept under study
 
 ## Jan 27th    
