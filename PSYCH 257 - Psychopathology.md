@@ -728,4 +728,51 @@ ease access to treatment, clarify overlapping categories
 - Biological Models:
     - Genetics: predisposed to anxiety
     - Neurotransmitters: Serotonin transporter gene in heightened sensitivity to stressful life events
-- 
+
+## Feb 3rd
+
+### Bipolar Disorders
+
+**Bipolar 1**
+
+- mood disorder with manic episode + depressive episode
+- Manic episode must last for a week or need hospitalization
+- >= 3 symptoms have persisted:
+    - inflated self-esteem
+    - decreased need for sleep (does not feel tired after 3 hours of sleep)
+    - more talkative
+    - racing thoughts
+    - distractibility
+    - increase in goal-directed activity
+    - excessive involvement in pleasurable activities that have the potential for negative consequences
+- mood disturbance is severe enough to cause marked impairment in social and occupational functioning
+- not requirement to have depressive episode but usually present
+- Qualify: one or more manic episodes OR depressed and manic episodes
+
+**Bipolar 2**
+
+- mania is not as severe, doesn't have to last for a full week, shorter (3/4 days)
+- need presence of depressive episode
+
+**Cyclothymia**
+
+- even milder
+- more chronic
+- average age on onset is 12-14 years
+- must last >= 2 years (1 for children and adolescents)
+- not without symptoms for > 2 months at a time
+- increased risk of developing Bipolar 1 & 2
+- "I have no control over my emotions"
+
+**Hypomanic Episode**
+
+- increased energy, lasting at least 4 days
+- not as severe, not severe enough to cause marked distress or impairment in functioning, does not require hospitalization
+
+**Mental Status Exam: domains of functioning affected**
+
+- Affective: grandiosity, irrability, elation
+- Cognitive: flightly and pressured thoughts, decreased focus, attention, judgement
+- Behavioural: overactive, speed difficult to understand, talkative
+- Phsiological: decreased need for sleep, highly active, increased interest in sex
+- People with bipolar disorder often miss/love being in the manic state
