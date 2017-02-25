@@ -776,3 +776,197 @@ ease access to treatment, clarify overlapping categories
 - Behavioural: overactive, speed difficult to understand, talkative
 - Phsiological: decreased need for sleep, highly active, increased interest in sex
 - People with bipolar disorder often miss/love being in the manic state
+
+## February 08
+
+### Research Design
+
+- Experimental:
+  - Random assignment, control group, 1 variable
+- Quasi-experimental:
+  - variables not randomly assigned or innate quality of participants
+- Example:
+  - Study looks at effectiveness of antipsychotic drug
+  - Null hypothesis: there is no difference
+  - Research: it is effective
+
+### Schizophrenia
+
+- **Eugen Bleuler**: believed that core of sch rests in an associative splitting of basic personality functions
+- Meaning "split mind"
+- **Emil Kraepelin**: term of dementia praecox combined
+  - catatonic: immobility, agitation
+  - hebephrenia: emotional immaturity
+  - paranoia: delusions of grandeur and persecution
+- Positive Symptoms
+  - Delusions of grandeur / persection
+  - Hallucinations
+- Negative Symptoms (Lack of)
+  - Avolition
+  - Alogia
+  - Anhedonia
+  - Flat affect
+  - Asociality
+- Disorganized symptoms
+  - disorganized speech + behaviour,
+  - inappropriate effect
+  - catatonic immobility
+
+**Diagnosis**
+
+- Requires 2 of the following symptoms for 6 months
+  - Delusions
+  - Hallucinations
+  - Disorganized speech
+  - Disorganized behaviour
+  - Catatonia
+  - Negative Symptoms
+
+### Other psychotic disorders
+
+- Schizophreniform disorder: people with symptoms of sch for fewer than six months
+- Schizoaffective disorder: symptoms of sch and mood disorders
+- Delusion disorder: persistent belief that is contrary to reality, in absence of other chars of sch
+
+### Prevalence and Factors
+
+- Genetic risk
+- Environmental Risks:
+  - Extreme stress
+  - Relapse linked to family hostility (Expressed Emotion)
+
+## Feb 10th - Eating disorders
+
+### Anorexia Nervosa  (AN)
+
+- Restriction of food and low weight
+  - Food intake
+  - low weight in context to weight, sex
+- fear of gaining weight or being fat
+- Disturbance in self-perception
+  - weight, shape, lack of recognition of low weight
+- **Restricting Type**:
+  - No binge eating or purging over the past 3 months
+  - Weight loss through dieting/fasting/exercise
+- **Binge-Eating/Purging Type**:
+  - Recurrent binge eating or purging in the last 3 months
+- Symptoms
+  - Starvation
+  - Heart muscle damage
+  - Hypothermia, Lanugo hair
+  - Osteoperosis, fractures
+
+### Bulimia Nervosa
+
+- Recurrent episodes of binge-eating
+  - large amount of food within 2 hour period
+  - lack of self control over eating
+- Recurrent compensatory behaviour
+- Binge eating, purging occurring on average at least twice per week for 3 months
+- self-evaluation based on body shape and weight
+- Disturbance does not occur exclusively during episodes of anorexia nervosa
+- Symptoms
+  - Dehydration
+  - Erosion of tooth enamel
+  - Swollen parotid glands
+  - Lower potassium levels (heart problems
+
+### Avoidant / Restrictive Food Intake Disorder
+
+- **Aims to capture young people with disordered eating**
+- Persistent disturbance in eating that leads to:
+  - weight loss
+  - inadequate growth
+  - nutritional deficiency
+  - dependence on tube feeding / nutritional supplements
+  - inability to eat with others
+
+### Binge-eating disorder
+
+- Recurrent episodes of binge eating
+- Episodes associated with 3 or more of:
+  - eating much more rapidly
+  - uncomfortably full
+  - large amounts when not hungry, alone, negative effect afterward
+- Distress regarding binge eating
+- On average once a week for three months
+- Symptoms:
+  - Increase weight gain and obesity
+  - High blood pressure, cardiovascular disease, diabetes & sleep apnea
+  - GI problems / discomfort associated with binge eating
+
+### Risk Factors
+
+- Exposure to media
+- -Social pressure
+- Attitudes towards overweight youth, greater dislike, discrimination
+
+## Feb 13th - Obligatory Exercise
+
+**Benefits of exercise**
+
+- immune functioning
+- cardiovascular
+- reduced risk of diabetes
+- decreased mortality rates
+- less anxiety and greater positive affect, **Good treatment for anxiety and mood**
+- more positive affect & calmness after 30 minutes of exercise
+
+**When exercise becomes unhealthy**
+
+- Life revolves around exercise
+- Continued participation in physical activity despite pain, obsession with the activity, disturbed mental health
+
+**Features**
+
+- Rigid exercise routine
+- Anxiety and irritability if routine
+- Refusal to take time off if injured or ill
+- Exercise not done for pleasure
+- Interferes with other things
+
+**Committed to exercise or pathological exercise**
+
+- Obligatory Exercisers:
+  - More fixated on exercise
+  - Eating disorders
+  - More depressed
+  - Had lower self-esteem
+
+**Diagnosis**
+
+- Frequency and intensity of exercise
+- Negative emotionality (guilt for missing an exercise)
+- Preoccupation with exercise (planning day around exercise)
+
+**Over-exercising often co-occurs with eating disorders**
+
+- Exercise -> Positive reinforcers -> Increased focus on appearance -> Dieting, control eating -> Positive reinforcers -> increased focus on appearance -> Exercise
+
+**Why obligatory exercise arises**
+
+- Mood intolerance
+- Compulsivity
+- Dependence
+
+**Mood Intolerance and Exercise**
+
+- Obligatory Exercise (OE) serves as function for mood regulation, emotion regulation and coping
+- OE may become problematic with people who have no other ways of coping
+- Compulsive exercise connected with higher levels of depression and anxiety
+
+**Compulsivity and Exercise**
+
+- Focus on avoidance of negative outcomes (fear of failure)
+- Compulsive behaviours increase as starvation increases
+- Serotonin dysregulation (malnutrition) increases compulsive behaviours
+- Exercise compulsion increases as anorexia worsens
+- Possible connection between exercise and eating disorders
+
+**Exercise Dependence**
+
+- Psychological mechanisms for addiction (dopamine or opioids)
+- Exercise deprived runners experience withdrawal-like symptoms (depressed mood, tension) and higher resting heart-rate within 24 hours
+- Research suggests that exercise withdrawal symptoms are psychological not physiological
+
+## Feb 15th - Personality Disorders
