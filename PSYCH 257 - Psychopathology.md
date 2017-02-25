@@ -970,3 +970,202 @@ ease access to treatment, clarify overlapping categories
 - Research suggests that exercise withdrawal symptoms are psychological not physiological
 
 ## Feb 15th - Personality Disorders
+
+**History of Personality Disorders**
+
+- Ancient China: flow of Chi as dimension of energy, emotions are expressions of chi
+- Ancient Greece: Aristotle-Plato tradition, categories of temperament/character defined
+    - The suspicious man, the sort of person who sends someone to the market and another to wtach him and find out the price he pays
+- Psychiatry: Phillipe Pinel: Manie sans Delire: Patients with no apparent abnormalities of understanding/perception/judgement/imagination but prine to fits of impulsive violence.
+
+**Big 5 Factors**
+
+- Openness
+- Conscientiousness
+- Extraversion
+- Agreeableness
+- Neurotism
+
+**Categorical Approach remains in DSM 5**
+
+- Impairments in personality (self and interpersonal) functioning and presence of pathological personality traits, match the following:
+    - significant impairments in self (identity & self-direction) and interpersonal (empathy & intimacy) functioning
+    - one or more pathological personality trait domains or trait facets
+    - Impairments in personality functioning and the individual's personality trait expression are relatively stable across time and consistent across situations
+    - Impairments are not better understood as normative for developmental stage or sociocultural env
+
+**Gender Bias**
+
+Most are more common in men
+
+**Cluster A: The Odd**
+
+- Paranoid
+    - A: pervasive, persistent, mistrust of others, cynical view of others at least 4 of the symptoms:
+    - Suspects others are exploiting, harming or deceiving
+    - Preoccupied with mistrust and doubts about others
+    - Reluctant to confide
+    - Reads into hidden meaning of remarks and events
+    - Delusional disorder (non-bizarre delusions, not hallucinations)
+    - Bears grudges
+    - Perceives others as attacking and quick to attack back
+    - Suspicions about fidelity of sexual partner
+    - B: Does not occur exclusively during the course of SCH, Bipolar or Depressive Disorder
+- Schizoid
+    - A: pervasive pattern of detachment from social relationships and very limited range of emotions in interpersonal situations, seem aloof, cold and indifferent to other people
+    - At least 4 of the following symptoms:
+    - Neither desires nor enjoys close relationships
+    - Always chooses solitary activies
+    - Little interest in sexual relationships
+    - Little pleasure in activities
+    - Lacks close friends
+    - Indifferent to praise or criticism
+    - Emotional coldness, flattened affect
+    - B: Does not occur exclusively during the course of SCH, BP, DD
+- Schizotypal
+    - A: Acute discomfort with and reduce capacity for close relationships and cognitive and eccentric of behaviours, at least 5 of the symptoms:
+    - Ideas of reference
+    - Odd beliefs
+    - Unusual perceptual experiences
+    - Odd thinking and speech
+    - Suspicious and Paranoid
+    - Inappropriate affect
+    - Eccentric behaviour
+    - Lack of close friends
+    - Excessive social anxiety
+    - B: Does not occur exclusively during the course of SCH, BP, DD
+- Overlap of PDs:
+    - 37% Paranoid + Schizotypal
+    - 12% Paranoid + Borderline
+    - 5% Paranoid + OCD
+
+## Feb 17
+
+**Cluster B: The Eccentric**
+
+- Antisocial Personality Disorder
+    - A: Pervasive pattern of disregard for and violation of rights of others since age 15, at least 3 of the symptoms:
+    - Failure to conform to social norms and law
+    - Deceitful, lying, conning others
+    - Impulsivity
+    - Irritability and aggressiveness
+    - Reckless disregard for safety of others
+    - Irresponsibility
+    - Lack of remorse
+    - B: At least 18 y/o
+    - C: Evidence of conduct disorder before 15 (No longer needed for adults)
+    - Occurrence of the disorder is not exclusively during SCH or BP
+- Borderline Personality Disorder
+    - A: Pervasive pattern of instability of interpersonal relationship, at least 5 of the symptoms:
+    - Frantic efforts to avoid real or imagined abandonment
+    - Unstable and intense relationships with extremes of idealization and devaluations
+    - Unstable self-image
+    - Impulsivity in 2 areas (spending, sex, substance use, reckless driving, binge eating)
+    - Recurrent social suicidal gestures, threats and behaviours
+    - Mood instability due to reactivity
+    - Chronic feelings of emptiness
+    - Inappropriate and intense anger
+    - Stress-related paranoid ideation
+    - B: Treatment; risk reduction, medication, Family therapy
+- Narcissistic Personality Disorder
+    - A: Pervasive pattern of grandiosity, need for admiration, lack of empathy across contexts
+    - Has grandiose sense of self-importance
+    - Is preoccupied with fantasies of unlimited success
+    - Beliefs in being special
+    - Requests excessive admiration
+    - Has sense of entitlement
+    - Lacks Empathy
+    - Envious of others
+    - Arrogant Behaviours
+- Histrionic Personality Disorder
+    - A: Pervasive pattern excessive emotionality and attention seeking, at least 5 of the symptoms:
+    - Uncomfortable when not center of attention
+    - Interactions with others characterized by sexually seductive and provocative bnehaviours
+    - Rapidly shifting, shallow emotions
+    - Use of physical appearance to draw attention
+    - Style of speech that is impressionistic and lack details
+    - Self dramatization
+    - Suggestable, easily influenced
+    - Considers relationships to be more intimate then they are
+
+**Cluster C: The Fearful**
+
+- Avoidant
+    - A: Pervasive pattern of social inhibition, feelings of inadequacy, and hypersensative to negative evaluation
+    - Avoids activities that involve interpersonal contact due to fear of criticism
+    - Unwilling to get involved with people unless certain that is liked
+    - Resistant of relationships because of fear of being shamed
+    - Preoccupied with being criticized or rejected in social situations
+    - Inhibited in new social situations
+    - Self-perception of being inept, unappealing and inferior to others
+    - Unusually reluctant to take personal risks or engage in new activities due to fear of embarrassment
+    - B: Treatment: Motivational interviewing, social skills,
+- Dependent Personality Disorder
+    - A: Excessive need to be taken care of that leads to submissive and clinging behaviours and fears separation, at least 5 of the following:
+    - Difficulty making decisions
+    - Needs others to take responsibility for life decisions
+    - Difficulty expressing disagreement
+    - Difficulty initiating projects and activities alone
+    - Excessive need for support
+    - Uncomfortable and helpless when alone
+    - Urgent seeking of relationship in the absence of one
+    - Unrealistically preoccupied with fears of being left to take care of oneself
+    - B: Treatment: challenging, as patient are unwilling to make their own decisions
+- Obsessive Compulsive Personality Disorder
+    - A: Pervasive preoccupation with orderliness, perfectionism, mental and interpersonal control, at the expense of flexibility, openness and efficiency, at least 4 of the symptoms:
+    - Preoccupied with details, rules, order, organization or schedule to the extent that the major point of the activity is lost
+    - Perfectionism that interferes with tasks completion
+    - Excessively devoted to work to the exclusion of leisure
+    - Lack of flexibility about ethics, moral and values
+    - Unable to discard worn-out and worthless objects
+    - Adopts miserly spending style
+    - Shows rigidity and stubbornness
+    - Treatment: Redirection of fear, challenging perfectionism
+
+### Trauma and Psychopathology
+
+- Trauma leads to changes in stress response:
+    - heightened sensitivity to fight or flight response
+    - changes in cortisol and norepinephrine level and sensitivity of receptors
+
+**What is PTSD**
+
+- Shell shock, railway spine, neuro-asthenia, gross stress reaction
+- **Forcing someone to relive traumatic experience can be re-traumatizing**
+- Although patients are asked to recall the trauma, the treatment is done in a systematic sequence
+
+**Time Orientation in PTSD**
+
+- Intrusions of past into the present
+    - Nightmares, flashbacks, disproportionate response to triggers
+- Avoidance Symptoms:
+    - Persistent effort to avoid trauma-related stimuli (numbing, thought blocking)
+    - External reminders (people, places, situations)
+- Alterations in Arousal and Reactivity
+    - Self-destructive/reckless behaviour
+    - Hypervigilance
+    - Concentration/memory difficulties 
+    - Sleep disturbance
+
+**Severe Symptoms**
+
+- Hallucinations
+    - Experience sensory events without trigger
+    - Most often auditory, patients understand that these are not real
+- Dissociations
+    - Detachment from physical surroundings and emotional experience
+    - Mild end of spectrum: daydreaming
+    - More severe: derealization, depersonalization, dissociative fugue
+
+**Treatment Goals**
+
+- Minimize number of symptoms
+- Reduce severity of symptoms
+- Cope better
+- Improve functioning
+
+**Treatment Options**
+
+- Medications (SSRI/SNRI antidepressants, sleep agents)
+- Therapy (CBT, Family Therapy, Group therapy, interpersonal therapy)
+- DBT (specific to borderline)
