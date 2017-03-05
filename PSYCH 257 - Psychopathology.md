@@ -1080,7 +1080,7 @@ Most are more common in men
 - Histrionic Personality Disorder
     - A: Pervasive pattern excessive emotionality and attention seeking, at least 5 of the symptoms:
     - Uncomfortable when not center of attention
-    - Interactions with others characterized by sexually seductive and provocative bnehaviours
+    - Interactions with others characterized by sexually seductive and provocative behaviours
     - Rapidly shifting, shallow emotions
     - Use of physical appearance to draw attention
     - Style of speech that is impressionistic and lack details
@@ -1144,7 +1144,7 @@ Most are more common in men
 - Alterations in Arousal and Reactivity
     - Self-destructive/reckless behaviour
     - Hypervigilance
-    - Concentration/memory difficulties 
+    - Concentration/memory difficulties
     - Sleep disturbance
 
 **Severe Symptoms**
@@ -1169,3 +1169,5 @@ Most are more common in men
 - Medications (SSRI/SNRI antidepressants, sleep agents)
 - Therapy (CBT, Family Therapy, Group therapy, interpersonal therapy)
 - DBT (specific to borderline)
+
+## Feb 27th
