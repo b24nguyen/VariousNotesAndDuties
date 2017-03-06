@@ -519,7 +519,7 @@ ease access to treatment, clarify overlapping categories
 **Null Hypothesis (H0)**
 
 - observed differences or relationships merely result from chance errors inherent in sampling processes
-- rejuect null hypothesis for research hypothesis
+- reject null hypothesis for research hypothesis
 
 **Reliability**
 
@@ -1210,7 +1210,7 @@ Most are more common in men
 **Gambling disorder**
 
 - Persistent gambling leading to impairment or distress-
-- >= 4 symptoms in 12 months
+- \>= 4 symptoms in 12 months
     - unsuccessful efforts to control, cut back or stop Gambling
     - restless or irritable when attempting to cut down or stop gambling
     - needs to gamble with increasing amounts of money in order to achieve the desired excitement
@@ -1305,4 +1305,4 @@ Most are more common in men
 - Plan for suicidal moments
 - Suicide contractions
 - Reduce access to means
-- hospitalization when immediate danger 
+- hospitalization when immediate danger
