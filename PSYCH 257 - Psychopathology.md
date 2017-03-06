@@ -1280,3 +1280,29 @@ Most are more common in men
     - Drug treatment (SSRIs)
 
 ## March 3rd - Suicide
+
+- Males more likely to commit suicide (unless in China
+- Most popular method in Canada is hanging > poisoning > firearm use
+
+**Suicide definitions**
+
+- Non-suicidal self-injury: self harm with no intent to die
+- Suicidal ideation: wish to die or not being there
+
+**Risk Factors**
+
+- past suicide attempts
+- Family history
+- psychological disorders
+- stressful life events
+- shame and humiliation
+- hopelessness
+
+**Intervention**
+
+- Continued psychotherapy
+- Problem-solving
+- Plan for suicidal moments
+- Suicide contractions
+- Reduce access to means
+- hospitalization when immediate danger 
