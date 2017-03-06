@@ -1170,4 +1170,113 @@ Most are more common in men
 - Therapy (CBT, Family Therapy, Group therapy, interpersonal therapy)
 - DBT (specific to borderline)
 
-## Feb 27th
+## Feb 28th - Substance Abuse
+
+**Depressants: alcohol use disorder:**
+
+- Pattern of alcohol use leading to clinically significant impairment or distress and manifested by at least 2 of the following:
+    - Alcohol use taken in larger amounts over ja longer period of time
+    - desire or unsuccessful efforts to cut down
+    - time spent in activities to obtain alcohol, use alcohol or recover from its effects
+    - failure to fulfill major role obligations
+    - use of alcohol where it is physically hazardous
+    - increased tolerance
+    - diminished effect with continued use of same amount of alcohol
+- Long term use effects:
+    - Liver inflammation
+    - Korssakoff syndorome (chronic memory disorder)
+    - malnutrition
+    - Cancer
+    - Fetal alcohol syndrome if pregnant
+- Alcohol withdrawal
+    - Tremors
+    - Hallucinations
+    - Confusion
+    - Rapid herat beat
+    - Fever
+
+**Simulant related disorders:**
+
+- Amphetamine-type substances
+    - larger amounts
+    - persistent desire for stimulant use
+    - failure of major role obligations
+    - (Basically the same as alcohol)
+
+**Treatment**
+
+- Use antagonists (block receptors and do not activate them)
+
+**Gambling disorder**
+
+- Persistent gambling leading to impairment or distress-
+- >= 4 symptoms in 12 months
+    - unsuccessful efforts to control, cut back or stop Gambling
+    - restless or irritable when attempting to cut down or stop gambling
+    - needs to gamble with increasing amounts of money in order to achieve the desired excitement
+    - gambles when feeling distressed
+    - After losing money, often returns another day to get even
+    - Lies to conceal the extent of involvement in gambling
+    - Has jeopardized or lost a significant relationship, job or educational or career opportunity because of gambling
+    - Relies on others to provide money to relieve desperate financial situations caused by gambling
+
+## March 1st - Sexual & Gender identity disorders
+
+**Gender definition**
+
+- Biological: either male or female the Y chromosome decides to form male reproductive organs (testes)
+- Socialization: Gender development occurs through observation and immitation, there are cultural scripts based on assumed gender of the fetus, culture, family and peers encourage certain forms of behaviours
+- Cognitive Views: children organize their world based on beliefs about what it means to be a male or a female
+- Gender Identity: What you identify as, Woman, Genderqueer, Man
+- Gender Expression: How you demonstrate your gender based on traditional gender roles through the ways you act, dress, behave; Feminine, Androgynous, Masculine
+- Biological Sex: objectively your sex organs: Female, intersex, Male
+- Sexual orientation: who you are attracted to, Heterosexual, Bisexual, Homosexual
+
+**Gender Dysphoria**
+
+- Conflict in the gender they are biologically and the one that they identify as.
+- Described as being uncomfortable with one's body
+- Treatment:
+    - Hormone blockers,
+    - Cross-sex hormones
+    - Sex-reassignment surgeries
+
+**Sexual Dysfunctions**
+
+- disturbance in one's ability to respond sexually or to experience sexual pleasure
+- May have several at the same time
+- Ex: Premature/delayed ejaculation, erectile disorder, female orgasmic disorder, female sexual interest/arousal disorder, genito-pelvic pain/penetration disorder
+- Overview:
+    - Desire phase: sexual urges in response to sexual cues or fantasies
+    - Arousal phase: sense of sexual pleasure and arousal
+    - Plateau phase: brief period before orgasm
+    - Orgasm phase: ejaculation, contractions in lower walls of the vagina
+    - Resolution phase: decrease in arousal after orgasm
+- Causes
+    - Biological contributions (illness, hormones, medicine, substance abuse, depression)
+    - Medical treatments (viagra)
+    - Psychological and social contributions (Depression, rape, early childhood sexual abuse)
+    - Psychosocial treatments: psychotherapy for underlying conditions
+
+**Paraphilic disorders**
+
+- Unconventional sexual arousal patterns are considered pathologic disorders only if the following apply:
+    - They are intense and persistent
+    - Causes significant distress or impairment in social, occupational or other areas of functioning
+    - Impaired capacity for affectionate, reciprocal emotional and sexual intimacy with a consenting partner
+- Fetishistic disorder: sexual arousal from objects or a specific part of the body (not typically regarded as erotic)
+- Voyeuristic disorder: sexual gratification on seeing other people perform private activities such as undress, being naked, or other people performing a sexual act, target may be aware of the presence of voyeur and consents
+- Exhibitionistic disorder: need to expose one's genitals to other people
+- Masochism: acts of being humiliated, beaten, bound or otherwise made to suffer
+- Sadism: act in which the suffering of the victim is sexually exciting
+
+**Treatment of paraphilic disorders**
+
+- Comorbidity: may have depression, attention deficit, personality disorders, bipolar conition
+- Treatment:
+    - Sensitization: imagery-based
+    - Orgasmic reconditioning: trying to convert gays to straight
+    - attempt to eliminate certain types of sexual arousals by pairing them with boredom, pain or unpleasantness
+    - Drug treatment (SSRIs)
+
+## March 3rd - Suicide
