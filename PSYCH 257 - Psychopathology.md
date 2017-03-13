@@ -1306,3 +1306,117 @@ Most are more common in men
 - Suicide contractions
 - Reduce access to means
 - hospitalization when immediate danger
+
+## March 10th - Aging and Neurocognitive Disorders
+
+**Aging: Developmental Perspective**
+
+- Psychosocial stages
+- Selective optimization and Compensation
+- Socio-Emotional Selectivity
+- Strength and Vulnerability Integration
+
+**PsychoSocial Stages**
+
+1. Trust vs Mistrust (Birth - 1 year)
+2. Autonomy vs Shame & Doubt (1 - 3 years)
+3. Initiative vs Guilt (3 - 6 years)
+4. Industry vs Inferiority (6 - 12 years) (Latency Period)
+5. Identity vs Role Confusion (12 - 19 years) (Adolescence)
+6. Intimacy vs Isolation (19 - 25 years) (Early Adulthood)
+7. Generativity vs Stagnation (25 - 50 years) (Adulthood)
+8. Ego Integrity vs Despair (60+ years) (Seniors)
+
+**The Selection-Optimization with Compensation Model(Baltes & Baltes)**
+
+- Selection: Loss-based selection: changes in goal system, by focusing on the most important goals
+- Optimization: Elective selection: matching person's needs with the available or attainable resources
+- Compensation: replacing goals that are no longer achievable with more appropriate goals
+
+**Socio-Emotional Selectivity**
+
+- Older adults spend more time with familiar individuals with whom they have had rewarding relationships
+- This narrowing of social interaction maximizes positive emotional experiences and minimizes emotional risks as individuals become older
+- Older adults systematically hone their social networks so that available social partners satisfy their emotional needs
+- Selection promotes successful aging in a number of ways:
+    - Focus tends to shift towards present-oriented and emotion/pleasure-related goals
+    - This shift starts in adulthood and continues with age
+
+**Strength and Vulnerability Integration(Charles & Piazza)**
+
+- Aging is associated with increased ability to regulate emotions
+- Shift in time-perceptions is associated with increased present-moment awareness
+- Focus on pos emotions and dec in interpersonal conflicts
+- When negative experiences can not be avoided, vulnerability might be greater with increased age
+
+**Aging and Health**
+
+- Changes in metabolism:
+    - Polypharmacy increases risk of side effects, including sleep, metabolism and weight
+    - Pharmacokinetics increases risk of overdose (delirium)
+- Changes in sleep:
+    - sleep latency (how long it takes to go from awake -> sleep)
+    - decline in REM sleep
+    - increase in sleep fragmentation, chronic illness increases risk of chronic pain, depression, anxiety
+- Changes in social circle
+    - Narrowing of social circle due to loss
+    - Shift in values toward more positive and valuable activities and relationships
+
+**Long Term Memory**
+
+- Procedural or Implicit
+    - how to / unconscious / acquired through repetition and practice
+- Declarative or Explicit
+    - What / facts and events / divided into episodic memory and semantic memory
+
+**Neurocognitive disorders due to Alzheimer Mild or Major**
+
+- Possible Alzheimer's disease
+    - No genetic mutation or family history
+    - 3 of the following:
+        - Declining memory and 1 other cognitive impairment
+        - Steadily progressive decline in cognition
+        - No evidence of mixed etiology
+- Probable (MCI or NCD)
+    - Mild cognitive impairment (MCI)
+    - Non-communicable disease (chronic and progress slowly) (NCD)
+    - Evidence of genetic mutation or family history
+    - 3 of the following:
+        - Clear evidence of declining memory
+        - Steadily progressive decline in cognition
+        - No evidence of mixed etiology
+- Normal Aging -> Mild cog impairment -> major neurocog disorder
+
+**Neurocognitive Disorder due to Alzheimers**
+
+- Aphasia (language damage)
+- Apraxia (difficulty motor planning)
+- Agnosia (Unable to process sensory information, can't recognize shapes)
+- Anomia (unable to recall names of everyday objects)
+
+**Dementia with Lewy bodies (DLB)**
+
+- 4.2% of all dementia
+- Parkinsons and Dementia are present
+- Central feature: dementia
+- Fluctuations in cognition, attention and alertness
+
+**Vascular Neurocognitive Disorder**
+
+- 2nd leading cause of dementia
+- Caused be blockage or damage to the blood vessels that provide the brain with oxygen and other nutrients
+    - Blood vessels
+    - Strokes
+    - Location of brain damage
+
+**Risks and Prevention**
+
+- Biological Risks
+    - Neurofibrillary tangles
+    - Amyloid plaques
+    - Genetics
+    - Vascular
+        - High-blood pressure, diabetes, stroke
+    - Head trauma
+- Prevention:
+    - Health diet, physical activity
