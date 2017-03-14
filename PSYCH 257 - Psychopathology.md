@@ -1420,3 +1420,70 @@ Most are more common in men
     - Head trauma
 - Prevention:
     - Health diet, physical activity
+
+## March 13th - Psych factors affecting health
+
+- Definitions of Health
+- Psychological Factors Affecting Health
+- Somatization
+
+**Definitions of Health**
+
+- The medical model: "body as a machine", it needs to be fixed when broken
+- The wellness model: Viewing health as a dynamic model
+  - The extent to which an individual is able to realize aspirations and satisfy needs, and to change or cope with the environment
+  - Health is a resource for everyday life, not the objective of living
+- The Ecological model: The success with which the individual or the population adapts to change such as shifting economic realities or natural disasters
+- The Resiliency Model: The capability to cope successfully in the face of significant adversity or risk
+
+**Bidirectional Relationship with Depression and Health**
+
+- Effects of Depression on Health
+  - Increased Risk of
+    - Obesity
+    - Sedentary lifestyle
+    - Smoking and substance use
+    - Poor adherence to medication and procedures
+- Effects of illness on Depressive Symptoms
+  - Depression might be affected by changes in:
+    - Proinflammatory factors
+    - Hypothalamic-pituitary axis
+    - Autonomic nervous system
+    - Metabolic factors
+  - Treatments increase likelihood of psychopathology
+    - Excess levels of the cortisol (Asthma meds)
+    - Medication could decrease of sexual desire
+    - Treatment causing fatigue, loss of sleep, appetite
+    - Eg: Myocardial infraction (Heart attack) is associated with depression in 25% of patients
+
+**Specific Psychopathology and Health: Depression**
+
+- Behaviours and psychobiological changes in depression increase the risk for chronic medical disorders
+- Biological changes caused by chronic illness may precipitate depressive episodes
+- Bidirectional relationship between depression and physical health
+- Physical and Psychological Stressors: activate immune cells in both the periphery and CNS = neurotransmitter changes and behavioural alterations
+
+**Related Fields of Medicine and Psychology**
+
+- Health Psychology: application of psych to understanding origins and individual variability and prevention of illness
+- Psychosomatic medicine: Any relationship between psychological and physiological factors in the causation or maintenance of disease states
+- Behavioural Medicine: Application of methods of behavioural interventions and modifications to treatment and prevent physical illness (Pain management, compliance to medication)
+
+**DSM-5 Somatic Symptom and Related Disorders**
+
+- This category includes:
+  - somatic symptom disorder
+  - illness anxiety disorder
+  - conversion disorder
+  - psychological factors affecting other medical conditions
+  - factitious disorder
+- individuals with disorders with prominent somatic symptoms are commonly encountered in primary care but less commonly in psychiatric or mental health settings.
+
+**Somatization**
+
+- Somatization is a chronic syndrome of multiple somatic symptoms that cannot be explained medically and is associated with psychosocial distress and medical help-seeking
+- Usually beginning before the age of 30
+- Often multitude of somatic complaints
+- The symptoms have no organic pathology of pathophysiological mechanism
+- Life prevalence is 0.2 - 0.4%
+- Estimated 5-20 times more common in women than in men.
