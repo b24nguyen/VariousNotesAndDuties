@@ -1487,3 +1487,115 @@ Most are more common in men
 - The symptoms have no organic pathology of pathophysiological mechanism
 - Life prevalence is 0.2 - 0.4%
 - Estimated 5-20 times more common in women than in men.
+
+## March 15th - Somatization, Conversion and illness
+
+**Personality and Health**
+
+- Type A:
+    - Greater incidence of cardiac diseases and second myocardial infarction (heart attack)
+    - Unclear whether the personality itself is a risk factor
+    - Personality: Competitive, Time urgent, Hostile & Aggressive
+- Type B:
+    - Personality: Relaxed, One thing at a time, Express feelings
+
+**Psychological Predictors of Health: Personality and Early Experiences**
+
+- Childhood self-control predicts health and risky behaviours
+    - 30 year follow-up: self-control in children predict health-related behaviours and mortality
+- Hardiness and stress - illness relationship
+    - Stress - illness relationship is lower in those with stronger commitment to self, an attitude of vigorousness towards the environment, a sense of meaningfulness, internal locus of control
+- Early experience of pain and medical intervention:
+    - Follow up study of infants (preterm vs controls): Those born at very low weight are more at risk for somatization
+    - Circumcised infants show a stronger pain response to subsequent routine vaccination than uncircumcised infants
+
+**Psychosocial Factors**
+
+- Study of women with metastatic breast Cancer (stage 4)
+- Control and intervention groups
+- Intervention group: Weekly 90 minute meetings led by a psychiatrist or social worker with a therapist who had breast cancer in remission
+
+**Sense of Control and Response to Stress**
+
+- Learned Helplessness: When an organism repeatedly endures aversive stimuli that it is unable to escape or avoid. The organism often fails to learn or accept "escape" or "avoidance" in new situations where it would behaviour
+- Also defined as: A condition in which a person suffers from a sense of powerlessness
+
+**Social Factors Affecting Health**
+
+- Social support:
+    - Recovery time
+    - Mortality
+    - Life expectancy
+    - Cortisol level
+- Socio-Economic Status (SES) and Cognitive Abilities
+    - In Scotland Cohort Study: 1347 men and women age 55 followed for 15 years. IQ and SES predict mortality
+- Social Status and Sense of Control, Learned Helplessness
+
+**Psychological Factors Affecting Health**
+
+- A medical condition is present
+- Psychological/behavioural factors adversely affect the medical condition in one of the following ways
+    - course of medical condition
+    - interfere with the treatment or the condition
+    - constitute additional health risk
+    - influence additional pathophysiology
+- factors are not better explained by another mental disorder
+
+**Psychosomatic Disorders**
+
+1. Specific stress factors:
+    - Certain personality traits
+    - Specific types of unconscious conflicts that produce anxiety
+2. Non-specific stress factors:
+    - Each person has a target organ that is genetically vulnerable to stress
+3. Psychological Factors
+    - HPOA axis is secreting excess cortisol thus producing structural damage to various organ systems
+    - Immune system is altered
+
+**Psychosomatic Disorder Attributes**
+
+1. Skin: Neurodermatitis & alopecia aerata
+2. Musculoskeletal system: backache, myalgias and tension headaches
+3. Respiratory system: bonchial asthma
+4. Cardiovascular system: Paroxysmal tachycardia, essential hypertension, migraine and coronary artery diseases
+5. Gastrointestinal system: Heartburn, peptic ulcer, constipation etc
+6. Genitourinary system: disturbance in menstruation and micturition, impotence
+7. Sensory: Tinnitus or blurring of vision
+8. Immune system: Lupus Erythematosus, Rheumatoid Arthritis
+9. Endocrinal system: Thyrotoxicosis, Diabetes Mellitus
+
+**Alexithymia**
+
+- Personality construct defined by the inability to identify emotions
+- Core characteristics is marked by dysfunction in:
+    - emotional awareness
+    - social attachment
+    - interpersonal relating
+- Additional Characteristic:
+    - Difficulty identifying emotions of others
+    - Often seen as unempathetic
+- Alexithymia is prevalent in 10% of the general population known to be comorbid with a number of psychiatric conditions
+
+**Psychodynamic Perspective**
+
+- Strong and sexual/hostile emotions that are repressed, forced out of consciousness, eventually will overflow and transform itself in the form of somatic symptoms
+- The individual often experiences *la belle indifference* that he doesn't seem at all disturbed by his disability
+- Primary gain: relief from anxiety
+- Secondary gain: relief from responsibilities
+
+**The beginning of Psychoanalysis**
+
+- Anna O. experienced 'absences' (change of personality accompanied by confusion), she would mutter words or phrases to herself
+- Told Freud that she was deranged
+- She did not benefit from the treatment she received (hypnotherapy)
+
+**Somatic Symptom Disorder**
+
+- Somatization is chronic syndrome of one or multiple somatic symptoms that are associated with psychosocial distress and medical help-seeking
+- Excessive thoughts, feelings and behaviours related to somatic symptoms
+    - Disproportionate and persistent thoughts about the seriousness
+    - Persistent high level of anxiety about health
+    - Excessive time and energy devoted to symptoms and health
+- When there is related organic pathology, complaint is grossly in excess of what would be expected from the physical findings
+- Lifetime prevalence is 0.2-0.4%
+- Estimated 5-20 times more common in women than men
