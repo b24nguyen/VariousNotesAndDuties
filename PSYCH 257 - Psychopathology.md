@@ -1599,3 +1599,30 @@ Most are more common in men
 - When there is related organic pathology, complaint is grossly in excess of what would be expected from the physical findings
 - Lifetime prevalence is 0.2-0.4%
 - Estimated 5-20 times more common in women than men
+
+**What is illness Anxiety (Hypochondriasis)?**
+
+- Preoccupation with fears of having a serious disease. The preoccupation persists despite medical evalutation
+- Duration is at least 6 months
+- Some people may have both: disease conviction (mistaken belief of having a disease) and illness phobia (fear of developing disease)
+- Not easily reassured by medical evidence/therapy
+- Spend a lot of time and energy on health concerns
+- Might or might not have a real illness
+
+**Hysteria and Conversion Disorder**
+
+- Originated from Breuer and Freud's using hypnosis
+- Specific pattern of symptoms affecting voluntary, motor or sensory function that mimic neurological disorders or other general medical condition
+- Breuer and Freud established that the symptoms were initiated by psychological factors and is not intentionally produced
+    - Motor symptoms or deficits (coordination, balance, paralysis, lump in throat)
+    - Sensory symptoms or deficits (loss of touch, pain sensation, double vision, deafness, hallucination)
+    - Seizures or convulsions
+    - Mixed presentation
+
+**Models in Health Psychology**
+
+- **Biological components** of the model refers to the fact that pathogens like germs and toxins precipitate illness
+- **Psychological/behavioural** component looks for potential psychological causes for a health problem such as lack of self-control, emotional turmoil and negative thinking
+- **Social component** of the BPS model explains how different social factors such as Socio-Economic status, culture, poverty, technology, and religion can influence health
+
+## March 17th - Trauma, Environment and illness
