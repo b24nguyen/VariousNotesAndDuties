@@ -1626,3 +1626,77 @@ Most are more common in men
 - **Social component** of the BPS model explains how different social factors such as Socio-Economic status, culture, poverty, technology, and religion can influence health
 
 ## March 17th - Trauma, Environment and illness
+
+**Stress, Trauma & Illness**
+
+- Dissociative disorders
+    - Dissociative Identity Disorder
+    - Depersonalization/derealization
+    - Dissociative amnesia
+- Somatoform disorders
+    - Somatic
+    - Illness Anxiety Disorder
+    - Conversion Disorder
+    - Factitious disorder (and imposed on another, Munchausen syndrome by proxy)
+
+**Dissociative Identity Disorder (DID)**
+
+- Diagnostic criteria
+    - Disruption in identity characterized by 2 or more distinct personality states, is some cultures described as an experience in possession
+    - Marked discontinuity in a sense of self, accompanied by alterations of affect, behaviour, memory, perception, cognition
+    - Recurrent gaps in recall of everyday events, important personal information, traumatic events
+    - Symptoms may cause significant distress
+- Diagnostic Features
+    - Dissociative Amnesia in those with DID manifest in 3 ways:
+        - Gaps in remote memory of personal life
+        - Lapses in dependable memory (how to do a job)
+        - Discovery of evidence of actions in everyday evens (finding objects) or dissociative fugue
+    - People have various degrees of awareness
+    - Often present with comorbid depression, anxiety and self-injury
+    - Non-epileptic seizures are common
+    - 70% have previous suicide attempts
+    - Females more likely to have amnesia, flashbacks, fugues
+    - Males less likely to be diagnosed, present with violent behaviours triggered by dissociative experiences in combat, prisons, assaults
+
+**Depersonalization/Derealization**
+
+- Diagnostic criteria
+    - Depersonalization: experience of unreality, detachment or being an outside observer with respect to one's thoughts, feelings, sensations, body or actions
+    - Derealization: experience of unreality of detachment with respect to surroundings
+- Diagnostic Features
+    - Detached from self (I am no one, I know I have feelings but I don't feel them, my head is filled with cotton)
+    - Long-term persistent  symptoms are rare, where as transient symptoms are common
+    - Depression and anxiety are common
+    - Equally prevalent in men & women
+    - Mean age of onset around 16, could start in childhood
+    - These states could be induced by culture-specific meditation practices but a person might later lose control over those states
+
+**Dissociative Amnesia (DA)**
+
+- Diagnostic criteria
+    - Inability to recall important autobiographical information of traumatic or stressful nature
+    - Symptoms cause significant distress
+    - Not better explained by dissociative personality disorder
+- Diagnostic Features
+    - Localized Amnesia, can't recall events specific to the circumscribed period of time
+    - Selective amnesia, some events within that time period can not be recalled
+    - Generalized amnesia, complete loss of memory for one's life, could be semantic or precedural knokwledge
+    - Often aware of memory problems
+    - Systematized amnesia, memory for specific information (family member)
+    - May be accompanied by non-epileptic seizures
+
+**Factitious Disorder**
+
+- Person acts as if they have an illness by deliberately producing, feigning or exaggerating symptoms
+- Imposed on another: condition which a person deliberately produces, feigns or exaggerates the symptoms of someone in his or her care.
+- Ex: Jennifer Bush was 8, hospitalized 200 times and undergone more than 40 medical procedures. Nurses became suspicious because Jennifer always seemed to get worse after visits with her mother
+
+**Health Psychology: George Engel**
+
+- Engel proposed Biopsychosocial model of health
+    - Behaviours, thoughts and feelings may influence the physical state
+
+**Stress Response**
+
+- In stressful situations: hypothalamus releases CRF to pituitary gland to release ACTH, to notify adrenal gland. Andrenal cortex reduces cortisol. Medulla releases epinephrine and norepinephrine. This pushes the body into hyper-alertness
+- Hypothalamus --CRF--> Pituitary Gland --ACTH--> Adrenal Gland --Cortisol+Adrenaline+NorAdrenaline-->
