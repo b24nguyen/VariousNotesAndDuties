@@ -1700,3 +1700,248 @@ Most are more common in men
 
 - In stressful situations: hypothalamus releases CRF to pituitary gland to release ACTH, to notify adrenal gland. Andrenal cortex reduces cortisol. Medulla releases epinephrine and norepinephrine. This pushes the body into hyper-alertness
 - Hypothalamus --CRF--> Pituitary Gland --ACTH--> Adrenal Gland --Cortisol+Adrenaline+NorAdrenaline-->
+
+## March 20 + 24th - Neurodevelopmental disorders
+
+**Developmental Psychopathology**
+
+- How disorders arise and change with time
+- Some models argue that skill is to be mastered before acquiring the next stages of development, without acquisition of an early skill/resolution of conflict we have:
+  - Freud: psychosexual stages
+  - Piaget: congitive stages
+  - Erikson: Psychosocial stages
+- Models of specific psychopathologies indicate that in atypical development sequence of acquired skills might be the same or different
+  - Delay/atypical development of speech, motor skils, emotions might lead to atypical order of stages when compared to a typical child
+  - Biopsychosocial Model and Continuum of development and role of the environmental/social factor
+
+**Clinical Child Psychology**
+
+- Two main directions:
+  - Adult-based approaches applied to pediatric population with modifications and acknowledgement of a changing nature of diagnosis in childhood
+  - Child-specific approaches to diagnosis and treatment (Cognitive, emotional and Neuropsychological)
+
+**DSM-5 Neurodevelopmental Disorders**
+
+- Intellectual disability
+  - Specifiers are based on adaptive functioning (mild, moderate, severe)
+- Specific Learning disorder
+  - Reading
+  - Writing
+  - Math
+- Communication disability
+  - Language disorder
+  - Childhood onset fluency disorder (stuttering)
+  - Speech sound disorder
+  - Social (pragmatic) communication
+- Autism spectrum
+  - With or Without ID
+  - With or Without LD
+  - With known medical or genetic condition
+- ADHD
+  - inattentive
+  - hyperactive
+  - combined
+- Motor
+  - Developmental coordination disorder
+  - Stereotypic movement disorder
+  - Tic disorders including Tourette syndrome
+
+**Intellectual Disability**
+
+- Hippocrates: caused by imbalances of 4 humours in the brain
+- Medieval times: care was provided by monasteries
+- 18-20th century: housing moved to Asylum Model, children with intellectual or behavioural abnormalities were moved away from families. "Feeble-minded" later referred to as "deficiencies of the mind"
+- 1961: Mental retardation was introduced
+- 2009: replaced with Intellectual Disability
+- Significantly impaired intellectual and adaptive functioning (how to function day2day life)
+- Intellectual functioning generally 2 standard deviations below the mean
+- Deficit in adaptive functioning that result in failure to meet developmental and sociocultural standards
+- Without ongoing support adaptive deficits limit functioning
+
+**Adaptive Functioning and Quality of Life**
+
+- Examples of question used to assess adaptive functioning
+  - Dress himself
+  - Uses appropriate public bathroom
+  - Orders food when in a restaurant
+  - Knows home address
+  - Does laundry
+  - Cleans the house using a broom / vacuum cleaner
+- Typical measures of adaptive functioning
+  - Vineland Adaptive Behaviours Scale
+  - Adaptive Behaviour Assessment System (second edition)
+- Shift toward Quality of Life Paradigm (QOL)
+  - Acceptance by others
+  - Independence
+  - Freedom
+  - Freedom of choice
+  - Relationships
+
+**Etiology**
+
+- Genetic
+  - 10-50% identified as genetic abnormality
+  - Down Symdrome:
+    - 1 out of 800
+    - Simple trisomy 21: 90% caused by extra chromosome in either sperm or egg, chromosome repeated in every cell
+    - Mosiac Trisomy: 2% of cases, abnormal cell division after fertilization, only some cells have trisomy, not all.
+    - Translocation Trisomy 21: 4% of cases, part of chromosome 21 becomes attached to another chromosome at conception. Carrier will not exhibit any symptoms of down syndrome because they have the correct amount of genetic material
+- Teratogenic:
+  - Fetal Alcohol Syndrome (FAS) and Fetal Alcohol Effects.
+    - Less severe cases go unrecognized but known prevalence is 1/750
+    - Highly depends on drinking practices
+  - Infectious Diseases (TORCH)
+    - T: toxoplasma infection, caused by a parasite
+    - O: Other infections, HEP B, syphilis etc
+    - R: Rubella, contagion that causes German measies
+    - C: Cytomegalovirus, known as mononucleosis. 5% of babies who contract the virus have significant developmental problems including blindness and brain damage
+    - H: Herpes simplex II is a sexually transmitted disease. May remain dormant in the carrier's body. An infant can contract this virus from the mother during pregnancy or passed to the child at birth
+
+**Example of Diagnostic Statement**
+
+- Intellectual Disability
+- Areas of impairment
+  - Conceptual domain: deficits such as difficulties in learning academic skills involving reading, writing, arithmetic, time or money with support needed in one or more areas to meet age-related expectations
+  - Social domain: Compared with typically developing age-mates, the individual is immature in social interactions, communication, conversation and language are more concrete or immature than expected for age
+  - Practical: May function age-appropriately with personal care but needs some support with complex daily living tasks in comparison to peers
+
+**Brain development and brain plasticity**
+
+- Infancy to Middle Childhood
+  - Newborn's brain experience rapid grown in white matter, trillions of connections and pathways between the neurons continue to be made
+- Adolescent Brain
+  - Changes in limbic system, Emotional reactivity, changes in sleep cycles, emotional immaturity
+  - Frontal lobe continues to develop into adulthood
+  - Parietal lobe: nuances of language, analytical skills, rapid growth of complex abstract skills
+
+**Specific Learning Disorder**
+
+- 2-3% of population in Canada
+- Definitions change based on the year/province/org
+- Broadly speaking definitions require at least average intelligence, deficit in one or more areas of academic functioning and underlying processing deficit
+- Different codes and diff assessments tools are based on each of the specific academic domain affected
+  - Reading
+  - Writing
+  - Math
+- Interventions and treatments will be unique to the academic difficulty
+- Ex: "Dyslexia" used in the past, for LD in reading and sometimes writing
+- Can go unnoticed for years, students often struggle throughout elementary and secondary resulting in low self-esteem and sense of inadequacy by adolescence
+- In adolescents, complexity of academic and social demands make mild learning disability more apparent to teachers and parents but more confusing to the students
+- Self-advocacy skills are needed to access services in older adolescence
+- Stigma associated with disabilities might prevent adolescents from accessing support and services
+
+**Examples of Specific Learning Disorder**
+
+- Riley
+  - Crawling @ 1, talking in full sentences @ 4
+  - Knows how to read familiar words, writes name and last name, does 1 digit addition
+  - Shows great pleasure in being with family and friends, enjoys cooking and gardening. Can be clumsy and easily distracted
+  - Has difficulties understanding social rules
+- Jordy
+  - Started Crawling @ 7 months, walking at 12 months.
+  - Spoke in full sentences @ 2
+  - Had frequent ear infections in pre-school
+  - Enjoys active sports, board games and puzzles
+  - Gets easily frustrated with homework, hides books from parents and tells them there is no homework
+  - When asked to read, struggles with most unfamiliar words but can do fairly well with short and familiar words
+  - Excels in math and loves playing chess with parents and friends
+  - Reports feeling unhappy and the dumbest kid in the class
+
+**Dual Exceptionality - Double whammy gifted**
+
+- From disability POV
+  - Often missed by special education services as they are able to compensate learning with cognitive abilities
+  - Feeling of inadequacy and frustration with inability to perform at a desired level
+  - Prefer largely to work alone, unless they are working with like-minded peers and they feel supported in their academic quests
+- From giftedness POV
+  - Gifted with SLD more likely to not meet criteria set by school boards
+  - Gifted with ADHD might be expelled or not accepted due to behaviour
+  - Teachers might need additional training
+
+**Examples of Dual Exceptionality**
+
+- Scott:
+  - Unable to dress himself, sit still or write a legible sentence
+  - From an early age, able to build cities from construction blocks, able to complete complex puzzles, verbally precocious
+  - Even with his disabilities able to complete school and excel at University
+- John:
+  - gifted in verbal abilities
+  - cannot spell or write grammatically correct sentences
+  - Homeschooled for several years, mostly socialized with adults so he was awkward about joining a group of peers.
+
+**Social Communication Disorder**
+
+- A: Persistent difficulties in social use of verbal and nonverbal communications as manifested by all of the following:
+  - Deficits in using communication for social purposes (greetings and sharing information)
+  - Impairment in the ability to change communication to match context (speaking differently in the classroom than on the playground, talking differently to a child than to an adult)
+  - Difficulty following rules for conversation and storytelling (taking turns in conversation, rephrasing when misunderstood, using verbal and nonverbal signals to regulate interaction)
+  - Difficulties understanding what is not explicitly states (humor, metaphors)
+- B: Deficits result in functional limitations in effective communication, social participation, relationships, academic achievement or occupational performance
+- C: Onset of symptoms is in the early developmental stages
+- D: Symptoms are not attributable to another medical or neurological condition or to low abilities in the domains of word structure and grammar, are not better explained by autism spectrum disorder, intellectual disability, global developmental delay or another mental disorder
+
+**Examples of Language Disorders**
+
+- ex: King's Speech
+- Assessment of language impairment includes the domains of:
+  - Forms of language: involve phonology (sounds & patterns), morphology (how words are formed) and syntax (formation of phrases and clauses)
+  - Content of language: semantics or meanings
+  - Function of language: pragmatics, how language is used in different contexts
+- Receptive and Expressive language refers to production and understanding of language
+
+**Autism Spectrum Disorder**
+
+- Must meet all criteria
+- A: Persistent deficits in social communications and social interaction, not accounted for by general developmental decays and manifest by all 3 of the following
+  - deficit in social-emotional reciprocity
+  - deficit in non-verbal communicative behaviours used for social interaction
+  - deficit in developing and maintaining relationships
+- B: Restricted, repetitive patterns of behaviour, interests or activities as manifested by >= 2 of the following
+  - Stereotyped or repetitive speech, motor movements or use of objects
+  - Excessive adherence to routines, ritualized patterns of behavior, resistance to change
+  - Highly restricted, fixated interests that are abnormal in intensity or focus
+  - Hyper or hypo-reactivity to sensory input or unusual interest in sensory aspects of environment
+- C: early developmental stages
+- D: Not attributed to another disorder
+
+**ADHD**
+
+- Historical Perspective: Minimal Brain Dysfunction
+- Prevalence: 6-10% of population (more likely in boys)
+- Additional difficulties in the domains of
+  - social relationships
+  - risky behaviours
+  - learning (common genetic vulnerability with LD)
+- Characterized by developmentall inappropriate level of hyperactivity, impulsivity and inattention
+- Barkley R. Fundamental deficit in ADHD is one of self-control, leading to deficit in executive functioning.
+- Sanuga-Barke E. Dual Pathway: Executive and motivational with independent neurophysiological mechanisms. Motivation is characterized by difficulties in delaying rewards. Implications for interventions. EF & immediate reward/consequences
+- Treatment options:
+  - Psychotherapy, Dietary, Stimulants
+- Research on driving habits: higher rate of collisions, speeding tickets and total accidents driving history
+- Fewer safe driving behaviours in the simulator than the community comparison group
+- Motivation is characterized by difficulties in delaying rewards, implications for interventions: EF & immediate reward/consequences
+- Health-related risks and impairments: smoking, drug abuse, accidental injury, suicide attempts
+
+**Motor Disorders**
+
+- Developmental coordination disorder
+  - Acquisition and execution of coordinated motor skills are below expected
+  - Difficulties are manifested as clumsiness and slowness and inaccuracy of performance of motor skills (catching an object, using scissors, handwriting, writing a bike, other sports)
+- Stereotypic movement disorder
+  - non-functional motor behaviour (e.g hand waving or head banging) that markedly interferes with normal activities or results in bodily injury
+- Tic disorders, tourette syndrome
+  - sudden, rapid, recurrent, non-rythmic, stereotyped motor movement or vocalizations
+  - diagnosis depends on specific presentation (both motor and vocal are required for Tourette) and length of symptoms
+- Treatment: response prevention and habit reversal training
+
+**Challenges Specific to Children & Adults**
+
+- Meaning and implications of diagnosis
+- Age of consent
+  - Mental age: children with intellectual disabilities
+  - Juridical system: 12-17 at the time of the offence responsible for their actions
+  - Personal Health Information and Protection Act - psychological assessment falls under health information
+- Responsibility vs Freedom
+  - Challenging balance of freedom, protection and responsibility
+- Role of peer group increases with age, some environments might become less inclusive (full inclusion in elementary schools, assistance in adulthood)
+- Family dynamic changes as children get more independence
