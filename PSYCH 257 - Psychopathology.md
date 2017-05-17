@@ -1708,7 +1708,7 @@ Most are more common in men
 - How disorders arise and change with time
 - Some models argue that skill is to be mastered before acquiring the next stages of development, without acquisition of an early skill/resolution of conflict we have:
   - Freud: psychosexual stages
-  - Piaget: congitive stages
+  - Piaget: cognitive stages
   - Erikson: Psychosocial stages
 - Models of specific psychopathologies indicate that in atypical development sequence of acquired skills might be the same or different
   - Delay/atypical development of speech, motor skils, emotions might lead to atypical order of stages when compared to a typical child
@@ -1944,4 +1944,63 @@ Most are more common in men
 - Responsibility vs Freedom
   - Challenging balance of freedom, protection and responsibility
 - Role of peer group increases with age, some environments might become less inclusive (full inclusion in elementary schools, assistance in adulthood)
-- Family dynamic changes as children get more independence
+- Family dynamic changes as children get more
+
+## March 29th - Therapy
+
+**Pharmacological Approach**
+
+- Treating through medication:
+- Stimulants for ADHD
+- Antidepressants ex: SSRI (serotonin uptake), SNRI, NDRI etc
+- Antipsychotics: sever behavioural symptoms, psychotic symptoms
+- Mood stabilizers (Lithium)
+- Antianxiety (anxiolytic agents)
+  - Barbiturates + Benziozepines
+
+**Psychodynamic Approach**
+
+  - Reasons to explain how people feel and behave
+  - People are frequently unaware of why they feel or behave in a certain fashion
+  - Discovery of unconscious conflicts is the primary goal
+  - "Free Association", "Analysis of dreams" are major methods for exploring internal conflicts
+  - Focusing on interpretations of transference, defense mechanisms and current symptoms
+  - Trust in insight as critically important for success in therapy
+
+**Behavioural techniques, relaxation and biofeedback**
+
+  - Biofeedback
+  - Using machines to monitor how your body reacts so you can have more control
+  - Involves learning to monitor tension in each specific muscle group in the body by deliberately inducing tension in each group. Tension is released with attention paid to the contrast
+  - Biofeedback: external measuring tools
+  - Electronic sensors attached to the body to detect changes
+  - Brings up the connection between mind and body
+
+**CBT**
+
+- Fear and anxiety are conditioned responses
+- Behavioural components are
+  - Systematic desensitization and Exposure
+  - Generalization of a new response
+  - Breathing, Relaxation, Progressive Muscle Relaxation
+  - Response chaining and shaping
+  - Differential reinforcements
+- Cognitive Therapy
+  - Connections between thoughts, feelings and behaviors
+  - cognitive restructuring
+  - Automatic thoughts and alternative thoughts 
+  - Imagery and coping statements
+
+**Humanistic and Client-Centered Therapy**
+
+- Carl Rogers
+- Focus on personal growth
+- Unconditional positive regard
+- Acceptance & Empathy, accept them just as they are, understand them
+- Care about the person, be a person in the relationship, not just a therapist
+
+**Emotion Focused Therapy**
+
+- Emotion focused therapy EFT combines:
+  - Person-centered therapy (rogers): acceptance & unconditional positive regard
+  - Gestalt therapy: whole does not equal its parts, present moment here and now, interpretations are NOT made, but patients make their own discoveries
