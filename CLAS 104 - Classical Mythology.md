@@ -179,3 +179,28 @@ Disobedience of Prometheus and how he gives fire to man. Zeus defeats other tita
 - 5 days of competition in 13 events
 - All contests judged by ‘Judges of the Greeks’ (Hellanodikes). Their decisions could not be overturned.
 - 6th day, victors received a wreath of wild olive leaves picked from the sacred grove of Zeus. Priests go with the victors to make sacrifices to Zeus. Big feast after.
+
+## Module 05: Apollo-Delos, Delphi, Music and Revenge
+
+### Essential Element: Full
+
+- The Ideal of Greek physical development
+- Origins are uncertain, in the Greek pantheon connected with the sun
+- Apollo from Greek apella, which means assembly.
+- Apollo role in Greek society as a god who initiated young adults
+- A type of hymns called the paean was frequently connected with Apollo / a blending from Paean and himself. Similarly god of medicine and healing
+
+**Q: Why does he carry a boy & arrow**
+
+- He is not a god of hunters
+- He is a god of revenge, pestilence
+- Also god of prophecy, poetry and music
+
+**Delos + Delphi**
+
+- Birth on Delos (island of the Dodecanese)
+- Apollo's shrine found on the island, became a religious site for the annual Ionian festival
+- Continued to be treated as a major cult centre
+- Delphi was the greatest and most prominent of Apollo's cults in the ancient world
+- Foundation of Delphi: Apollo makes his way to Delphi to found an oracular shrine for humans. Apollo must kill Typhaon (a snake) so that his humans may live there. His oracle named Pytho (pythein, meaning to rot (carcass of snake))
+- Unsure how Delphi actually got priests, mythology says they just acquired them from a ship that was sailing by
