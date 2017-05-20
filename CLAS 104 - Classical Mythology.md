@@ -263,3 +263,68 @@ Disobedience of Prometheus and how he gives fire to man. Zeus defeats other tita
   - Healing & Purification
   - Music 
   - Initiation of youth in society
+
+## Module 06 - Artemis
+
+### Essential Element: Full
+
+- Most often associated with the wilderness and the hunt
+- Also carried a boy and arrow, the goddess who shoots from afar, connection as a huntress
+- Connection to her brother Apollo is a central aspect of her presentation in literature
+- Prizes her virginity, in direct contrast to Aphrodite 
+- She is the antithesis of erotic love, brings punishment & death (to women)
+
+**Story of Niobe (Ovid)**
+
+- Niobe is the dwaughter of Tantalus (standing eternally in a pool which recedes when he tries to drink)
+- Niobe does not learn from her father and boasts that she is better than Leto because she and 6 boys and 6 girls while Leto only gave birth to Artemis and Apollo. 
+- Leto calls upon Diana and Apollo who punish Niobe by killing both her sons and daughters
+- She is changed into a rock on a mountain and down water flows like tears on her face
+- Apollo kills her sons but Niobe continues to baost and Artemis kills her daughters
+
+**Nature & The Hunt**
+
+- Pursuiot of hunting is representative of her virginity
+- Huntress and punisher, in the story Artemis and Actaeon
+  - Actaeon is a great hunter, comes upon Diana as she is bathing
+  - Because he barges in, he sees her naked, she turns him into a great stag, unable to speak 
+  - As he wanders the hills he is follow by his own hounds and fellow hunting companions and is killed
+- Artemis' virginity is not to be transgressed even by the sight of a man
+- Similar to a story of Tiresias and Athena
+
+**Callisto**
+
+- The poor nymph Callisto, a huntress and attendent of Diana is raped by Zeus
+- He takes the form of Diana in order to get close to the girl
+- Although shamed, Callisto continues to roam with Diana's band until one day her clothes are stripped and her pregnancy is revealed
+- Diana banishes this girl, because of the violation of virginal state
+- In Ovid's version, she is banished by Hera out of jealousy, turns her into a bear and placed into the sky with her son Arcas, even earlier accounts say she shot her with an arrow
+
+**Misandry**
+
+- Artemis avoids sexuality but prominent is her dislike of men
+- Artemis is very close to female companions, lesbian themes (why Zeus disguised as Diana)
+- Orion is a famous hunter who tries to rape Artemis
+  - The goddess makes a scorpion come out of the earth to sting Orion to death
+- Myth of Arethusa
+  - Arethusa is a hunting nymph, with whom the river Alpheus falls in love
+  - She prays to Artemis to save her, she comes down and covers her in a cloud, where Arethusa becomes a spring
+ 
+ **Childbirth**
+ 
+ - Linked to childbirth
+ - Leto gives birth to ARtemis on Ortygia on a nearby island to Delos
+ - In some versions of the myth, she is born first and helps with the birth of her brother 
+ - Artemis is goddess of the moon (connected to menstrual period of women)
+ - Artemis worshipped around the world but most religous site is Brauron (32 km SW of Athens)
+ - Brauronia is a festina every 4 years attended by the women of Athens
+ - All girls had to 'play the bear' before she could marry
+ - Girls go to the site in saffron robes, sacrifice to Artemis, play the bear (unclear what's involved)
+ - Women made dedications to Artemis at her sanctuary in Brauronia after giving birth or for health of their children
+ 
+ **Chief Functions**
+ 
+ - Virginity
+ - Wilderness & the hunt
+ - Punisher of women
+ - Childbirth
