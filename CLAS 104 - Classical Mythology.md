@@ -204,3 +204,62 @@ Disobedience of Prometheus and how he gives fire to man. Zeus defeats other tita
 - Delphi was the greatest and most prominent of Apollo's cults in the ancient world
 - Foundation of Delphi: Apollo makes his way to Delphi to found an oracular shrine for humans. Apollo must kill Typhaon (a snake) so that his humans may live there. His oracle named Pytho (pythein, meaning to rot (carcass of snake))
 - Unsure how Delphi actually got priests, mythology says they just acquired them from a ship that was sailing by
+- Major pan-Hellenic festival held in Delphi every 4 years in the month of August when Greece is at its hottest
+- Festival includes athletic and musical contests, the games mark the occasion of the killing of the Python by Apollo
+- The Delphi oracle was the most well-known oracle in the Greek world. Consulted on the 6th day of each month, to ask questions about what should be done in particular situations
+- 3 months in the winter (Dec, Jan, Feb) when the oracle could not be consulted because Apollo was away visiting the Hyperboreans at the far northern edge of the world. 
+- Sanctuary was attended by 2 priests, and 5 Hosioi (holy men) who assisted the priests.
+- Of most importance the Pythia, a female priestess who made the oracle pronouncements of Apollo, considered to have Apollo speak directly through her. She was expected to remain a virgin for life as a consequence
+
+**Greeks and the oracle**
+
+- Greeks treated oracles with respect and reverence
+- Process: Delphians could consult the oracle first, then people who were priviledged by the Delphians and then others whose order was chosen by lot
+- Delphi's economy relied on the constant stream of people that wanted to consult the oracle, they paid fees, left tributes and offerings at the temple
+- Delphi's oracle was the most significant oracular site around Greece
+
+**Love affairs with mortals**
+
+- Marpessa
+  - Mortal descended from Ares, wooed by a mortal hero named Idas.
+  - Idas was an ARgonaut who went on the voyage for the golden fleece with Jason
+  - When Idas fell in love with Marpessa, he abducted her on his chariot, breakoing her father's heart.
+  - Her Father, Evenus, committed suicide because he was so distraught
+  - Apollo also loved her and confronted Idas.
+  - Zeus intervened and made Marpessa decide, she chose Idas because he was mortal
+- Cyrene
+  - athletic nymph who gives her name to the city of Cyrene on the north coast of Africa
+  - Apollo falls in love with her when he sees her wrestling a lion and takes her to Libya (and city cite of Cyrene)
+  - She has a son with Apollo named Aristaeus
+- Daphne
+  - Daughter of the river Peneus
+  - Cupid strikes Apollo with a golden arrow because he had mocked his archery
+  - Cupid also strikes Daphne with a leaden arrow to make her shun all love
+  - As she is exhausted from running from Apollo, she prays to her father to change her beauty, she is changed into the laurel tree
+- Coronis
+  - Fell in love with her, she cheated on him with a young man
+  - Spotted by Apollo's crow, punishes her by shooting her with an arrow
+  - As she is dying, he repents of his actions and tries to save her
+  - Despite healing powers, unable to save her
+  - Apollo's powers of revenge + healing meet tragically
+- Hyacinthus
+  - Affair with men (similar to Zeus)
+  - Young spartan, together they passed time playing sports and listening to music
+  - Apollo throws the dicus into the heavens, when it hits the ground it bounces back and hits him in the face, killing him
+  - Apollo tries to heal him to stop him from dying, he turns into a flower
+ 
+**Apollo and music**
+
+- Delphic half of the Homeric Hymn to Apollo
+- Apollo arrives on Olympus with his lyre and plays
+- Ovid tells of Apollo & Marsyas
+  - Marsyas is a satyr who picks up the flute after it has been invented and set aside by Athena
+  - Athena punishes Marsyas for taking the flute but he enjoys it so much he persists and becomes arrogant
+  - Challenges Apollo to a musical contest and loses, Apollo has him skinned alive 
+
+**Chief Functions**
+  - Prophecy
+  - Revenge/Punishment
+  - Healing & Purification
+  - Music 
+  - Initiation of youth in society
