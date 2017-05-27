@@ -328,3 +328,93 @@ Disobedience of Prometheus and how he gives fire to man. Zeus defeats other tita
  - Wilderness & the hunt
  - Punisher of women
  - Childbirth
+ 
+ ## Module 07 - Aprodite, Adonis, Pygmalion & Eros/Cupid
+ 
+ ### Essential Element: Part 1
+ 
+ **Aphrodite**
+ 
+ - Hesiod's theogony, her birth from the genitals of Uranus
+ - Called Aphrodite the foam-born goddess, Cytherian since she arrived at Cyther & Cyprogeneia since she was born on Cyprus + Genial because genitals
+ - Female figure that embodies: seductive charm, fertility, & deception
+ - Often placed in opposition with Artemis
+ - Homeric Hymn to Aphrodite tells of her ability to conquer man, beast and god in love, with exceptions to the rule being: Athena, Artemis and Hestia, all virgin goddesses who could not be tamed by her power. (Meaning she can conquer Zeus, the most powerful god)
+ 
+ **Hippolytus**
+ 
+ - By Athenian playwright Euripides
+ - Hippolytus, follower of Artemis, definantly avoids sexual activity and any worship of Aphrodite
+ - Aprhodite tells of her anger at Hippolytus for disregarding her in favour of Artemis, curses him by making his step-mother Phaedra fall in love with him, who later kills herself
+ - Theseus his father then curses him to die upon finding out that she lusted after their son
+ 
+ **The Iliad & Aphrodite**
+ 
+ - Blurred distinction between Aprhodite as goddess and as the force of love
+ - At the end of the third book, Paris is transported from the battlefield in a cloud by Aphrodite who then incites Helen to sleep with him.
+- Aphrodite takes the form of Helen's nurse and agrees to sleep with him and starts a war
+- Greek literature sometimes speaks of Helen as a victim, abducted by Paris and sometimes portrayed as a caluclating individual and well aware of what she does
+
+**Homeric Hymn to Aphrodite**
+
+- Aphrodite has been inciting the gods to mix with mortal men and women
+- For an immortal god, it is an embarrassment to sleep with a mortal, especially if it results in a child
+- One day Zeus wanted to turn the tables, Zeus makes her fall in love with a mortal shepherd Anchises
+- She must convince him that she's mortal (no man would sleep with a goddess), she has the trojan warrior Aeneas as result, the founder of Rome
+- Hymn stands out because the narrative is not a celebration of the goddess, rather it mocks her as it recalls her fall at the hands of Zeus. No other hymn treats a god this war
+- Traditional interpretation is that it's a celebration of Aeneas and his descendants
+- Another possibility is it marks the end of Aphrodite's mixing of gods and mortals in love
+- Embarrassment gives meaning in that love must at time suffer painful shame and remorse
+- Embarrassment reoccuring theme when she leeps with Ares is trapped and all the gods laugh at her
+
+ **Adonis**
+ 
+ - Mortal in which Aphrodite falls in love.
+ - Aphrodite hides him in a chest and gives him to Persephone (who lives in the underground) however Persephone falls in love with him and does not want to give him back.
+ - Zeus makes him spend 4 months with 1 and 4 months with the other
+ - Later worshipped as a divine who dies every year 
+ - Represents the cycle of death and birth
+ 
+ **Pgymalion and Galatea**
+ 
+ - Pgymalion is digusted with the women of Cyprus because of their prostitution
+ - Aphrodite had made them prositute as punishment for not recognizing her divinity
+ - Pygymalion does not take a wife but instead fashions an ivory statue of a women in which he falls in love
+ - He prays to have this statue as his wife and is granted this wish (later known as Galatea) who gives birth to Paphos
+ - Connected to story of Adonis, Papohis' granddaughter falls in love with her father Cinyras, her nurse convinces her to sleep with her father. When he finds out he's furious, and he pursues her until she is turned into a tree that drips tears continuously. Adonis is born of this tree
+ 
+### Essential Element: Part II
+
+**Eros/Cupid**
+
+- Aphrodite's son
+- Socrates argues that Eros is not a god but somehwere between god and mortal, good and bad, beautiful and ugly
+- He is a spiritual being that facilitates communication between men and gods
+- Instils love by shooting them with arrows
+
+**Relationship with Psyche**
+
+- Psyche (soul) said to be the youngest of 3 royal daughters, extremely beautiful, directly compared to Aphrodite
+- Aphrodite mad, has her son make her fall in love with a terrible man
+- Plan backffires and cupid falls in love with Psyche
+- Father consults the oracle of Apollo who proclaims that Psyche should be dressed as a corpse and left atop a mountain to be the life of a serpent (sacred marriage with a god)
+- Instead of marriage to a serpant she is carried from the mountains by the winds where she lives in a palace, visited every night be a secret lover
+- Sisters search for her but warned by her lover to not respond to them
+- He finally agrees that she can see her as long as she does not discover his identitiy, she would lose him
+- Sisters become jealous and convince her that she is sleeping with a serpant and plan to hide a knife and lamp to attack her lover within the night
+- She sees cupid her secret lover and pricks her finger on one of his arrows, she drops some oil from the lamp upon him 
+- Cupid awakes and flies away, dshe tries to commit suicide but the river stops her
+- Advised by Pan to win back Cupid
+- She punishes her sisters by telling them that Cupid would be their husband if they should go to him, they die by jumping off mountains hoping to be carried to Cupid by the winds.
+- Venus mad that she burned her sun with oil, makes her undertake impossible tasks
+  - Sort out mixed grains my nightfall (an ant helps her) 
+  - get wool from a flock of dangerous sheep (a reed helps her) 
+  - go to a tall mountain and bring back water from a river that went to the underworld (a dragon guards the stream but an eagle of Jupiter helps her)
+  - Take a box to Persephone in the underground, in which she was to bring back a fragment of the goddess' beauty
+- Psyche tries to kill herself by jumping off a tower but it helps her. 
+- Tells her how to go to the underground but not to look into the box 
+- But she cannot resist looking into the box which contains deathlike sleep and she dies 
+- Cupid comes after to save her putting death back in the box, Jupiter accepts their marriage and Psyche is made a goddess 
+- love as personified by cupid, involed in reproduction and resurrection from the dead
+- Both Venus and Eros are presented in light-hearted amusing ways 
+ 
