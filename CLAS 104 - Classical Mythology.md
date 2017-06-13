@@ -418,3 +418,34 @@ Disobedience of Prometheus and how he gives fire to man. Zeus defeats other tita
 - love as personified by cupid, involed in reproduction and resurrection from the dead
 - Both Venus and Eros are presented in light-hearted amusing ways 
  
+ ## Module 08 - Demeter: Agrarian Mother and her Festivals
+ 
+ ### Essential Element: Part 1
+ 
+ **Demeter**
+ 
+ - meter meaning mother, de meaning earth, mother of the earth
+ - first part of name connceted to tamer of the earth, or mother of barley 
+ - Function of a mother displayed, daughter Persephone, also known as Kore (young one / daughter of demeter)
+ - Her search for her daughter provides explanation for the founding of Mysteries at Eleusis and for the cycle of seasons
+ - First and foremost goddess of corn and wheat, vegetation and growth of crops (meaning crop growth was tied to divine causes)
+ - Eleusis, is the major religious center
+ - Parallels drawn in the East with Duttur and her son Damu, searching for her son in the underworld. However Demeter never goes to the underworld, she bargains with Zeus
+ 
+ **Hymn to Demeter**
+ 
+ - Introduce abduction of Persephone by Hades and Demeter's search
+ - Hades carries Persephone off with the consent of Zeus
+ - Demeter eventually told be Helios (the sun) that Hades did it
+ - Sneaks into the house of Celeus, kidnaps the mother Metaneira's son to be made immortal
+ - She is caught and she condemsn mankind and orders them to build her a temple and altar
+ - Third part tells of the return of Persephone.
+ - Because she is angry at the loss of her daughter, creates a large famine on the earth. Zeus asks her to end the famile but she will not until Hermes fetches Persephone from the underworld
+ - Hades allows persephone to go but not before she has been given secretly a pomegranate (fertility symbol), this binds her to Hades and will force her to return for a time every year. Persephone lives on olympus 2/3rds of the year and the last part with Hades
+ - Persephone's stay in the underworld is winter, return is fertility in the spring
+ 
+ ### Essential Element: Part 2
+ 
+ **Festivals of Demeter**
+ 
+ 
