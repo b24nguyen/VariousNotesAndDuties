@@ -481,8 +481,18 @@ Disobedience of Prometheus and how he gives fire to man. Zeus defeats other tita
 - At times worshipped as fertility god
 - Son Hermaphroditus and ultimately blends with Salmacis (becomes a hermaphrodite)
 
-## Module 10
+## Module 10 - Athena, Ares, Hephaestus and Poseidon
 
 ### Essential Element: Part 1
 
 **Athena**
+
+## Module 16 - The iliad and the Trojan Saga
+
+### Essential Element: Part 1
+
+**Homer's Illiad**
+
+- Ancients knew very little about homer, biographies exist but little considered fact
+- Homer became mythologized, ex: one biographer tells us he died when he could not figure out the riddle of an Arcadian fishermen 
+- 
