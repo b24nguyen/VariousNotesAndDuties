@@ -207,7 +207,7 @@ Disobedience of Prometheus and how he gives fire to man. Zeus defeats other tita
 - Major pan-Hellenic festival held in Delphi every 4 years in the month of August when Greece is at its hottest
 - Festival includes athletic and musical contests, the games mark the occasion of the killing of the Python by Apollo
 - The Delphi oracle was the most well-known oracle in the Greek world. Consulted on the 6th day of each month, to ask questions about what should be done in particular situations
-- 3 months in the winter (Dec, Jan, Feb) when the oracle could not be consulted because Apollo was away visiting the Hyperboreans at the far northern edge of the world. 
+- 3 months in the winter (Dec, Jan, Feb) when the oracle could not be consulted because Apollo was away visiting the Hyperboreans at the far northern edge of the world.
 - Sanctuary was attended by 2 priests, and 5 Hosioi (holy men) who assisted the priests.
 - Of most importance the Pythia, a female priestess who made the oracle pronouncements of Apollo, considered to have Apollo speak directly through her. She was expected to remain a virgin for life as a consequence
 
@@ -247,7 +247,7 @@ Disobedience of Prometheus and how he gives fire to man. Zeus defeats other tita
   - Young spartan, together they passed time playing sports and listening to music
   - Apollo throws the dicus into the heavens, when it hits the ground it bounces back and hits him in the face, killing him
   - Apollo tries to heal him to stop him from dying, he turns into a flower
- 
+
 **Apollo and music**
 
 - Delphic half of the Homeric Hymn to Apollo
@@ -255,13 +255,13 @@ Disobedience of Prometheus and how he gives fire to man. Zeus defeats other tita
 - Ovid tells of Apollo & Marsyas
   - Marsyas is a satyr who picks up the flute after it has been invented and set aside by Athena
   - Athena punishes Marsyas for taking the flute but he enjoys it so much he persists and becomes arrogant
-  - Challenges Apollo to a musical contest and loses, Apollo has him skinned alive 
+  - Challenges Apollo to a musical contest and loses, Apollo has him skinned alive
 
 **Chief Functions**
   - Prophecy
   - Revenge/Punishment
   - Healing & Purification
-  - Music 
+  - Music
   - Initiation of youth in society
 
 ## Module 06 - Artemis
@@ -271,13 +271,13 @@ Disobedience of Prometheus and how he gives fire to man. Zeus defeats other tita
 - Most often associated with the wilderness and the hunt
 - Also carried a boy and arrow, the goddess who shoots from afar, connection as a huntress
 - Connection to her brother Apollo is a central aspect of her presentation in literature
-- Prizes her virginity, in direct contrast to Aphrodite 
+- Prizes her virginity, in direct contrast to Aphrodite
 - She is the antithesis of erotic love, brings punishment & death (to women)
 
 **Story of Niobe (Ovid)**
 
 - Niobe is the dwaughter of Tantalus (standing eternally in a pool which recedes when he tries to drink)
-- Niobe does not learn from her father and boasts that she is better than Leto because she and 6 boys and 6 girls while Leto only gave birth to Artemis and Apollo. 
+- Niobe does not learn from her father and boasts that she is better than Leto because she and 6 boys and 6 girls while Leto only gave birth to Artemis and Apollo.
 - Leto calls upon Diana and Apollo who punish Niobe by killing both her sons and daughters
 - She is changed into a rock on a mountain and down water flows like tears on her face
 - Apollo kills her sons but Niobe continues to baost and Artemis kills her daughters
@@ -287,7 +287,7 @@ Disobedience of Prometheus and how he gives fire to man. Zeus defeats other tita
 - Pursuiot of hunting is representative of her virginity
 - Huntress and punisher, in the story Artemis and Actaeon
   - Actaeon is a great hunter, comes upon Diana as she is bathing
-  - Because he barges in, he sees her naked, she turns him into a great stag, unable to speak 
+  - Because he barges in, he sees her naked, she turns him into a great stag, unable to speak
   - As he wanders the hills he is follow by his own hounds and fellow hunting companions and is killed
 - Artemis' virginity is not to be transgressed even by the sight of a man
 - Similar to a story of Tiresias and Athena
@@ -309,47 +309,47 @@ Disobedience of Prometheus and how he gives fire to man. Zeus defeats other tita
 - Myth of Arethusa
   - Arethusa is a hunting nymph, with whom the river Alpheus falls in love
   - She prays to Artemis to save her, she comes down and covers her in a cloud, where Arethusa becomes a spring
- 
+
  **Childbirth**
- 
+
  - Linked to childbirth
  - Leto gives birth to ARtemis on Ortygia on a nearby island to Delos
- - In some versions of the myth, she is born first and helps with the birth of her brother 
+ - In some versions of the myth, she is born first and helps with the birth of her brother
  - Artemis is goddess of the moon (connected to menstrual period of women)
  - Artemis worshipped around the world but most religous site is Brauron (32 km SW of Athens)
  - Brauronia is a festina every 4 years attended by the women of Athens
  - All girls had to 'play the bear' before she could marry
  - Girls go to the site in saffron robes, sacrifice to Artemis, play the bear (unclear what's involved)
  - Women made dedications to Artemis at her sanctuary in Brauronia after giving birth or for health of their children
- 
+
  **Chief Functions**
- 
+
  - Virginity
  - Wilderness & the hunt
  - Punisher of women
  - Childbirth
- 
+
  ## Module 07 - Aprodite, Adonis, Pygmalion & Eros/Cupid
- 
+
  ### Essential Element: Part 1
- 
+
  **Aphrodite**
- 
+
  - Hesiod's theogony, her birth from the genitals of Uranus
  - Called Aphrodite the foam-born goddess, Cytherian since she arrived at Cyther & Cyprogeneia since she was born on Cyprus + Genial because genitals
  - Female figure that embodies: seductive charm, fertility, & deception
  - Often placed in opposition with Artemis
  - Homeric Hymn to Aphrodite tells of her ability to conquer man, beast and god in love, with exceptions to the rule being: Athena, Artemis and Hestia, all virgin goddesses who could not be tamed by her power. (Meaning she can conquer Zeus, the most powerful god)
- 
+
  **Hippolytus**
- 
+
  - By Athenian playwright Euripides
  - Hippolytus, follower of Artemis, definantly avoids sexual activity and any worship of Aphrodite
  - Aprhodite tells of her anger at Hippolytus for disregarding her in favour of Artemis, curses him by making his step-mother Phaedra fall in love with him, who later kills herself
  - Theseus his father then curses him to die upon finding out that she lusted after their son
- 
+
  **The Iliad & Aphrodite**
- 
+
  - Blurred distinction between Aprhodite as goddess and as the force of love
  - At the end of the third book, Paris is transported from the battlefield in a cloud by Aphrodite who then incites Helen to sleep with him.
 - Aphrodite takes the form of Helen's nurse and agrees to sleep with him and starts a war
@@ -368,21 +368,21 @@ Disobedience of Prometheus and how he gives fire to man. Zeus defeats other tita
 - Embarrassment reoccuring theme when she leeps with Ares is trapped and all the gods laugh at her
 
  **Adonis**
- 
+
  - Mortal in which Aphrodite falls in love.
  - Aphrodite hides him in a chest and gives him to Persephone (who lives in the underground) however Persephone falls in love with him and does not want to give him back.
  - Zeus makes him spend 4 months with 1 and 4 months with the other
- - Later worshipped as a divine who dies every year 
+ - Later worshipped as a divine who dies every year
  - Represents the cycle of death and birth
- 
+
  **Pgymalion and Galatea**
- 
+
  - Pgymalion is digusted with the women of Cyprus because of their prostitution
  - Aphrodite had made them prositute as punishment for not recognizing her divinity
  - Pygymalion does not take a wife but instead fashions an ivory statue of a women in which he falls in love
  - He prays to have this statue as his wife and is granted this wish (later known as Galatea) who gives birth to Paphos
  - Connected to story of Adonis, Papohis' granddaughter falls in love with her father Cinyras, her nurse convinces her to sleep with her father. When he finds out he's furious, and he pursues her until she is turned into a tree that drips tears continuously. Adonis is born of this tree
- 
+
 ### Essential Element: Part II
 
 **Eros/Cupid**
@@ -402,38 +402,38 @@ Disobedience of Prometheus and how he gives fire to man. Zeus defeats other tita
 - Sisters search for her but warned by her lover to not respond to them
 - He finally agrees that she can see her as long as she does not discover his identitiy, she would lose him
 - Sisters become jealous and convince her that she is sleeping with a serpant and plan to hide a knife and lamp to attack her lover within the night
-- She sees cupid her secret lover and pricks her finger on one of his arrows, she drops some oil from the lamp upon him 
+- She sees cupid her secret lover and pricks her finger on one of his arrows, she drops some oil from the lamp upon him
 - Cupid awakes and flies away, dshe tries to commit suicide but the river stops her
 - Advised by Pan to win back Cupid
 - She punishes her sisters by telling them that Cupid would be their husband if they should go to him, they die by jumping off mountains hoping to be carried to Cupid by the winds.
 - Venus mad that she burned her sun with oil, makes her undertake impossible tasks
-  - Sort out mixed grains my nightfall (an ant helps her) 
-  - get wool from a flock of dangerous sheep (a reed helps her) 
+  - Sort out mixed grains my nightfall (an ant helps her)
+  - get wool from a flock of dangerous sheep (a reed helps her)
   - go to a tall mountain and bring back water from a river that went to the underworld (a dragon guards the stream but an eagle of Jupiter helps her)
   - Take a box to Persephone in the underground, in which she was to bring back a fragment of the goddess' beauty
-- Psyche tries to kill herself by jumping off a tower but it helps her. 
-- Tells her how to go to the underground but not to look into the box 
-- But she cannot resist looking into the box which contains deathlike sleep and she dies 
-- Cupid comes after to save her putting death back in the box, Jupiter accepts their marriage and Psyche is made a goddess 
+- Psyche tries to kill herself by jumping off a tower but it helps her.
+- Tells her how to go to the underground but not to look into the box
+- But she cannot resist looking into the box which contains deathlike sleep and she dies
+- Cupid comes after to save her putting death back in the box, Jupiter accepts their marriage and Psyche is made a goddess
 - love as personified by cupid, involed in reproduction and resurrection from the dead
-- Both Venus and Eros are presented in light-hearted amusing ways 
- 
+- Both Venus and Eros are presented in light-hearted amusing ways
+
  ## Module 08 - Demeter: Agrarian Mother and her Festivals
- 
+
  ### Essential Element: Part 1
- 
+
  **Demeter**
- 
+
  - meter meaning mother, de meaning earth, mother of the earth
- - first part of name connceted to tamer of the earth, or mother of barley 
+ - first part of name connceted to tamer of the earth, or mother of barley
  - Function of a mother displayed, daughter Persephone, also known as Kore (young one / daughter of demeter)
  - Her search for her daughter provides explanation for the founding of Mysteries at Eleusis and for the cycle of seasons
  - First and foremost goddess of corn and wheat, vegetation and growth of crops (meaning crop growth was tied to divine causes)
  - Eleusis, is the major religious center
  - Parallels drawn in the East with Duttur and her son Damu, searching for her son in the underworld. However Demeter never goes to the underworld, she bargains with Zeus
- 
+
  **Hymn to Demeter**
- 
+
  - Introduce abduction of Persephone by Hades and Demeter's search
  - Hades carries Persephone off with the consent of Zeus
  - Demeter eventually told be Helios (the sun) that Hades did it
@@ -443,9 +443,46 @@ Disobedience of Prometheus and how he gives fire to man. Zeus defeats other tita
  - Because she is angry at the loss of her daughter, creates a large famine on the earth. Zeus asks her to end the famile but she will not until Hermes fetches Persephone from the underworld
  - Hades allows persephone to go but not before she has been given secretly a pomegranate (fertility symbol), this binds her to Hades and will force her to return for a time every year. Persephone lives on olympus 2/3rds of the year and the last part with Hades
  - Persephone's stay in the underworld is winter, return is fertility in the spring
- 
+
  ### Essential Element: Part 2
- 
+
  **Festivals of Demeter**
- 
- 
+
+ - 2 major festivals
+- Thesmophoria
+  - Celebrations in honour of Demeter, held in Athens
+  - Only celebrated by married women where they would spend 3 days at the temple
+  - Process to the temple, stay the night, second day fasting, third day celebrating "beautiful birth"
+  - Secretive, do not know much about the details
+  - Rites involved digging up the rotted remains of pigs which had been sacrificed previously, mixed with seeds and put on the altar
+  - Sexual aspect, phallic symbols
+- Mysteries at Eleusis
+  - secret rites
+  - penalties in athens for revealing information was death
+  - 7 days in autumn between August and September
+  - The most important priest at Eleusis was the Hierophant, the one who revealed the mysteries to the initiates
+  - festival begins with a procession along the sacred way from Athens, Sacrifice of pigs
+  - secret rites performed in the Telesterion, lead into the hall by a torch bearer
+
+## Module 09 - Hermes
+
+### Essential Element: Full
+
+**Hermes**
+
+- Son of Zeus and Maia (nymph & daughter of Atlas)
+- Messenger god with close connection to Zeus
+- Often portayed as a trickster
+- Inventor of the lyre, made from a tortoise
+- Steals apollo's cattle and roasts them but does not eat, returns to his bed to be a baby
+- Apollo confronts him and as he picks the baby up, hermes farts, they go to zeus
+- Hermes lies to his mother and apollo but not to Zeus, he returns the cattle to Apollo
+- Players role of conductor of individuals, often conductor of souls of men to the underworld
+- At times worshipped as fertility god
+- Son Hermaphroditus and ultimately blends with Salmacis (becomes a hermaphrodite)
+
+## Module 10
+
+### Essential Element: Part 1
+
+**Athena**
