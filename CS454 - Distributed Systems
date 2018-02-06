@@ -1,0 +1,166 @@
+# CS454
+
+## Introduction
+
+### Distributed System
+
+- Characteristic features
+  - Autonomous computing elements, called NODES, can be software or hardware
+  - Appear as a single system, nodes COLLABORATE
+- Each node is independent, each with its own notion of time
+  - There is no global clock
+- DS often organized as an overlay network
+  - Example: p2p systems
+  - Structured: Each node has well defined neighbors (tree/ring)
+  - Unstructured: Randomly selected nodes
+
+### Design goals
+
+- Support of sharing resources
+- Distribution Transparency
+  - Degree of transparency
+    - Unable to hide failures
+    - transparency costs performance
+- Being open
+  - Systems should have defined interfaces
+  - easy to interoperate/portable/extensible
+- Scalability
+  - Size scalability: increase # users or processes
+    - Root causes:
+      - Computation, limited by CPU + speed
+      - Storage capacity, limited by transfer rate
+      - Network capacity, can only receive and send so quickly
+  - Geographical scalability: resources + their distance between nodes
+    - Root causes:
+      - Most systems assume synchronous interactions, latency prohibits this
+      - WAN is unreliable, limited bandwidth
+      - Lack of multipoint communication, can't broadcast -> Need to develop naming & directory services
+  - Administrative scalability: # of admin domains
+
+### Scaling Techniques
+
+- Hide communication latencies (Geographical)
+  - Use async communication
+    - Not all applications have better things to do, improve latency by reducing communication (ask client to do more work)
+  - Have separate handlers for incoming response
+- Partitioning & Distribution
+  - Decentralized naming schemes (DNS) and information systems (WWW)
+- Replication & Caching
+  - Replicate files / caching closer to the client
+  - Caching causes problems with consistency, needs global synchronization, hard and expensive, usually not scalable
+
+### Types of Distributed Computing
+
+- High Performance DS
+  - Operate in parallel
+- Cluster Computing
+  - Single compute intensive program runs in parallel on multiple machines
+  - One master node, controls compute slave nodes
+  - All same OS, mostly same hardware
+- Grid Computing
+  - Heterogeneous
+  - Dispersed across several orgs
+  - For collaboration, uses virtual orgs to auth resources
+- Cloud computing
+  - Distinction of 4 layers
+    - Hardware (IaaS)
+    - Infrastructure, (IaaS) VMs + Storage
+    - Platforms, (PaaS) Higher level extraction
+    - Applications, (SaaS)
+
+  ### Distributed Transaction Processing
+
+  - Encapsulate in transaction calls with Transaction Processing Manager
+  - Use Remote Procedure Calls to request another component to do work, leading to:
+  - Remote Method Invocations (RMI)
+  - Since both RPC and RMI need caller + callee to be active, have moved to Message Oriented Middleware (MOM) think PUBSUB
+
+  ### Distributed Pervasive Systems
+
+  - The internet of things, components are smaller, sensors almost
+  
+
+
+
+## Jan 25th
+
+**Scalability**
+
+- Vertical distribution - partitioning of service
+- Horizontal distribution - replication of service
+
+Vertical Distribution
+  - Then you need both servers to be up to provide the service, 0.95*n servers that you need, for 2 -> 0.9
+  - Increasing the chance of failure if all of the components need to be up and running (any server is a point of failure)
+
+Horizontal Distribution
+  - Managing updates in the replicas is a key challenge
+
+**No solutions, just tradeoffs**
+
+### Middleware Layer
+
+- (Un)marhsaling of data, ncessary for integrated systems
+- Naming protocols, to share resources
+- Security protocols, for secure communications
+- Scaling mechanisms, for replication and caching
+
+### Types of Communication
+
+- Synchronous vs Async
+  - Sync: We block, wait for result, unblock handle response
+  - Async: Don't block, let people do what they want
+- Transient vs Persistent communication
+  - Transient: Client discards message when it 's not delivered to the server (most)
+  - Persistent: Recipient doesn't need to be there, communication infrastructure stores message if it's not there
+
+### Basic RPC operation
+
+- Remote procedure call
+  - Call remote procedure
+  - Call local procedure and return results
+  - Return from call
+- Communication between caller & callee are transparent
+
+### RPC: Parameter Passing
+
+- Endianess: Order of parameters
+- Little Endian: R to L (most significant byte on the R)
+- Big Endian: L to R
+- Wrapping parameter means transofrming into a sequence of bytes
+- Client & Server have to agree on the same encoding
+- Copy/Restore Semantics -> Client sends value to server, server changes, passes copy with changes back, client restores the change
+
+## Tues, Jan 30th
+
+### Server
+
+  - Create Socket, set aside OS resources
+  - Bind to a local address or port
+  - Listen, wiling to accept any connections
+  - Accept, backs the server until an incoming connection request arrives
+  - Read
+  - Write
+  - Close
+
+### Client
+
+  - Socket, no need to bind this socket to a port
+  - Connect, call connect with IP, port #, then blocks until connection is established
+  - Write,
+  - Read,
+  - Close when finished, terminate connection
+
+Server Accept + Client connect is transient synchronous
+
+### Message-Oriented Middleware
+
+Idea: Async persistent communication through support of middleware-level queues
+Queues correspond to buffers at communication servers
+
+*Operations*
+
+- Put: append message to queue
+- Get: Block until queue is nonempty, then remove first message
+- Poll: check q for messages, remove the first, never block
+- Notify: Install a handler to be called when a message is put into the q
