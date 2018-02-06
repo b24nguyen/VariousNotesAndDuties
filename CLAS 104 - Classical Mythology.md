@@ -481,8 +481,410 @@ Disobedience of Prometheus and how he gives fire to man. Zeus defeats other tita
 - At times worshipped as fertility god
 - Son Hermaphroditus and ultimately blends with Salmacis (becomes a hermaphrodite)
 
-## Module 10
+## Module 10 - Athena, Ares, Hephaestus and Poseidon
 
 ### Essential Element: Part 1
 
 **Athena**
+
+=============================
+// FINAL COVERAGE START
+=============================
+
+## Module 13 - Visions of Death: Hades and Hell
+
+### Essential Element Part 1
+
+- Underworld is for all mortals
+- Tartarus is the parallel to our Hell, Elysium for those who distinguished themselves in the eyes of the gods (Heaven)
+
+### Essential Element Part 2
+
+**The Afterlife in Homer**
+
+- Return of Odysseus from Troy: he is shipwrecked and it takes him 10 years to find his way home
+- Instructed to go to the underworld by witch Circe in order to consult the Theban seer Tiresias
+- Sacrifices made in pits to those in the underworld
+- Offering of blood brings the dead alive (symbolic of life flowing through veins)
+
+**Odysseus & The underworld**
+
+- Before meeting Tiresias, Odysseus meets his comrade Elpenor
+- Elpenor begs him to return and bury his body (proper burial is really important and all should receive a proper burial)
+- Odysseus also encounters his mothers and Achilles
+- Tantalus: eternally tantalized by water to drink and food to eat, recede when he attempts to get it, punished for transgressing against the gods (great king who was allowed to dine with the gods)
+    - Different versions of a tale, killing his son Pelops and feeding him to the gods
+- Sisyphus: must for eternity push a great boulder up a hill
+    - Sinned against the gods, angered Zeus by telling the river-god Asopus that he had carried off his daughter Aegina, Sisyphus trapped death in chains for a period where no humans died until Ares freed death and took revenge on him.
+
+### Essential Element Part 3
+
+**The Afterlife According to Plato**
+
+- Death for Plato is only true to the body, not the soul
+- Myth of Er, tells of a man Er who dies but returns to life to reco;unt his experience
+- Plato belives the earth is the center of the cosmos
+- Different outcomes depending on how one acted in life
+- Reincarnation that can be broken
+
+### Essential Element Part 4
+
+**The Afterlife in Virgil**
+
+- Virgil gives an important account of the underworld in Aeneid
+- Aeneas descends to the underword, a trojan warrior, son of Anchises and Aphrodite, whos ancestors travel to Italy to form Rome
+- Aeneas goes underground to see his father, must get a golden bough which is sacred to Persephone, and must bury his comrade Misenus
+- Aeneas helped in entering the underwolrd by the Sibyl (prophetess of Apollo)
+- Described as a lake, those that are unburied must wait at the banks
+- Tityus: body stretched across nine acres as a bird eats away his liver for assaulting Leto
+- Tartarus also houses people that are just super bad (not against gods)
+
+## Module 14 - The Theban Saga
+
+### Essential Element: Part 1
+### Essential Element: Part 2
+
+**Foundation of Thebes**
+
+- Located to the northwest of Athens
+- Founded by Europa's brother, Cadmus who is sent in search of his sister by his father
+- Told to follow a bull and found a city where it lays
+- Must sacrifice a cow, has to kill a snake of Ares that guards water
+- Cadmus defeats the beast, Athena tells him to sow the teeth of the serpent into the ground, which causes armed men to grow out of the ear and fight each other until only 5 are left
+- These are Thebans.
+
+### Essential Element: Part 3
+
+**Oedipus**
+
+- Father learned of the curse that he was destined to be killed by his son
+- When father has son, he pierced his ankles so he could not walk
+- Servant was supposed to take the baby to the mountains but instead gave him to a shepherd who gave him to the rulers of Corinth
+- Oedipus means swell-foot
+- Grown up and suspects he was adopted, goes to Delphi told that he is destined to murder his father and lie with his mother
+- So he goes to Thebes to fulfil his prophecy
+
+### Essential Element: Part 4
+
+**Oedipus part 2**
+
+- Oedipus finally arrives in Thebes, and delivers the city from a curse
+- The Sphinx had been sent by Hera, asked all Thebans a riddle it had learned from the Muses
+- Whoever got it wrong was killed
+- Oedipus solves the riddle and becomes King of Thebes, (uncle was king but offered the throne to whoever could solve the riddle) takes his mother as his wife
+
+### Essential Element: Part 5
+
+**Oedipus' Blindness - The difficulty of knowledge**
+
+- Oedipus lives at Thebes and has 2 sons and 2 daughters
+- Plague comes upon Thebes, sends Creon to consult oracle at Delphi who tells him he must clear the land of a pollution
+- Oedipus vows to do so but unaware he is the pollution
+- Adopted Father dies in Corinth, messenger comes to tell the news, reveals that he is not the real son of Polybus and he is son of Jocasta
+- Jocasta hangs herself, Oedipus a bit slower but he pokes his eyes out with pins
+- Sigmund Freud loves this myth, calls the Oedipus Complex the desire to sleep with their mom
+- Myth about difficulty of knowledge, Oedipus can solve the sphinx's riddle but is unable to see the truth
+
+## Module 15 - The Mycenaean Saga
+
+### Essential Element: Part 1
+
+**Pelops**
+
+- Son of Tantalus and cooked by his father
+- Tantalus invites the gods to a banquet and prepares his son as a dish
+- Demeter eats a piece of his shoulder (she brought the end of cannibalism to humans)
+- Pelops restored to life, shoulder replaced by marble shoulder in some versions taken away by Poseidon as his lover.
+- Tantalus punishment in the underworld
+- Pelops goes to Elis to win the hand of Hippodamia, daughter of King Oenomaus.
+- He must defeat the king in a chariot race, thirteen suitors fall before he wins, when the king caught a suitor he killed him.
+- The King crashes and dies during the pursuit (some say help from Poseidon or bribed charioteer for sabotage)
+
+### Essential Element: Part 2
+
+**The Curse of the House of Atreus**
+
+- Myrtilus thought Pelops would be given Hippodamia on the first night as prize,
+- Tries to rape her but Relops finds out and throws him off a cliff
+- Myrtilus curses him as he falls to his death
+- Pelops becomes king in place of Oenomaus and his sons fight for the kingdom
+- Whoever brings the ram with a golden fleece will get the city
+- Pan brings the fleece to Atreus but Thyestes steals it by sleeping with his wife, who gives it to Thyestes
+
+### Essential Element: Part 3
+
+**Thyestes and Atreus**
+
+- Thyestes becomes first king at Mycenae until Atreus later returns and banishes him
+- Atreus pretends to first be reconciled with Thyestes and invites him back for a banquet
+- Atreus kills his sons with exception of (aegisthus) and feeds them to him
+- Thyestes does not notice until he has eaten
+
+### Essential Element: Part 4
+
+**Agamemnon and the Trojan War**
+
+- Son of Atreus, Agamemnon becomes the king of Mycenae and has 3 children.
+- The curse on the family continues in this generation
+- When Agamemnon and the Greeks go to war to revenge the fact that Helen, wife of his brother has been taken by Paris to Troy
+- The troops gather in the bay and fleet is ready to sail but the winds are too strong
+- Winds are caused by Artemis because his hawks ate a pregnant hare
+- Agamemnon would have to sacrifice his daughter (would he sacrifice his daughter for revenge) for the winds
+- He chooses to kill his daughter
+
+### Essential Element: Part 5
+
+**Agamemnon's Return Home**
+
+- Agamemnon's return after Trojan War
+- Clytemnestra (wife) has plotted with remaining son of Thyestes (that Atreus didn't kill) to murder Agamemnon upon his return
+- She welcomes him kindly at first and then kills him together with Aegisthus when he is in the bath by throwing a net over him and stabbing him
+- Other versions at a banquet
+- Also angers his wife by bringing home a prophetess Cassandra as a concubine (who Clytemnestra also kills)
+
+### Essential Element: Part 6
+
+**Orestes and Electa**
+
+- Cyltemnestra & Aegisthus gain control of the throne of Mycenae
+- Agamnon's son Orestes learns about his fathers murder and returns to take revenge
+- With help of his sister Electra, he enters the palace and murders both of them
+- In Aeschylus version of this myth, he is pursued by the Furies who avenge parricide, eventually Athena grants absolution
+
+## Module 16 - The iliad and the Trojan Saga
+
+### Essential Element: Part 1
+
+**Homer's Illiad**
+
+- Ancients knew very little about homer, biographies exist but little considered fact
+- Homer became mythologized, ex: one biographer tells us he died when he could not figure out the riddle of an Arcadian fishermen
+- Conflicting details about Homer's stories
+
+### Essential Element: Part 2
+
+**Trojan War**
+
+- Helen most beautiful woman, daughter of Zeus and Leda, wife of the king of Sparta
+- Chooses Menelaus as husband, brother of Agamemnon
+- Trojan Prince Paris visits Sparta and seduces her and takes her back to Troy
+- Go to war to bring her back
+
+### Essential Element: Part 3
+
+**Judgement of Paris**
+
+- Paris (Alexander), great beauty but a weakling
+- Hector his brother is a great warrior
+- Myth known as the judgement of Paris; At a wedding feast, Athena, Hera and Aphrodite all claim to be the most beautiful
+- Paris is to decide, they all bribe him
+- Hera promises royal power, Athena with victory in war and Aphrodite the most beautiful woman, Helen
+
+### Essential Element: Part 4
+
+**The War in the Illiad**
+
+- Agamemnon and Menelaus assemble the Greek army to fight
+- Hector killed by Achilles
+- Paris kills Achilles with the help of Apollo
+- Trojan horse to trick the
+
+## Module 17 - Nostoi and the Wonders of Odysseus' Journey
+
+### Essential Element: Part 1
+
+**Odysseus and Nostoi**
+
+- Nostoi meaning a return
+- Odysseus wanders for 10 years before returning home
+
+### Essential Element: Part 2
+
+**Principle Adventures in Odysseus' Journey**
+
+1. Cicones: they sack the city but spare Maron, who gives them 12 jars of wine
+2. Lotus Eaters: storm drifts them off the Lotus eaters, whoever eats the fruit of the lotus forgets everything and wanted only to stay, Odysseus gets his men away
+3. Polyphemus: the cyclops, traps Odysseus and his men in his cave. Odysseus uses the wine to get Cyclops drunk and tells him his name is 'Nobody'. Cyclops promises to eat him last because of wine. But when cyclops is drunk, Odysseus heats a wooden stake and shoves it through his eye. Cyclops preys to his father Poseidon that he should not return (why Poseidon hates him)
+4. Aeolus and his winds: sail to floating island of Aeolus, keeper of the winds. Aeolus gives him a leather bag containing the winds and shows him which one to release to sale home, he sails home but his crew opens the bag and they get blown back to the island
+5. Laestrygonians: group sinks all of his ships except 1 and eat the crews
+6. Circe: witch connected to the east, transforms his men into pigs, Odysseus goes to recue them with the help of hermes and then sleeps with her without being turned into an animal (Circe sends him to the underwolrd to see Tiresias)
+7. Journey to the underworld
+8. Sirens: as they pass, lured with songs and killed once approached, Odysseus put wax in his companions ears and bound them to the mast
+9. Charybdis and Scylla: sailed by monsters
+10. Catthe of the Sun (Helios): Circe told him of this island and to not  kill anything, his men kill things and they all die
+
+### Essential Element: Part 3
+
+**Return Homer**
+
+- When he arrives home, he is disguised by Athena, dressed as a beggar
+- Penelope (his wife) tells him that she plans to give herself the next day to the suitor who can string his bow and shoot straight through 12 axe heads
+- Odysseus does the task easily and kills all the suitors
+
+## Module 18 - Perseus
+
+### Essential Element: Part 1
+
+**Perseus**
+
+- Killed Medusa, helped by Graeaes (old women)
+
+### Essential Element: Part 2
+
+**Gorgons**
+
+- 3 Gorgons lived in North Africa
+- Snakes for hair, turn whoever looked upon their faces
+- When Perseus arrives at the home of the Gorgons, they are all sleeping
+- Uses the reflection of his shield, beheads medusa
+- Wears a cape of invisibility and flies away with his sandals
+- Meets Andromeda and mom says she's more beautiful than the Nereids
+- Papa Poseidon gets mad and wants her chained to a rock, Perseus kills the sea monster and marries Andromeda
+
+### Essential Element: Part 3
+
+**Return Home**
+
+-  Perseus uses Medusa's head to turn Polydectes to stone
+- When he returns the items to Hermes and gives medusa's head to Athena who puts it in the middle of her shield.
+- Returns to Argos with Andromeda and his mom
+- Perseus accidentally kills Acrisius by throwing a discus into him
+
+## Module 19 - Theseus and the Minotaur
+
+### Essential Element: Part 1
+
+**Theseus**
+
+- Theseus very similar to Heracles, has to complete labours on his way to Athens
+- He completes 6 tasks
+    - Kills Periphetes, son of Hephaestus who is armed with a club
+    - Kills the robber Sinis (Pityocamptes, the bender of pine trees)
+    - Kills a giant sow
+    - Kills Sciron
+    - kills Cercyon
+    - kills Procust
+    - Kills the Minotaur
+
+### Essential Element: Part 2    
+
+**Theseus' Arrival in Athens and the Minotaur**
+
+- Arrives in Athens, not recognized by his father
+- Aegeus married to Medea and fears he will rival her son Medus for the thrown
+- Tries to give him poisoned wine, however Aegeus recognizes him and knocks the cup from his hand
+- Theseus becomes his successor and fights his uncle Pallas for the throne
+
+**Minotaur**
+
+- Said to bring the Athens the Bull of marathon, (same as Heracles)
+- Minos, King of Crete has attacked Athens after his sons were killed out of jealousy by Athenians
+- Athens surrendered to Minos and agreed to send 7 boys and 7 girls to feed the Minotaur
+- Theseus volunteers to kill the Minotaur
+- He falls in love with Ariadne who gives him a thread to trace his way out of the labyrinth
+- He promises to take Ariadne back but instead leaves her on an island
+- Told his father that he would change his sails from black to white if successful, forgets to do so, father sees it and throws himself off a cliff thinking his son is dead
+
+## Module 20 - Heracles and the Labours
+
+
+### Essential Element: Part 1
+
+**Heracles**
+
+- Famous for lion-skin and club
+
+### Essential Element: Part 2
+
+**Birth**
+
+- Son of Zeus and Alcmena
+- Mother gives birth to twins, Heracles and Iphicles
+- Zeus declares that on the day that Heracles is to be born that he will be a great ruler
+- Hera is jealous and plays a trick on Zeus, speeds up the birth of the wife of Alcmena's uncle and delays the birth of Heracles and Iphicles, (Eurystheus is instead born on this day)
+- Eurystheus becomes a great ruler, Heracles has to serve him and must complete his 12 labours
+- Another version is sending snakes to kill Heracles after he is born but he manages to strangle them
+
+### Essential Element: Part 3
+
+**12 Labours**
+
+1. Nemean Lion, kills it with a club
+2. Hydra, 9 heads, 8 mortal and 1 immortal, Hera sends a crab to assist the Hydra. Help from his nephew who burns the heads after he cuts them off, buries the immortal head under a rock
+3. Cerynean Hind: Eurystheus asks him to fetch the Cerynean Hind, the hind had golden horns and was sacred to Artemis
+4. Erymanthian Boar: Heracles captures the boar and brings it back to Eurystheus who hides in a jar. On the way to kill the boar, the centaur Pholus and pals come and attack Heracles. Poisons him and Charon with poisoned arrows from the Hydra
+5. Augean Stables: Clean out the stables, he diverts the rivers to flow through the stables. Augeus was supposed to give him 1/10th of his cattle but does not do this so Heracles comes back and kills him
+6. Stymphalian birds: deadly birds, he shoots them with arrows and flushes them out with bronze castanets given to him by Athena
+7. Certan Bull: must fetch the great bull Poseidon had sent to Minos
+8. Mares of Diomedes: deadly man-eating horses, feeds diomedes to them
+9. Girdle of Hippolyta: Queen of the amazons, He defeats her in battle and takes it
+10. Cattle of Geryon: Geryon had 3 bodies and tended to a herd of cattle, helped by a giant and 2 headed dog. Heracles tasked to bring the cattle back. Herlios gives him a golden cup in which he can sail the ocean. He kills Geryon and everyone and sails back in the cup to Spain with the cattle. Gives the cup back to Helios and drives cattle to Greece
+11. Apples of Hesperides: Hesperides are 3 daughters of Night, guarded a tree which produced golden apples which a great serpent protected. Apples were a wedding gift from Gaia to Hera when she married Zeus. First has to find the sea god to find out where the tree is.
+12. Cerebus and the Underworld, he must bring Cerberus to Eurystheu. Helped by Hermes and Athena who escort him out of the underworld
+
+### Essential Element: Part 4
+
+**Apotheosis**
+
+- Heracles free and marries his second wife Deianira
+- Has to wrestle the river god Achelous (has horns and can change into different shapes) to win her
+- In battle he breaks off one of the horns and returns for the reward of the horn
+- Deianira brings about the death of her husband
+- Centaur Nessus carries her accross a river on her way back home
+- Nessus tries to rape her, Heracle kills him with an arrow, but he tells D to collect some of his blood as it will prevent him from loving another woman
+- But Heracles falls in love with another woman, Iole, daughter of Eurytus who taught him archery. Eurytus does not let Heracles have Iole and Heracles gets mad. Throws Iole's brother from the citadel. Goes to Delphi to ask for a cure for his madness and no reply. Tries to steal the sacred tripod there, wrestles with Apollo until Zeus stops it and tells him he must be sold into slavery for 1 year
+- D finds out about Iole, dips a robe in the poison blood and sends it to Heracles to wear at a sacrifice to Zeus. Causes Heracles to burn over his entire body. Burned on a funeral pyre. Heracles gains immortality and ascends to Olympus
+- Reconsiles with Hera and marries her daughter Hebe.
+- D kills herself with a sword
+
+## Module 21 - Jason and the Argonauts
+
+### Essential Element: Part 1
+
+**Jason and the Argonauts**
+
+- Jason and the Argonauts' quest to retrieve the Golden Fleece
+- # Argonauts also known as Minyae, is around 50
+
+### Essential Element: Part 2
+
+**Phrixus**
+
+- Son of mortal king Athamas and divine Nephele
+- Ino trying to destroy step children and tells Athamas he must sacrifice his son Phrixus
+- When he tries to do so, Nephele snatches her children up and put them on the back of a flying ram with a golden fleece, Gift from Hermes
+- As it flies, Helle fell in the sea and drowned (Hellespont)
+- Phrixus sacrificed the ram to Zeus and gave it to king of Colchis
+
+### Essential Element: Part 3
+
+**Jason's Quest**
+
+- He is the man with one sandal after helping Hera in disguise
+- Pelias (current ruler) sends him on a journey to hopefully kill him but promises to give the throne back once he fetches the golden fleece
+
+1. Hypsipyle and the Lemnian Women: Stay for a year, match with all the women, Heracles convinces them to leave 
+2. Cyzicus and the Doliones: Heracles kills giants near, Winds blow them back to the island and they have to kill Cyzicus
+3. Amycus: Barbaric tribe that force people to box with their king, Amycus, son of Poseidon. Polydeuces fights and kills him with a blow to the nose
+4. Pineus and the Harpies: Visit the blind prophet who is plagued by Harpes because he has revealed too much.
+5. Jason and Aeetes: Jason must win the golden fleece. Aeetes is child of the sun with famous daughter Medea. Aeetes thinks Jason is here to harm him, agrees to give Jason the fleece if he performs a series to tasks. He has to yoke a pair of fire-breathing bulls, till a large field and sow it with teeth. Jason only able to perform these tasks with Medea's help. She falls in love with Jason. Ointment for fire protection. Stone to throw in the middle of armed men to make them fight each other, drugs for the serpent
+6. Journey home: Medea leaves with Jason to become his wife
+
+### Essential Element: Part 4
+
+**Arrival Home**
+
+- Pelias refuses to give him the throne
+- Medeas kills Pelias, and makes jason's father young again by cutting him up and boiling him in a cauldron
+- Convinces Pelias' daughters to try the same thing on their father
+- Pelias dies, because they don't have magic
+
+### Essential Element: Part 5
+
+**Betrayal and Murder of Children**
+
+- Medea kills everyone
+
+## Module 22: Roman Mythology
+
+- Foundation of rome: The aeneid from troy
