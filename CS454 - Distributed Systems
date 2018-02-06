@@ -1,6 +1,6 @@
 # CS454
 
-## Introduction
+## Introduction - Slides 1 + Chapter 1
 
 ### Distributed System
 
@@ -78,9 +78,21 @@
   ### Distributed Pervasive Systems
 
   - The internet of things, components are smaller, sensors almost
-  
 
+## Architecture Styles - Slides 2 + Chapter 2
 
+- Layered architecture
+  - Organized in layers, usually only make downcalls, sometimes can call up
+  - Application Layering
+    - Many systems that are backed by database
+    - App interface level
+    - processing level
+    - data level
+- Object-based architecture
+  - components are objects, connected through procedure calls
+  - objects my be placed on different machines
+- Resource-centered architecture
+- Event-based architecture
 
 ## Jan 25th
 
