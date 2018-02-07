@@ -92,7 +92,45 @@
   - components are objects, connected through procedure calls
   - objects my be placed on different machines
 - Resource-centered architecture
+    - RESTful architecture (PUT/GET/DELETE/POST)
 - Event-based architecture
+    - PUBSUB
+
+### Middleware
+
+- Use of wrappers + interfaces
+- 1:1 wrapper requires O(n^2) wrappers, (N x N-1)
+- Use broken, requires 2N = O(N) wrappers
+
+**Interceptors**
+
+- Intercept call between App/middleware + Middleware/Server
+
+**Multi-tiered centralized System architectures**
+
+- Single-tiered: Dumb terminal/mainframe
+- Two-tiered: Client/server
+- Three-tiered: Each layer on separate machine (UI/APP/DB)
+
+**Structured P2P**
+
+- Use hash function to get to neighbor responsible for holding onto key
+- Has shortcuts to other nodes
+
+**Unstructured P2P**
+
+- Searching
+    - Flooding, pass request to all neighbors, if a node has seen it before they ignore, otherwise continues for certain # of hops
+    - Random walk, randomly walks until it finds it
+- Super-Peer Networks
+    - Use index servers to improve performance
+    - They tell you which CDN to use
+    - Super-Peers maintain index and ask as a broker, collecting data on resource usage and node availability
+    - Every regular peer is a weak peer, when they join they attach to SP.
+
+**Edge-Server systems**
+
+- Deploy servers at the edge of the network
 
 ## Jan 25th
 
@@ -112,7 +150,7 @@ Horizontal Distribution
 
 ### Middleware Layer
 
-- (Un)marhsaling of data, ncessary for integrated systems
+- (Un)marshaling of data, necessary for integrated systems
 - Naming protocols, to share resources
 - Security protocols, for secure communications
 - Scaling mechanisms, for replication and caching
@@ -139,7 +177,7 @@ Horizontal Distribution
 - Endianess: Order of parameters
 - Little Endian: R to L (most significant byte on the R)
 - Big Endian: L to R
-- Wrapping parameter means transofrming into a sequence of bytes
+- Wrapping parameter means transforming into a sequence of bytes
 - Client & Server have to agree on the same encoding
 - Copy/Restore Semantics -> Client sends value to server, server changes, passes copy with changes back, client restores the change
 
