@@ -214,3 +214,132 @@ Queues correspond to buffers at communication servers
 - Get: Block until queue is nonempty, then remove first message
 - Poll: check q for messages, remove the first, never block
 - Notify: Install a handler to be called when a message is put into the q
+
+# LARGE JUMP
+
+## Coordination
+
+**The Happened-Before Relationship**
+
+- must agree on the order in which events occur (does not matter about time)
+- a -> b, a comes before b
+- if a is sending and b is the receipt, a->b
+- if a->b and b->c then a->c
+- with **concurrent events** nothing can be said about which happen or happens first
+- if a -> b then C9a) < C9b)
+
+## Transactions
+
+**Transaction Primitives**
+- BEGIN_TRANSACTION
+- END_TANSACTION (EOT)
+  - end and try to commit
+- ABORT_TRANSACTION
+  - kill and restore old values
+- READ
+- WRITE
+
+**Key**
+
+- Make them happen serially
+- If each action is consistent then the end will be consistent
+
+**Conflicts**
+
+- Read Read No
+- Read Write Yes
+- Write Read Yes
+
+**Distributed Transaction Serializability**
+
+- for global transactions (global history) to be serializable
+  - each local history is serializable
+  - two conflicting operations should be in the same relative order in all of the local histories where they appear together
+
+**Concurrency Control**
+
+- Achieve consistency and concurrency through these 2 algorithms
+- Two-phase locking-based (2PL)
+  - Centralized 2PL
+  - Distributed 2PL
+- Timestamp Ordering (TO)
+  - Basic TO
+  - Multiversion TO
+
+**Locking-Based Algorithms**
+
+- Ask scheduler (lock manager) for lock
+- Either read lock (rl/shared lock) or write lock (wl/exclusive lock)
+
+**Two-Phase Locking (2PL)**
+
+- Transaction locks object before using it
+- When object is locked, others must wait
+- When it releases lock, it may not request another
+- **Strict 2PL**, hold locks until the end of transaction
+
+**Centralized 2PL**
+
+- Only one 2PL scheduler for the system
+- All lock requests go to this dude
+
+**Distributed 2PL**
+
+- 2PL schedulers at each site
+- handles lock requests for objects at that site
+
+**Timestamp Ordering**
+
+- Transaction given unique timestamp
+- TS attaches timestamp to all transactions
+- Each object assigned write and read timestamp (wts) or (rts)
+- Conflicting operations resolved by timestamp
+  - Basic:
+  - READING: if ts(Ti) < wts(x), reject, otherwise, accept (started before it was written to)
+  - WRITING: if (ts(Ti) < rts(x) or Ts(Ti) < wts(x) then reject, else accept
+    - should not write to an object that was read after it started
+
+## Majority Quorum
+
+- To read a file: N replicas exist
+  - Client needs to assemble a READ QUORUM, collection of NR servers or more
+- Similar WRITE QUORUM of NW servers
+- NR + NW > N
+  - prevent read-write conflicts
+- NW > N/2
+  - prevent write-write conflicts
+
+-> Create N_R and N_W with S_1 in it, so C is optimized for performance
+  - S_1 is always in the set, so C will always have the most up to date reads and write
+  - Just randomly assign the other 2, it doesn't matter
+  - show that it meets the requirements of NR + NW > N and NW > N/2
+
+## 2PC Coordinator component + Participation components
+
+1. coord fails after it sends PREPARE and before it receives PREPARED from participants
+2. participant fails after PRPEARED to coord and before it receives GLOBAL-COMMIT or GLOBAL ABORT
+
+Assume:
+  - Coordinator processes at least some of global transaction
+  - messages aren't lost, if wait for timeout, the message has failed
+
+## Atomic Multicast
+
+- Ex: Deliver update to distributed network, as a transaction, either full update or not
+- We have P crashing AFTER completing multicast and a situation where P crashes before it got a chance to request update
+
+## Distributed Commit
+
+- Atomic multicasting is an example of this
+- Have an operation performed by each member or none at all
+- Use of coordinator
+  - Tells processes involved (participants) whether or not to perform the operation
+  - (One-phase commit protocol)
+  - There is no way to tell coordinator if they can't actually perform it
+- TWO-PHASE COMMIT PROTOCOL
+  - 2 phases, of 2 steps
+  - Coordinator sends VOTE-REQUEST to all participants
+  - When participant receives either returns VOTE-COMMIT (says it's prepared to coord) or VOTE-ABORT (not ready)
+  - Coord collects all votes, if all say VOTE-COMMIT, then sends GLOBAL-COMMIT to all participants, if not all agree, GLOBAL-ABORT
+  - Each participants waits for reaction from coord. if GLOBAL-COMMIT then it goes through, otherwise, aborts
+  - First phase is VOTING PHASE, second is DECISION PHASE
